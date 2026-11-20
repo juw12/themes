@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "id": "buddy-tangerine",
+  "name": "Buddy Tangerine",
+  "summary": "Light ground #fffaf4, orange accent #ff8424, Bricolage Grotesque over Inter.",
+  "note": "Cream paper, loud tangerine and a wide friendly grotesque for headlines.",
+  "scheme": "light",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "buddy",
+      "url": "https://github.com/juw12/buddy",
+      "live": "https://juw12.github.io/buddy/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#fffaf4",
+    "surface": "#ffffff",
+    "ink": "#1f2130",
+    "muted": "#6b6f80",
+    "line": "#eadccb",
+    "accent": "#ff8424",
+    "accent_ink": "#1f2130",
+    "ok": "#2fb36d",
+    "bad": "#e5484d"
+  },
+  "dark": null,
+  "extras": {
+    "orange": "#ff8424",
+    "orange-ink": "#a64200",
+    "orange-pale": "#ffe3cc"
+  },
+  "fonts": {
+    "display": "\"Bricolage Grotesque\", \"Segoe UI Variable Display\", \"Segoe UI\", system-ui, sans-serif",
+    "body": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, sans-serif",
+    "mono": "\"Cascadia Code\", Consolas, monospace",
+    "web": [
+      "Bricolage Grotesque",
+      "Inter"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "radius": "18px",
+  "heading_weight": "800",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.35,
+      "muted_on_bg": 4.81,
+      "accent_on_bg": 2.36,
+      "accent_ink_on_accent": 6.51,
+      "ink_on_surface": 15.93
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "largest painted panel",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "curated: --orange is the brand colour; --orange-ink (#a64200) is its text-safe variant and is kept as an extra",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "--green on the live page",
+      "bad": "--red on the live page"
+    }
+  },
+  "derived": [
+    "accent_ink"
+  ],
+  "curated": {
+    "accent": "--orange is the brand colour; --orange-ink (#a64200) is its text-safe variant and is kept as an extra"
+  },
+  "warnings": [
+    "light: accent on bg is 2.36:1, under 3:1; pair it with a border or use it on a darker panel"
+  ]
+}

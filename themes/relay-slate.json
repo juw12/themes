@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "relay-slate",
+  "name": "Relay Slate",
+  "summary": "Light ground #f4f1ea, blue accent #2f5b8c, -apple-system, with a dark set.",
+  "note": "Paper ground with a slate blue accent and nothing but system fonts.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "vector-relay",
+      "url": "https://github.com/juw12/vector-relay",
+      "live": "https://vector-relay.pages.dev"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f4f1ea",
+    "surface": "#fffdf8",
+    "ink": "#1b1a17",
+    "muted": "#6b665c",
+    "line": "#dcd6c8",
+    "accent": "#2f5b8c",
+    "accent_ink": "#ffffff",
+    "ok": "#3f7d4e"
+  },
+  "dark": {
+    "bg": "#171613",
+    "surface": "#201f1c",
+    "ink": "#ece8df",
+    "muted": "#a39d90",
+    "line": "#35322c",
+    "accent": "#8fb6e0",
+    "accent_ink": "#171613",
+    "ok": "#7fc08d"
+  },
+  "extras": {
+    "orange": "#d9481f"
+  },
+  "fonts": {
+    "display": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"PingFang TC\", \"Microsoft JhengHei\", sans-serif",
+    "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"PingFang TC\", \"Microsoft JhengHei\", sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "8px",
+  "heading_weight": "650",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.43,
+      "muted_on_bg": 5.06,
+      "accent_on_bg": 6.21,
+      "accent_ink_on_accent": 7.01,
+      "ink_on_surface": 17.12
+    },
+    "dark": {
+      "ink_on_bg": 14.8,
+      "muted_on_bg": 6.71,
+      "accent_on_bg": 8.56,
+      "accent_ink_on_accent": 8.56,
+      "ink_on_surface": 13.48
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--soft on the live page",
+      "line": "--line on the live page",
+      "accent": "--link on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "--green on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "fonts.mono",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

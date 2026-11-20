@@ -1,0 +1,773 @@
+{
+  "schema": 1,
+  "checked": "2026-11-20",
+  "themes": [
+    {
+      "id": "cairn-paper",
+      "name": "Cairn Paper",
+      "note": "The house look: warm paper, one vermilion accent, a serif headline over a quiet grotesque.",
+      "projects": [
+        "cairn",
+        "bits-and-tickers",
+        "founder-studio"
+      ],
+      "base": "cairn"
+    },
+    {
+      "id": "titip-counter-blue",
+      "name": "Titip Counter Blue",
+      "note": "Cairn's paper with a postal blue for actions; vermilion is kept only for signals.",
+      "projects": [
+        "titip"
+      ],
+      "base": "titip",
+      "override": {
+        "light": {
+          "bg": "#f4f1ea",
+          "surface": "#fffdf8"
+        },
+        "fonts": {
+          "body": "\"Geist\", \"Segoe UI\", system-ui, -apple-system, Roboto, \"Helvetica Neue\", Arial, sans-serif"
+        },
+        "extras": {
+          "signal": "#d9481f",
+          "stamp": "#b3261e"
+        },
+        "reasons": {
+          "bg": "--ground is the page colour in titip/web/styles.css; --paper is the sheet on top of it",
+          "fonts.body": "--ui in the CSS is Geist; the scan had picked the mono variable",
+          "surface": "--paper and --card in titip/web/styles.css"
+        }
+      }
+    },
+    {
+      "id": "relay-slate",
+      "name": "Relay Slate",
+      "note": "Paper ground with a slate blue accent and nothing but system fonts.",
+      "projects": [
+        "vector-relay"
+      ],
+      "base": "vector-relay"
+    },
+    {
+      "id": "reachpilot-dispatch",
+      "name": "Reachpilot Dispatch",
+      "note": "Cairn's paper and type with a deep working blue in place of vermilion.",
+      "projects": [
+        "reachpilot"
+      ],
+      "base": "reachpilot"
+    },
+    {
+      "id": "morrow-broadsheet",
+      "name": "Morrow Broadsheet",
+      "note": "Newsprint off-white and press red. System sans for the interface; the app reads long text in Charter.",
+      "projects": [
+        "morrow"
+      ],
+      "base": "morrow"
+    },
+    {
+      "id": "earlystar-zinc",
+      "name": "Earlystar Zinc",
+      "note": "Neutral zinc greys, one indigo accent, Inter throughout.",
+      "projects": [
+        "earlystar",
+        "nudge"
+      ],
+      "base": "earlystar"
+    },
+    {
+      "id": "portfolio-cobalt",
+      "name": "Portfolio Cobalt",
+      "note": "Plain white, navy ink and a cobalt link colour.",
+      "projects": [
+        "portfolio",
+        "juw12.github.io"
+      ],
+      "base": "portfolio"
+    },
+    {
+      "id": "lelet-ember",
+      "name": "Lelet Ember",
+      "note": "Warm paper with a hot red-orange accent and an old-style serif headline.",
+      "projects": [
+        "lelet"
+      ],
+      "base": "lelet"
+    },
+    {
+      "id": "index-card-indigo",
+      "name": "Index Card Indigo",
+      "note": "Cool grey page, white cards, indigo accent, platform fonts.",
+      "projects": [
+        "projects"
+      ],
+      "base": "projects"
+    },
+    {
+      "id": "buddy-tangerine",
+      "name": "Buddy Tangerine",
+      "note": "Cream paper, loud tangerine and a wide friendly grotesque for headlines.",
+      "projects": [
+        "buddy"
+      ],
+      "base": "buddy",
+      "override": {
+        "light": {
+          "accent": "#ff8424"
+        },
+        "extras": {
+          "orange-ink": "#a64200",
+          "orange-pale": "#ffe3cc"
+        },
+        "reasons": {
+          "accent": "--orange is the brand colour; --orange-ink (#a64200) is its text-safe variant and is kept as an extra"
+        }
+      }
+    },
+    {
+      "id": "lineup-scorecard",
+      "name": "Lineup Scorecard",
+      "note": "Paper and burnt orange with Georgia headlines, like a printed scorecard.",
+      "projects": [
+        "lineup"
+      ],
+      "base": "lineup"
+    },
+    {
+      "id": "hoki-temple-gold",
+      "name": "Hoki Temple Gold",
+      "note": "Soft paper, rounded cards and temple gold; the illustration colours come along as extras.",
+      "projects": [
+        "hoki"
+      ],
+      "base": "hoki",
+      "override": {
+        "light": {
+          "accent": "#8a6418"
+        },
+        "dark": {
+          "accent": "#d9a441"
+        },
+        "extras": {
+          "gold": "#d9a441",
+          "sky-top": "#b4cddd",
+          "temple-light": "#ffcf7a"
+        },
+        "reasons": {
+          "accent": "--gold-ink is the gold that passes as text on paper; --gold (#d9a441) is the fill and the dark-mode accent"
+        }
+      }
+    },
+    {
+      "id": "saver-pine",
+      "name": "Saver Pine",
+      "note": "Quiet off-white with a pine green accent and platform fonts.",
+      "projects": [
+        "social-saver"
+      ],
+      "base": "social-saver",
+      "override": {
+        "fonts": {
+          "display": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+          "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+          "mono": "ui-monospace, Menlo, Consolas, monospace"
+        },
+        "reasons": {
+          "fonts": "body rule in web/index.html sets the system sans; the scan had picked the mono rule"
+        }
+      }
+    },
+    {
+      "id": "eco-terminal",
+      "name": "Eco Terminal",
+      "note": "Green-black panels with a single switch-on green.",
+      "projects": [
+        "cpu-eco-toggle"
+      ],
+      "base": "cpu-eco-toggle"
+    },
+    {
+      "id": "inti-night-amber",
+      "name": "Inti Night Amber",
+      "note": "Blue-black night ground, amber accent, square 4px corners.",
+      "projects": [
+        "inti"
+      ],
+      "base": "inti"
+    },
+    {
+      "id": "kemudi-helm",
+      "name": "Kemudi Helm",
+      "note": "Paper with a sea-teal action colour and Georgia for the long text.",
+      "projects": [
+        "kemudi"
+      ],
+      "base": "kemudi",
+      "override": {
+        "light": {
+          "accent": "#0d6b63"
+        },
+        "extras": {
+          "made": "#0d4f6b",
+          "go-soft": "#cfe6e1"
+        },
+        "fonts": {
+          "display": "Georgia, \"Times New Roman\", serif",
+          "body": "system-ui, \"Segoe UI\", sans-serif",
+          "mono": "ui-monospace, \"Cascadia Mono\", Consolas, monospace"
+        },
+        "reasons": {
+          "accent": "--go is the declared action colour; the scan had guessed the most used colour (--made)",
+          "fonts": "body rule is system-ui; Georgia is the only other face and is used for the reading text"
+        }
+      }
+    },
+    {
+      "id": "steward-blue",
+      "name": "Steward Blue",
+      "note": "Blue-tinted white, navy ink, a clear blue accent, Segoe UI.",
+      "projects": [
+        "steward",
+        "hexbane"
+      ],
+      "base": "steward"
+    },
+    {
+      "id": "vera-noir",
+      "name": "Vera Noir",
+      "note": "Near-black with cream ink, a single amber light and Georgia everywhere.",
+      "projects": [
+        "not-real-vera"
+      ],
+      "base": "not-real-vera",
+      "override": {
+        "light": {
+          "accent": "#ffb020"
+        },
+        "reasons": {
+          "accent": "--amber is the only accent variable on the page"
+        }
+      }
+    },
+    {
+      "id": "kilat-flash",
+      "name": "Kilat Flash",
+      "note": "Off-white with an amber-brown accent and a monospace headline.",
+      "projects": [
+        "kilat"
+      ],
+      "base": "kilat"
+    },
+    {
+      "id": "trunnion-workshop",
+      "name": "Trunnion Workshop",
+      "note": "Cool shop-floor grey, rust accent, condensed IBM Plex headlines.",
+      "projects": [
+        "trunnion-topopt"
+      ],
+      "base": "trunnion-topopt"
+    },
+    {
+      "id": "telisik-case-file",
+      "name": "Telisik Case File",
+      "note": "Sharp 2px corners, cool off-white and a red marker; a full dark set for night reading.",
+      "projects": [
+        "telisik"
+      ],
+      "base": "telisik"
+    },
+    {
+      "id": "tolstack-blueprint",
+      "name": "Tolstack Blueprint",
+      "note": "Drafting navy with a burnt orange mark and a slab-serif headline.",
+      "projects": [
+        "tolstack"
+      ],
+      "base": "tolstack"
+    },
+    {
+      "id": "gate-ledger",
+      "name": "Gate Ledger",
+      "note": "Ledger paper, forest green, a reading serif over IBM Plex, 2px corners.",
+      "projects": [
+        "gate"
+      ],
+      "base": "gate"
+    },
+    {
+      "id": "lahap-sambal",
+      "name": "Lahap Sambal",
+      "note": "Warm paper with a chilli red-brown accent and an old-style serif headline.",
+      "projects": [
+        "lahap"
+      ],
+      "base": "lahap"
+    },
+    {
+      "id": "precedent-casebook",
+      "name": "Precedent Casebook",
+      "note": "Cream page, oxblood accent and a Caslon display face.",
+      "projects": [
+        "precedent"
+      ],
+      "base": "precedent"
+    },
+    {
+      "id": "batam-harbour",
+      "name": "Batam Harbour",
+      "note": "Cool grey with a deep harbour blue and a serif headline over Inter.",
+      "projects": [
+        "batam-uncle-says"
+      ],
+      "base": "batam-uncle-says"
+    },
+    {
+      "id": "tagalong-trail",
+      "name": "Tagalong Trail",
+      "note": "Trail-map paper, brick orange, old-style serif headline, full dark set.",
+      "projects": [
+        "tagalong"
+      ],
+      "base": "tagalong"
+    },
+    {
+      "id": "jeda-brass",
+      "name": "Jeda Brass",
+      "note": "Soft paper and rounded cards with a brass accent that takes black text.",
+      "projects": [
+        "jeda"
+      ],
+      "base": "jeda"
+    },
+    {
+      "id": "mcp-report-red",
+      "name": "MCP Report Red",
+      "note": "White report page, platform fonts, one signal red.",
+      "projects": [
+        "state-of-mcp-servers"
+      ],
+      "base": "state-of-mcp-servers",
+      "override": {
+        "light": {
+          "surface": "#f5f5f7",
+          "line": "#d5d5db"
+        },
+        "fonts": {
+          "display": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif",
+          "body": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif"
+        },
+        "extras": {
+          "green": "#34c759",
+          "yellow": "#ffcc00",
+          "blue": "#0a84ff"
+        },
+        "reasons": {
+          "surface": "--bg-secondary in web/styles.css",
+          "line": "--border-subtle in web/styles.css",
+          "fonts": "--font-sans is the only text face declared"
+        }
+      }
+    },
+    {
+      "id": "pocketdex-red",
+      "name": "Pocketdex Red",
+      "note": "Soft paper and rounded cards with a ball red accent.",
+      "projects": [
+        "pocketdex"
+      ],
+      "base": "pocketdex"
+    },
+    {
+      "id": "millennium-violet",
+      "name": "Millennium Violet",
+      "note": "Off-white with blue-grey ink and one violet accent.",
+      "projects": [
+        "millennium-digest"
+      ],
+      "base": "millennium-digest"
+    },
+    {
+      "id": "nadaku-songbook",
+      "name": "Nadaku Songbook",
+      "note": "Tan songbook page, cream cards, a seal red and a gold highlight.",
+      "projects": [
+        "nadaku"
+      ],
+      "base": "nadaku"
+    },
+    {
+      "id": "scentvec-plum",
+      "name": "Scentvec Plum",
+      "note": "Powder-warm paper with a plum accent and an old-style serif headline.",
+      "projects": [
+        "scentvec"
+      ],
+      "base": "scentvec"
+    },
+    {
+      "id": "blame-midnight-gold",
+      "name": "Blame Midnight Gold",
+      "note": "Midnight blue panels with a gold highlight; win and lose colours included.",
+      "projects": [
+        "mlbb-blame"
+      ],
+      "base": "mlbb-blame",
+      "override": {
+        "light": {
+          "accent": "#f2c14e"
+        },
+        "extras": {
+          "blue": "#6f9bff",
+          "button": "#1c2642"
+        },
+        "reasons": {
+          "accent": "--gold is the declared highlight; the scan had picked the dark button fill (#1c2642)"
+        }
+      }
+    },
+    {
+      "id": "jepret-shutter",
+      "name": "Jepret Shutter",
+      "note": "Warm paper and a shutter-button red-orange, system fonts.",
+      "projects": [
+        "jepret"
+      ],
+      "base": "jepret"
+    },
+    {
+      "id": "ruang-terracotta",
+      "name": "Ruang Terracotta",
+      "note": "Paper with cool charcoal ink, terracotta accent and tight 4px corners.",
+      "projects": [
+        "ruang"
+      ],
+      "base": "ruang"
+    },
+    {
+      "id": "bilas-enamel",
+      "name": "Bilas Enamel",
+      "note": "Enamel-sign colours: stone ground, signal red, brass and green, a DIN-style headline.",
+      "projects": [
+        "bilas"
+      ],
+      "base": "bilas",
+      "override": {
+        "extras": {
+          "brass": "#c9a14a",
+          "enamel": "#245a51",
+          "celadon": "#9cc5b5",
+          "enamel-ink": "#f3ecdc"
+        }
+      }
+    },
+    {
+      "id": "reda-still-teal",
+      "name": "Reda Still Teal",
+      "note": "Calm paper, deep teal and large 18px corners; Charter for headlines.",
+      "projects": [
+        "reda"
+      ],
+      "base": "reda"
+    },
+    {
+      "id": "riak-tidepool",
+      "name": "Riak Tidepool",
+      "note": "Sand paper, tidepool green and soft Fraunces headlines.",
+      "projects": [
+        "riak"
+      ],
+      "base": "riak"
+    },
+    {
+      "id": "vale-shardlight",
+      "name": "Vale Shardlight",
+      "note": "Forest black with a cyan shard glow and a Garamond display face.",
+      "projects": [
+        "vale"
+      ],
+      "base": "vale",
+      "override": {
+        "light": {
+          "accent": "#5fe0ff",
+          "surface": "#0a1a14"
+        },
+        "fonts": {
+          "display": "\"Cormorant Garamond\", \"Iowan Old Style\", Georgia, \"Times New Roman\", serif"
+        },
+        "extras": {
+          "shard-glow": "#b8f3ff",
+          "elder-gold": "#f5d76e",
+          "leaf": "#4a8a5f",
+          "moss": "#6fb38a"
+        },
+        "reasons": {
+          "accent": "--shard-cyan is the declared highlight",
+          "surface": "--bg-mid; the real panel is translucent (--panel)",
+          "fonts.display": "--serif in the CSS; the page had no heading to measure"
+        }
+      }
+    },
+    {
+      "id": "vow-brick",
+      "name": "Vow Brick",
+      "note": "Warm paper and a brick red with an old-style serif headline.",
+      "projects": [
+        "vow"
+      ],
+      "base": "vow"
+    },
+    {
+      "id": "nongkrong-warung",
+      "name": "Nongkrong Warung",
+      "note": "Warm white, terracotta accent and a DM Serif Display headline over IBM Plex Sans.",
+      "projects": [
+        "nongkrong"
+      ],
+      "base": "nongkrong"
+    },
+    {
+      "id": "mise-station",
+      "name": "Mise Station",
+      "note": "Kitchen paper, green-black ink and a paprika accent.",
+      "projects": [
+        "mise"
+      ],
+      "base": "mise"
+    },
+    {
+      "id": "game-table-amber",
+      "name": "Game Table Amber",
+      "note": "Warm white with stone ink and an amber accent, large 14px corners.",
+      "projects": [
+        "game"
+      ],
+      "base": "game"
+    },
+    {
+      "id": "teduh-field-guide",
+      "name": "Teduh Field Guide",
+      "note": "Field-guide paper under a sky blue page, leaf green accent, Fraunces over Figtree.",
+      "projects": [
+        "teduh"
+      ],
+      "base": "teduh",
+      "override": {
+        "light": {
+          "bg": "#f8f3e8",
+          "surface": "#efe7d6"
+        },
+        "extras": {
+          "sky": "#a8d4e6",
+          "sun": "#c9951a"
+        },
+        "reasons": {
+          "bg": "--paper is the sheet every screen is drawn on; the page behind it is sky blue (#a8d4e6, kept as an extra)",
+          "surface": "--paper-2"
+        }
+      }
+    },
+    {
+      "id": "meetline-signal",
+      "name": "Meetline Signal",
+      "note": "Control-room dark, signal amber, a condensed headline and mono figures.",
+      "projects": [
+        "meetline"
+      ],
+      "base": "meetline",
+      "override": {
+        "fonts": {
+          "display": "\"Barlow Semi Condensed\", \"Manrope\", system-ui, sans-serif"
+        },
+        "reasons": {
+          "fonts.display": "--display on the live page; the first h1 measured was a small mono label"
+        }
+      }
+    },
+    {
+      "id": "retrace-teal",
+      "name": "Retrace Teal",
+      "note": "Cool grey, deep teal, Segoe UI Variable; a Windows-native feel.",
+      "projects": [
+        "retrace"
+      ],
+      "base": "retrace"
+    },
+    {
+      "id": "tally-navy",
+      "name": "Tally Navy",
+      "note": "Warm grey with near-black ink and a navy accent, platform fonts.",
+      "projects": [
+        "tally"
+      ],
+      "base": "tally"
+    },
+    {
+      "id": "atomize-violet",
+      "name": "Atomize Violet",
+      "note": "Lilac-tinted white with one strong violet.",
+      "projects": [
+        "atomize"
+      ],
+      "base": "atomize"
+    },
+    {
+      "id": "undanu-rose-clay",
+      "name": "Undanu Rose Clay",
+      "note": "Blush white, plum-grey ink and a rose clay accent; Garamond headlines over Jost.",
+      "projects": [
+        "undanu"
+      ],
+      "base": "undanu",
+      "override": {
+        "fonts": {
+          "display": "'Cormorant Garamond', Georgia, serif"
+        },
+        "extras": {
+          "primary": "#3b3541",
+          "info": "#3d6a8a"
+        },
+        "reasons": {
+          "fonts.display": "--serif and --script in the CSS are both Cormorant Garamond and are set on h1; the page measured rendered Jost"
+        }
+      }
+    },
+    {
+      "id": "peakwise-summit",
+      "name": "Peakwise Summit",
+      "note": "Night slate with a mint green call to action and a gold marker.",
+      "projects": [
+        "peakwise"
+      ],
+      "base": "peakwise",
+      "override": {
+        "light": {
+          "ink": "#e8eef3"
+        },
+        "extras": {
+          "gold": "#f5c542",
+          "accent-deep": "#0f7b5f"
+        },
+        "reasons": {
+          "ink": "--text is the text colour; --ink on this page is the dark ground"
+        }
+      }
+    },
+    {
+      "id": "handoff-lamp",
+      "name": "Handoff Lamp",
+      "note": "Near-black with one lamp amber; serif display over system sans.",
+      "projects": [
+        "handoff"
+      ],
+      "base": "handoff",
+      "override": {
+        "light": {
+          "surface": "#1a1918"
+        },
+        "reasons": {
+          "surface": "--surface-raised in saas/app/globals.css"
+        }
+      }
+    },
+    {
+      "id": "shiphub-signal-red",
+      "name": "Shiphub Signal Red",
+      "note": "Stone white with a signal red accent, Inter and a mono brand mark.",
+      "projects": [
+        "shiphub"
+      ],
+      "base": "shiphub",
+      "override": {
+        "fonts": {
+          "display": "\"Inter\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+        },
+        "reasons": {
+          "fonts.display": "--font (Inter) is the text face; mono is used for the brand mark only"
+        }
+      }
+    },
+    {
+      "id": "spry-green",
+      "name": "Spry Green",
+      "note": "Clean white, a green accent and very round 24px corners.",
+      "projects": [
+        "spry"
+      ],
+      "base": "spry"
+    },
+    {
+      "id": "the-morning-paper",
+      "name": "The Morning Paper",
+      "note": "Newspaper widget look: paper, a dark red rule, Georgia text and Courier figures.",
+      "projects": [
+        "skills"
+      ],
+      "base": "skills",
+      "manual": {
+        "source": "repo CSS",
+        "file": "skills/widgettheme/assets/theme.css",
+        "light": {
+          "bg": "#faf8f3",
+          "surface": "#ffffff",
+          "ink": "#1a1a1a",
+          "muted": "#6b6b6b",
+          "line": "#d4cfc7",
+          "accent": "#8b1a1a",
+          "ok": "#1a7f37",
+          "bad": "#b3261e"
+        },
+        "extras": {
+          "outer": "#f0ede6",
+          "ink-light": "#4a4a4a",
+          "accent-dark": "#6b1212",
+          "border-light": "#e8e4dc",
+          "gold": "#b8860b"
+        },
+        "fonts": {
+          "display": "Georgia, 'Times New Roman', serif",
+          "body": "Georgia, 'Times New Roman', serif",
+          "mono": "'Courier New', Courier, monospace"
+        },
+        "radius": "4px",
+        "accent_ink": "#ffffff"
+      }
+    },
+    {
+      "id": "studio-graphite",
+      "name": "Studio Graphite",
+      "note": "Graphite panels with one blue action colour; colour is kept for meaning.",
+      "projects": [
+        "skills"
+      ],
+      "base": "skills",
+      "manual": {
+        "source": "repo CSS",
+        "file": "skills/ambitious-founder/studio/styles.css",
+        "light": {
+          "bg": "#121314",
+          "surface": "#1a1b1d",
+          "ink": "#ecedee",
+          "muted": "#9a9ea5",
+          "line": "#2e3033",
+          "accent": "#2563eb",
+          "ok": "#3fb871",
+          "warn": "#e0a43a",
+          "bad": "#ef5a5a"
+        },
+        "extras": {
+          "panel-2": "#222326",
+          "accent-text": "#7fb0ff"
+        },
+        "fonts": {
+          "display": "\"Segoe UI Semibold\", \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+          "body": "\"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+          "mono": ""
+        },
+        "radius": "10px",
+        "accent_ink": "#ffffff"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+/* Inti Night Amber (inti-night-amber)
+   Dark ground #0e1116, orange accent #f2b34a, system-ui.
+   From: inti. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#inti-night-amber
+*/
+:root {
+  color-scheme: dark;
+  --bg: #0e1116;
+  --surface: #161b22;
+  --ink: #e6e9ee;
+  --muted: #a3adba;
+  --line: #2a313c;
+  --accent: #f2b34a;
+  --accent-ink: #0e1116;
+  --ok: #7fd18b;
+  --font-display: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace;
+  --radius: 4px;
+}

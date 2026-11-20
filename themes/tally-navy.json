@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "id": "tally-navy",
+  "name": "Tally Navy",
+  "summary": "Light ground #f6f5f2, blue accent #1f3b5c, -apple-system, with a dark set.",
+  "note": "Warm grey with near-black ink and a navy accent, platform fonts.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "tally",
+      "url": "https://github.com/juw12/tally",
+      "live": "https://juw12.github.io/tally/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f6f5f2",
+    "surface": "#ffffff",
+    "ink": "#141414",
+    "muted": "#5c5954",
+    "line": "#e4e2dd",
+    "accent": "#1f3b5c",
+    "accent_ink": "#f6f5f2",
+    "ok": "#2f6b45",
+    "bad": "#a8321e"
+  },
+  "dark": {
+    "bg": "#121212",
+    "surface": "#1b1b1b",
+    "ink": "#ececea",
+    "muted": "#9b9893",
+    "line": "#2a2a2a",
+    "accent": "#9db8d6",
+    "accent_ink": "#121212",
+    "ok": "#7fbf93",
+    "bad": "#e07a63"
+  },
+  "extras": {},
+  "fonts": {
+    "display": "-apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "body": "-apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "10px",
+  "heading_weight": "650",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.9,
+      "muted_on_bg": 6.39,
+      "accent_on_bg": 10.48,
+      "accent_ink_on_accent": 10.48,
+      "ink_on_surface": 18.42
+    },
+    "dark": {
+      "ink_on_bg": 15.84,
+      "muted_on_bg": 6.52,
+      "accent_on_bg": 9.15,
+      "accent_ink_on_accent": 9.15,
+      "ink_on_surface": 14.56
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "ok": "--positive on the live page",
+      "bad": "--negative on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "dark scheme of the live page",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "fonts.mono",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

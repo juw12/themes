@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "id": "teduh-field-guide",
+  "name": "Teduh Field Guide",
+  "summary": "Light ground #f8f3e8, green accent #2f5d4a, Fraunces over Figtree.",
+  "note": "Field-guide paper under a sky blue page, leaf green accent, Fraunces over Figtree.",
+  "scheme": "light",
+  "hue": "green",
+  "projects": [
+    {
+      "repo": "teduh",
+      "url": "https://github.com/juw12/teduh",
+      "live": "https://juw12.github.io/teduh/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f8f3e8",
+    "surface": "#efe7d6",
+    "ink": "#23302a",
+    "muted": "#56615a",
+    "line": "#d9cfba",
+    "accent": "#2f5d4a",
+    "accent_ink": "#ffffff",
+    "warn": "#9c3b26"
+  },
+  "dark": null,
+  "extras": {
+    "sun": "#c9951a",
+    "sky": "#a8d4e6"
+  },
+  "fonts": {
+    "display": "Fraunces, Georgia, \"Times New Roman\", serif",
+    "body": "Figtree, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [
+      "Fraunces",
+      "Figtree"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Figtree:wght@400;500;600;700&display=swap"
+  },
+  "radius": "6px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 12.42,
+      "muted_on_bg": 5.83,
+      "accent_on_bg": 6.81,
+      "accent_ink_on_accent": 7.54,
+      "ink_on_surface": 11.17
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "curated: --paper is the sheet every screen is drawn on; the page behind it is sky blue (#a8d4e6, kept as an extra)",
+      "surface": "curated: --paper-2",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "warn": "--warn on the live page"
+    }
+  },
+  "derived": [
+    "fonts.mono"
+  ],
+  "curated": {
+    "bg": "--paper is the sheet every screen is drawn on; the page behind it is sky blue (#a8d4e6, kept as an extra)",
+    "surface": "--paper-2"
+  },
+  "warnings": []
+}

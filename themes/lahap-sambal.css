@@ -1,0 +1,22 @@
+/* Lahap Sambal (lahap-sambal)
+   Light ground #f5efe3, red accent #b4380f, Iowan Old Style over system-ui.
+   From: lahap. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#lahap-sambal
+*/
+:root {
+  color-scheme: light;
+  --bg: #f5efe3;
+  --surface: #fffdf8;
+  --ink: #1d1813;
+  --muted: #4e463c;
+  --line: #e0d5c2;
+  --accent: #b4380f;
+  --accent-ink: #ffffff;
+  --warn: #85560a;
+  --x-leaf: #2f6a3a;
+  --x-chili: #8f2a0a;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --font-body: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", Consolas, "SF Mono", Menlo, monospace;
+  --radius: 10px;
+}

@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "scentvec-plum",
+  "name": "Scentvec Plum",
+  "summary": "Light ground #faf6f0, pink accent #7a2e5a, Iowan Old Style over -apple-system, with a dark set.",
+  "note": "Powder-warm paper with a plum accent and an old-style serif headline.",
+  "scheme": "light",
+  "hue": "pink",
+  "projects": [
+    {
+      "repo": "scentvec",
+      "url": "https://github.com/juw12/scentvec",
+      "live": "https://juw12.github.io/scentvec/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#faf6f0",
+    "surface": "#fffdf9",
+    "ink": "#221a1f",
+    "muted": "#6d5f66",
+    "line": "#e4d9ce",
+    "accent": "#7a2e5a",
+    "accent_ink": "#ffffff",
+    "accent2": "#0f766e",
+    "ok": "#2f6b4f",
+    "warn": "#a8650f"
+  },
+  "dark": {
+    "bg": "#171216",
+    "surface": "#201920",
+    "ink": "#f3eaed",
+    "muted": "#ab9aa3",
+    "line": "#382c35",
+    "accent": "#e59ac8",
+    "accent_ink": "#171216",
+    "accent2": "#5fd0c5",
+    "warn": "#e5b264"
+  },
+  "extras": {},
+  "fonts": {
+    "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif",
+    "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "14px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.79,
+      "muted_on_bg": 5.61,
+      "accent_on_bg": 8.24,
+      "accent_ink_on_accent": 8.88,
+      "ink_on_surface": 16.73
+    },
+    "dark": {
+      "ink_on_bg": 15.69,
+      "muted_on_bg": 6.95,
+      "accent_on_bg": 8.63,
+      "accent_ink_on_accent": 8.63,
+      "ink_on_surface": 14.58
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "accent2": "--second on the live page",
+      "ok": "--good in the repo CSS",
+      "warn": "--amber on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "accent2": "dark scheme of the live page",
+      "warn": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "game-table-amber",
+  "name": "Game Table Amber",
+  "summary": "Light ground #fbf7f0, orange accent #b45309, system-ui, with a dark set.",
+  "note": "Warm white with stone ink and an amber accent, large 14px corners.",
+  "scheme": "light",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "game",
+      "url": "https://github.com/juw12/game",
+      "live": "https://juw12.github.io/game/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#fbf7f0",
+    "surface": "#ffffff",
+    "ink": "#1c1917",
+    "muted": "#57534e",
+    "line": "#e7e0d4",
+    "accent": "#b45309",
+    "accent_ink": "#fbf7f0"
+  },
+  "dark": {
+    "bg": "#171412",
+    "surface": "#211d1a",
+    "ink": "#f5f0e8",
+    "muted": "#b8afa3",
+    "line": "#2f2a25",
+    "accent": "#f59e0b",
+    "accent_ink": "#171412"
+  },
+  "extras": {},
+  "fonts": {
+    "display": "system-ui, -apple-system, \"Segoe UI\", sans-serif",
+    "body": "system-ui, -apple-system, \"Segoe UI\", sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "14px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.38,
+      "muted_on_bg": 7.14,
+      "accent_on_bg": 4.7,
+      "accent_ink_on_accent": 4.7,
+      "ink_on_surface": 17.49
+    },
+    "dark": {
+      "ink_on_bg": 16.16,
+      "muted_on_bg": 8.47,
+      "accent_on_bg": 8.54,
+      "accent_ink_on_accent": 8.54,
+      "ink_on_surface": 14.75
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    }
+  },
+  "derived": [
+    "fonts.mono",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "mise-station",
+  "name": "Mise Station",
+  "summary": "Light ground #f4efe6, red accent #b4472b, Iowan Old Style over Segoe UI.",
+  "note": "Kitchen paper, green-black ink and a paprika accent.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "mise",
+      "url": "https://github.com/juw12/mise",
+      "live": "https://juw12.github.io/mise/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f4efe6",
+    "surface": "#ffffff",
+    "ink": "#1f2420",
+    "muted": "#565d58",
+    "line": "#dcd4c6",
+    "accent": "#b4472b",
+    "accent_ink": "#ffffff",
+    "warn": "#8a5a12"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Iowan Old Style\", \"Palatino Linotype\", \"Book Antiqua\", Georgia, serif",
+    "body": "\"Segoe UI\", system-ui, -apple-system, Roboto, \"Helvetica Neue\", sans-serif",
+    "mono": "Consolas, \"SF Mono\", Menlo, \"Liberation Mono\", monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "10px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 13.77,
+      "muted_on_bg": 5.91,
+      "accent_on_bg": 4.73,
+      "accent_ink_on_accent": 5.42,
+      "ink_on_surface": 15.77
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "warn": "--amber on the live page"
+    }
+  },
+  "derived": [],
+  "curated": {},
+  "warnings": []
+}

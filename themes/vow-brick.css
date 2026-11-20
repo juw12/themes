@@ -1,0 +1,33 @@
+/* Vow Brick (vow-brick)
+   Light ground #f7f3ea, red accent #a8261b, Iowan Old Style over system-ui, with a dark set.
+   From: vow. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#vow-brick
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f7f3ea;
+  --surface: #fffdf9;
+  --ink: #1d1a16;
+  --muted: #645b50;
+  --line: #e2d9c8;
+  --accent: #a8261b;
+  --accent-ink: #ffffff;
+  --warn: #8a4f0c;
+  --x-kept: #1d6b3a;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15120e;
+    --surface: #201c17;
+    --ink: #f2ebdd;
+    --muted: #b3a895;
+    --line: #3a332a;
+    --accent: #f05a47;
+    --accent-ink: #15120e;
+    --warn: #f0a640;
+  }
+}

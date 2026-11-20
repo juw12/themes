@@ -1,0 +1,35 @@
+/* Titip Counter Blue (titip-counter-blue)
+   Light ground #f4f1ea, blue accent #2f5b8c, Instrument Serif over Geist, with a dark set.
+   From: titip. Read from the repo CSS, checked 2026-11-20.
+   https://juw12.github.io/themes/#titip-counter-blue
+   Web fonts: https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f4f1ea;
+  --surface: #fffdf8;
+  --ink: #1b1a17;
+  --muted: #6c665d;
+  --line: #e1dbcf;
+  --accent: #2f5b8c;
+  --accent-ink: #ffffff;
+  --ok: #2e7566;
+  --x-signal: #d9481f;
+  --x-stamp: #b3261e;
+  --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-body: "Geist", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", Consolas, monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1b18;
+    --surface: #201f1c;
+    --ink: #efebe3;
+    --muted: #968f83;
+    --line: #2e2c28;
+    --accent: #86aee0;
+    --accent-ink: #1c1b18;
+    --ok: #6fc2ad;
+  }
+}

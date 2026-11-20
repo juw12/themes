@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "id": "earlystar-zinc",
+  "name": "Earlystar Zinc",
+  "summary": "Light ground #fafafa, blue accent #4f46e5, Inter, with a dark set.",
+  "note": "Neutral zinc greys, one indigo accent, Inter throughout.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "earlystar",
+      "url": "https://github.com/juw12/earlystar",
+      "live": "https://juw12.github.io/earlystar/"
+    },
+    {
+      "repo": "nudge",
+      "url": "https://github.com/juw12/nudge",
+      "live": "https://juw12.github.io/nudge/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#fafafa",
+    "surface": "#ffffff",
+    "ink": "#09090b",
+    "muted": "#63636b",
+    "line": "#e4e4e7",
+    "accent": "#4f46e5",
+    "accent_ink": "#ffffff",
+    "accent2": "#4f46e5",
+    "ok": "#15803d",
+    "warn": "#c2410c",
+    "bad": "#dc2626"
+  },
+  "dark": {
+    "bg": "#09090b",
+    "surface": "#111113",
+    "ink": "#fafafa",
+    "muted": "#a1a1aa",
+    "line": "#232327",
+    "accent": "#818cf8",
+    "accent_ink": "#09090b",
+    "accent2": "#818cf8",
+    "ok": "#4ade80",
+    "warn": "#fb923c",
+    "bad": "#f87171"
+  },
+  "extras": {
+    "accent-text": "#4338ca"
+  },
+  "fonts": {
+    "display": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, sans-serif",
+    "body": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, sans-serif",
+    "mono": "ui-monospace, \"SF Mono\", Consolas, monospace",
+    "web": [
+      "Inter"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "radius": "8px",
+  "heading_weight": "650",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 19.06,
+      "muted_on_bg": 5.7,
+      "accent_on_bg": 6.02,
+      "accent_ink_on_accent": 6.29,
+      "ink_on_surface": 19.9
+    },
+    "dark": {
+      "ink_on_bg": 19.06,
+      "muted_on_bg": 7.76,
+      "accent_on_bg": 6.67,
+      "accent_ink_on_accent": 6.67,
+      "ink_on_surface": 18.07
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--border on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "accent2": "--accent2 on the live page",
+      "ok": "--good on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--bad on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "accent2": "dark scheme of the live page",
+      "ok": "dark scheme of the live page",
+      "warn": "dark scheme of the live page",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

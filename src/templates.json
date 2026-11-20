@@ -1,0 +1,394 @@
+{
+  "checked": "2026-11-20",
+  "note": "Stars, licence and last push are read from the GitHub API on the checked date. Descriptions are the repos' own.",
+  "groups": [
+    {
+      "key": "starters",
+      "title": "App starters",
+      "lead": "Whole apps to clone and restyle.",
+      "repos": [
+        {
+          "repo": "h5bp/html5-boilerplate",
+          "url": "https://github.com/h5bp/html5-boilerplate",
+          "stars": 57690,
+          "licence": "MIT",
+          "pushed": "2026-11-17",
+          "template": false,
+          "about": "A professional front-end template for building fast, robust, and adaptable web apps or sites."
+        },
+        {
+          "repo": "ColorlibHQ/AdminLTE",
+          "url": "https://github.com/ColorlibHQ/AdminLTE",
+          "stars": 45702,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "AdminLTE - Free admin dashboard template based on Bootstrap 5"
+        },
+        {
+          "repo": "tabler/tabler",
+          "url": "https://github.com/tabler/tabler",
+          "stars": 42091,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "Free and open source admin dashboard UI kit built on Bootstrap: 100+ pages, 6,500+ icons, dark mode, RTL."
+        },
+        {
+          "repo": "vbenjs/vue-vben-admin",
+          "url": "https://github.com/vbenjs/vue-vben-admin",
+          "stars": 33833,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "A modern vue admin panel built with Vue3, Shadcn UI, Vite, TypeScript, and Monorepo. It's fast!"
+        },
+        {
+          "repo": "t3-oss/create-t3-app",
+          "url": "https://github.com/t3-oss/create-t3-app",
+          "stars": 29240,
+          "licence": "MIT",
+          "pushed": "2025-12-13",
+          "template": false,
+          "about": "The best way to start a full-stack, typesafe Next.js app"
+        },
+        {
+          "repo": "satnaing/shadcn-admin",
+          "url": "https://github.com/satnaing/shadcn-admin",
+          "stars": 16847,
+          "licence": "MIT",
+          "pushed": "2026-09-10",
+          "template": true,
+          "about": "Admin Dashboard UI built with Shadcn and Vite."
+        },
+        {
+          "repo": "nextjs/saas-starter",
+          "url": "https://github.com/nextjs/saas-starter",
+          "stars": 16260,
+          "licence": "MIT",
+          "pushed": "2025-12-11",
+          "template": false,
+          "about": "Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui."
+        },
+        {
+          "repo": "ixartz/Next-js-Boilerplate",
+          "url": "https://github.com/ixartz/Next-js-Boilerplate",
+          "stars": 13093,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": true,
+          "about": "Nextjs Boilerplate and Starter with App Router and Page Router support, Tailwind CSS 4 and TypeScript Made with developer experience first: Next.js 16 + TypeScript + ESLint + Prettier + Drizzle ORM + Husky + Lint-Staged + Vitest + Testing Library + Playwright + Storybook + Commitlint + VSCode + Sentry + PostCSS + Tailwind CSS"
+        },
+        {
+          "repo": "Kiranism/next-shadcn-dashboard-starter",
+          "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter",
+          "stars": 7292,
+          "licence": "MIT",
+          "pushed": "2026-11-15",
+          "template": true,
+          "about": "Free, open source, AI-first admin dashboard template built with Next.js 16, shadcn/ui, Tailwind CSS, and TypeScript. Production-ready tables, forms, auth, and billing. MIT licensed."
+        },
+        {
+          "repo": "arthelokyo/astrowind",
+          "url": "https://github.com/arthelokyo/astrowind",
+          "stars": 6146,
+          "licence": "MIT",
+          "pushed": "2026-09-12",
+          "template": true,
+          "about": "AstroWind: A free template using Astro v7 and Tailwind CSS v4. Astro starter theme."
+        }
+      ]
+    },
+    {
+      "key": "components",
+      "title": "Component systems",
+      "lead": "Buttons, forms and layout parts that take your tokens.",
+      "repos": [
+        {
+          "repo": "twbs/bootstrap",
+          "url": "https://github.com/twbs/bootstrap",
+          "stars": 175088,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."
+        },
+        {
+          "repo": "shadcn-ui/ui",
+          "url": "https://github.com/shadcn-ui/ui",
+          "stars": 128591,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own."
+        },
+        {
+          "repo": "tailwindlabs/tailwindcss",
+          "url": "https://github.com/tailwindlabs/tailwindcss",
+          "stars": 98690,
+          "licence": "MIT",
+          "pushed": "2026-11-18",
+          "template": false,
+          "about": "A utility-first CSS framework for rapid UI development."
+        },
+        {
+          "repo": "saadeghi/daisyui",
+          "url": "https://github.com/saadeghi/daisyui",
+          "stars": 42908,
+          "licence": "MIT",
+          "pushed": "2026-11-16",
+          "template": false,
+          "about": "The most popular, free and open-source Tailwind CSS component library"
+        },
+        {
+          "repo": "mantinedev/mantine",
+          "url": "https://github.com/mantinedev/mantine",
+          "stars": 31958,
+          "licence": "MIT",
+          "pushed": "2026-11-18",
+          "template": false,
+          "about": "A fully featured React components library"
+        },
+        {
+          "repo": "radix-ui/primitives",
+          "url": "https://github.com/radix-ui/primitives",
+          "stars": 19527,
+          "licence": "MIT",
+          "pushed": "2026-10-14",
+          "template": false,
+          "about": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos."
+        },
+        {
+          "repo": "primer/css",
+          "url": "https://github.com/primer/css",
+          "stars": 13058,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "Primer is GitHub's design system. This is the CSS implementation"
+        },
+        {
+          "repo": "carbon-design-system/carbon",
+          "url": "https://github.com/carbon-design-system/carbon",
+          "stars": 9631,
+          "licence": "Apache-2.0",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "A design system built by IBM"
+        },
+        {
+          "repo": "argyleink/open-props",
+          "url": "https://github.com/argyleink/open-props",
+          "stars": 5583,
+          "licence": "MIT",
+          "pushed": "2026-10-11",
+          "template": false,
+          "about": "CSS custom properties to help accelerate adaptive and consistent design."
+        },
+        {
+          "repo": "kevquirk/simple.css",
+          "url": "https://github.com/kevquirk/simple.css",
+          "stars": 5030,
+          "licence": "MIT",
+          "pushed": "2026-07-19",
+          "template": false,
+          "about": "Simple.css is a CSS template that allows you to make a good looking website really quickly."
+        }
+      ]
+    },
+    {
+      "key": "tokens",
+      "title": "Palettes and token tools",
+      "lead": "Well-kept colour systems and the tools that move tokens between platforms.",
+      "repos": [
+        {
+          "repo": "dracula/dracula-theme",
+          "url": "https://github.com/dracula/dracula-theme",
+          "stars": 23612,
+          "licence": "MIT",
+          "pushed": "2026-11-01",
+          "template": false,
+          "about": "One theme. All platforms."
+        },
+        {
+          "repo": "catppuccin/catppuccin",
+          "url": "https://github.com/catppuccin/catppuccin",
+          "stars": 19964,
+          "licence": "MIT",
+          "pushed": "2026-07-25",
+          "template": false,
+          "about": "Soothing pastel theme for the high-spirited!"
+        },
+        {
+          "repo": "altercation/solarized",
+          "url": "https://github.com/altercation/solarized",
+          "stars": 16023,
+          "licence": "MIT",
+          "pushed": "2024-07-11",
+          "template": false,
+          "about": "precision color scheme for multiple applications (terminal, vim, etc.) with both dark/light modes"
+        },
+        {
+          "repo": "morhetz/gruvbox",
+          "url": "https://github.com/morhetz/gruvbox",
+          "stars": 15843,
+          "licence": "see repo",
+          "pushed": "2026-09-18",
+          "template": false,
+          "about": "Retro groove color scheme for Vim"
+        },
+        {
+          "repo": "jnsahaj/tweakcn",
+          "url": "https://github.com/jnsahaj/tweakcn",
+          "stars": 10557,
+          "licence": "Apache-2.0",
+          "pushed": "2026-09-03",
+          "template": false,
+          "about": "A visual no-code theme editor for shadcn/ui components"
+        },
+        {
+          "repo": "nordtheme/nord",
+          "url": "https://github.com/nordtheme/nord",
+          "stars": 6924,
+          "licence": "MIT",
+          "pushed": "2023-10-18",
+          "template": false,
+          "about": "An arctic, north-bluish color palette."
+        },
+        {
+          "repo": "yeun/open-color",
+          "url": "https://github.com/yeun/open-color",
+          "stars": 5583,
+          "licence": "MIT",
+          "pushed": "2023-12-10",
+          "template": false,
+          "about": "Color scheme for UI design."
+        },
+        {
+          "repo": "style-dictionary/style-dictionary",
+          "url": "https://github.com/style-dictionary/style-dictionary",
+          "stars": 4887,
+          "licence": "Apache-2.0",
+          "pushed": "2026-11-03",
+          "template": false,
+          "about": "A build system for creating cross-platform styles."
+        },
+        {
+          "repo": "design-tokens/community-group",
+          "url": "https://github.com/design-tokens/community-group",
+          "stars": 2178,
+          "licence": "see repo",
+          "pushed": "2026-11-01",
+          "template": false,
+          "about": "This is the official DTCG repository for the design tokens site and specification."
+        },
+        {
+          "repo": "radix-ui/colors",
+          "url": "https://github.com/radix-ui/colors",
+          "stars": 1741,
+          "licence": "MIT",
+          "pushed": "2025-12-17",
+          "template": false,
+          "about": "A gorgeous, accessible color system."
+        }
+      ]
+    },
+    {
+      "key": "guidance",
+      "title": "Guidance, icons and fonts",
+      "lead": "Reading lists, icon sets and public design systems.",
+      "repos": [
+        {
+          "repo": "bradtraversy/design-resources-for-developers",
+          "url": "https://github.com/bradtraversy/design-resources-for-developers",
+          "stars": 67426,
+          "licence": "MIT",
+          "pushed": "2026-10-18",
+          "template": false,
+          "about": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more"
+        },
+        {
+          "repo": "goabstract/Awesome-Design-Tools",
+          "url": "https://github.com/goabstract/Awesome-Design-Tools",
+          "stars": 41962,
+          "licence": "MIT",
+          "pushed": "2024-07-28",
+          "template": false,
+          "about": "The best design tools and plugins for everything"
+        },
+        {
+          "repo": "alexpate/awesome-design-systems",
+          "url": "https://github.com/alexpate/awesome-design-systems",
+          "stars": 26401,
+          "licence": "Unlicense",
+          "pushed": "2026-11-13",
+          "template": false,
+          "about": "A collection of awesome design systems"
+        },
+        {
+          "repo": "lucide-icons/lucide",
+          "url": "https://github.com/lucide-icons/lucide",
+          "stars": 25870,
+          "licence": "see repo",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects."
+        },
+        {
+          "repo": "tabler/tabler-icons",
+          "url": "https://github.com/tabler/tabler-icons",
+          "stars": 22722,
+          "licence": "MIT",
+          "pushed": "2026-11-16",
+          "template": false,
+          "about": "A set of over 6500 free MIT-licensed high-quality SVG icons for you to use in your web projects."
+        },
+        {
+          "repo": "birobirobiro/awesome-shadcn-ui",
+          "url": "https://github.com/birobirobiro/awesome-shadcn-ui",
+          "stars": 20839,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "A curated list of awesome things related to shadcn/ui."
+        },
+        {
+          "repo": "google/fonts",
+          "url": "https://github.com/google/fonts",
+          "stars": 20785,
+          "licence": "see repo",
+          "pushed": "2026-11-20",
+          "template": false,
+          "about": "Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
+        },
+        {
+          "repo": "gztchan/awesome-design",
+          "url": "https://github.com/gztchan/awesome-design",
+          "stars": 17802,
+          "licence": "see repo",
+          "pushed": "2024-07-04",
+          "template": false,
+          "about": "Curated design resources from all over the world."
+        },
+        {
+          "repo": "uswds/uswds",
+          "url": "https://github.com/uswds/uswds",
+          "stars": 7248,
+          "licence": "see repo",
+          "pushed": "2026-11-04",
+          "template": false,
+          "about": "The U.S. Web Design System helps the federal government build fast, accessible, mobile-friendly websites."
+        },
+        {
+          "repo": "alphagov/govuk-frontend",
+          "url": "https://github.com/alphagov/govuk-frontend",
+          "stars": 1483,
+          "licence": "MIT",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services."
+        }
+      ]
+    }
+  ]
+}

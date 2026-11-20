@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "telisik-case-file",
+  "name": "Telisik Case File",
+  "summary": "Light ground #fbfbf8, red accent #c8321f, Iowan Old Style over system-ui, with a dark set.",
+  "note": "Sharp 2px corners, cool off-white and a red marker; a full dark set for night reading.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "telisik",
+      "url": "https://github.com/juw12/telisik",
+      "live": "https://juw12.github.io/telisik/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#fbfbf8",
+    "surface": "#f2f1ea",
+    "ink": "#16181d",
+    "muted": "#555a66",
+    "line": "#d6d4ca",
+    "accent": "#c8321f",
+    "accent_ink": "#ffffff",
+    "warn": "#8a5300"
+  },
+  "dark": {
+    "bg": "#111318",
+    "surface": "#1a1d24",
+    "ink": "#e6e4de",
+    "muted": "#a3a7b2",
+    "line": "#353a45",
+    "accent": "#ff7a66",
+    "accent_ink": "#111318",
+    "warn": "#f0b860"
+  },
+  "extras": {
+    "visited": "#5b2a86"
+  },
+  "fonts": {
+    "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif",
+    "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, \"Cascadia Mono\", \"SF Mono\", Consolas, \"Liberation Mono\", monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "2px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 17.13,
+      "muted_on_bg": 6.66,
+      "accent_on_bg": 5.15,
+      "accent_ink_on_accent": 5.34,
+      "ink_on_surface": 15.68
+    },
+    "dark": {
+      "ink_on_bg": 14.61,
+      "muted_on_bg": 7.72,
+      "accent_on_bg": 7.28,
+      "accent_ink_on_accent": 7.28,
+      "ink_on_surface": 13.26
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--rule on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "warn": "--warn on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "warn": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

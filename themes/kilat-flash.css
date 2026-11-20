@@ -1,0 +1,32 @@
+/* Kilat Flash (kilat-flash)
+   Light ground #fbfaf7, orange accent #b45309, Cascadia Code over system-ui, with a dark set.
+   From: kilat. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#kilat-flash
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #fbfaf7;
+  --surface: #fffefb;
+  --ink: #1c1b19;
+  --muted: #625e56;
+  --line: #d9d5cc;
+  --accent: #b45309;
+  --accent-ink: #ffffff;
+  --bad: #b42318;
+  --font-display: "Cascadia Code", "Cascadia Mono", Consolas, "SF Mono", Menlo, "DejaVu Sans Mono", monospace;
+  --font-body: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "Cascadia Code", "Cascadia Mono", Consolas, "SF Mono", Menlo, "DejaVu Sans Mono", monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161513;
+    --surface: #1d1b18;
+    --ink: #ece9e2;
+    --muted: #a8a297;
+    --line: #37332d;
+    --accent: #fbbf24;
+    --accent-ink: #161513;
+    --bad: #ff8f80;
+  }
+}

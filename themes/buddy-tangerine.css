@@ -1,0 +1,25 @@
+/* Buddy Tangerine (buddy-tangerine)
+   Light ground #fffaf4, orange accent #ff8424, Bricolage Grotesque over Inter.
+   From: buddy. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#buddy-tangerine
+   Web fonts: https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Inter:wght@400;500;600;700&display=swap
+*/
+:root {
+  color-scheme: light;
+  --bg: #fffaf4;
+  --surface: #ffffff;
+  --ink: #1f2130;
+  --muted: #6b6f80;
+  --line: #eadccb;
+  --accent: #ff8424;
+  --accent-ink: #1f2130;
+  --ok: #2fb36d;
+  --bad: #e5484d;
+  --x-orange: #ff8424;
+  --x-orange-ink: #a64200;
+  --x-orange-pale: #ffe3cc;
+  --font-display: "Bricolage Grotesque", "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+  --font-body: Inter, "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Cascadia Code", Consolas, monospace;
+  --radius: 18px;
+}

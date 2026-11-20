@@ -1,0 +1,34 @@
+/* Tally Navy (tally-navy)
+   Light ground #f6f5f2, blue accent #1f3b5c, -apple-system, with a dark set.
+   From: tally. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#tally-navy
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f6f5f2;
+  --surface: #ffffff;
+  --ink: #141414;
+  --muted: #5c5954;
+  --line: #e4e2dd;
+  --accent: #1f3b5c;
+  --accent-ink: #f6f5f2;
+  --ok: #2f6b45;
+  --bad: #a8321e;
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --surface: #1b1b1b;
+    --ink: #ececea;
+    --muted: #9b9893;
+    --line: #2a2a2a;
+    --accent: #9db8d6;
+    --accent-ink: #121212;
+    --ok: #7fbf93;
+    --bad: #e07a63;
+  }
+}

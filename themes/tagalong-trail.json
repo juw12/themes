@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "id": "tagalong-trail",
+  "name": "Tagalong Trail",
+  "summary": "Light ground #f5f0e6, red accent #b93a1e, Iowan Old Style over system-ui, with a dark set.",
+  "note": "Trail-map paper, brick orange, old-style serif headline, full dark set.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "tagalong",
+      "url": "https://github.com/juw12/tagalong",
+      "live": "https://juw12.github.io/tagalong/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f5f0e6",
+    "surface": "#fffdf8",
+    "ink": "#1e1b16",
+    "muted": "#5f574b",
+    "line": "#d9cfbd",
+    "accent": "#b93a1e",
+    "accent_ink": "#ffffff",
+    "ok": "#1f6b4a"
+  },
+  "dark": {
+    "bg": "#16140f",
+    "surface": "#211e17",
+    "ink": "#efe8d8",
+    "muted": "#b3a995",
+    "line": "#3a3528",
+    "accent": "#f08060",
+    "accent_ink": "#16140f",
+    "ok": "#7fd0a4"
+  },
+  "extras": {
+    "next": "#e2a48f"
+  },
+  "fonts": {
+    "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif",
+    "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, \"Cascadia Mono\", \"SF Mono\", Consolas, \"Liberation Mono\", monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "10px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.11,
+      "muted_on_bg": 6.26,
+      "accent_on_bg": 5.01,
+      "accent_ink_on_accent": 5.7,
+      "ink_on_surface": 16.88
+    },
+    "dark": {
+      "ink_on_bg": 15.08,
+      "muted_on_bg": 7.91,
+      "accent_on_bg": 6.98,
+      "accent_ink_on_accent": 6.98,
+      "ink_on_surface": 13.62
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "ok": "--good on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

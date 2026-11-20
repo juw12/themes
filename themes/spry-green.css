@@ -1,0 +1,20 @@
+/* Spry Green (spry-green)
+   Light ground #ffffff, green accent #1a7f5a, Instrument Sans over Inter.
+   From: spry. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#spry-green
+   Web fonts: https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap
+*/
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --ink: #1f2330;
+  --muted: #5d6273;
+  --line: #e6e8ee;
+  --accent: #1a7f5a;
+  --accent-ink: #ffffff;
+  --font-display: "Instrument Sans", system-ui, sans-serif;
+  --font-body: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 24px;
+}

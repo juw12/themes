@@ -1,0 +1,20 @@
+/* Pocketdex Red (pocketdex-red)
+   Light ground #f6f2eb, red accent #c0432f, Iowan Old Style over Segoe UI.
+   From: pocketdex. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#pocketdex-red
+*/
+:root {
+  color-scheme: light;
+  --bg: #f6f2eb;
+  --surface: #ffffff;
+  --ink: #26221d;
+  --muted: #6b6157;
+  --line: #e6dfd3;
+  --accent: #c0432f;
+  --accent-ink: #ffffff;
+  --ok: #3f7f52;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", "Noto Serif", Georgia, serif;
+  --font-body: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
+  --radius: 20px;
+}

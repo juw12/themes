@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "inti-night-amber",
+  "name": "Inti Night Amber",
+  "summary": "Dark ground #0e1116, orange accent #f2b34a, system-ui.",
+  "note": "Blue-black night ground, amber accent, square 4px corners.",
+  "scheme": "dark",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "inti",
+      "url": "https://github.com/juw12/inti",
+      "live": "https://juw12.github.io/inti/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#0e1116",
+    "surface": "#161b22",
+    "ink": "#e6e9ee",
+    "muted": "#a3adba",
+    "line": "#2a313c",
+    "accent": "#f2b34a",
+    "accent_ink": "#0e1116",
+    "ok": "#7fd18b"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "mono": "Consolas, \"DejaVu Sans Mono\", \"Liberation Mono\", monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "4px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.54,
+      "muted_on_bg": 8.32,
+      "accent_on_bg": 10.2,
+      "accent_ink_on_accent": 10.2,
+      "ink_on_surface": 14.21
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--soft on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "--good on the live page"
+    }
+  },
+  "derived": [
+    "accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

@@ -1,0 +1,35 @@
+/* Riak Tidepool (riak-tidepool)
+   Light ground #f5f0e7, teal accent #1f5f4a, Fraunces over Source Sans 3, with a dark set.
+   From: riak. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#riak-tidepool
+   Web fonts: https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f5f0e7;
+  --surface: #ffffff;
+  --ink: #1d2a27;
+  --muted: #56625e;
+  --line: #e5ddcf;
+  --accent: #1f5f4a;
+  --accent-ink: #ffffff;
+  --accent2: #87590c;
+  --warn: #8a3b22;
+  --font-display: Fraunces, Georgia, "Times New Roman", serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 18px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141a18;
+    --surface: #1b2320;
+    --ink: #ece6d8;
+    --muted: #a9b3ad;
+    --line: #2f3a36;
+    --accent: #6fbf9c;
+    --accent-ink: #141a18;
+    --accent2: #e2b450;
+    --warn: #e59a7c;
+  }
+}

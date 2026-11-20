@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "tolstack-blueprint",
+  "name": "Tolstack Blueprint",
+  "summary": "Dark ground #0c1a2b, orange accent #c2410c, Roboto Slab over IBM Plex Sans.",
+  "note": "Drafting navy with a burnt orange mark and a slab-serif headline.",
+  "scheme": "dark",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "tolstack",
+      "url": "https://github.com/juw12/tolstack",
+      "live": "https://juw12.github.io/p/tolstack/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#0c1a2b",
+    "surface": "#10233a",
+    "ink": "#e5eef8",
+    "muted": "#9db1c7",
+    "line": "#223a54",
+    "accent": "#c2410c",
+    "accent_ink": "#ffffff"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Roboto Slab\", system-ui, sans-serif",
+    "body": "\"IBM Plex Sans\", Inter, sans-serif",
+    "mono": "\"IBM Plex Mono\", monospace",
+    "web": [
+      "Roboto Slab",
+      "IBM Plex Sans",
+      "IBM Plex Mono"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+  },
+  "radius": "16px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 14.95,
+      "muted_on_bg": 7.97,
+      "accent_on_bg": 3.38,
+      "accent_ink_on_accent": 5.18,
+      "ink_on_surface": 13.54
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill"
+    }
+  },
+  "derived": [],
+  "curated": {},
+  "warnings": [
+    "dark ground: accent on bg is 3.38:1; fine for fills and large text, not for small text"
+  ]
+}

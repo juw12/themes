@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "id": "peakwise-summit",
+  "name": "Peakwise Summit",
+  "summary": "Dark ground #0f1720, green accent #2ee6a0, Inter.",
+  "note": "Night slate with a mint green call to action and a gold marker.",
+  "scheme": "dark",
+  "hue": "green",
+  "projects": [
+    {
+      "repo": "peakwise",
+      "url": "https://github.com/juw12/peakwise",
+      "live": "https://juw12.github.io/peakwise/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#0f1720",
+    "surface": "#16212c",
+    "ink": "#e8eef3",
+    "muted": "#93a4b3",
+    "line": "#26343f",
+    "accent": "#2ee6a0",
+    "accent_ink": "#04261b",
+    "accent2": "#f5c542",
+    "ok": "#0f7b5f",
+    "bad": "#b42318"
+  },
+  "dark": null,
+  "extras": {
+    "gold": "#f5c542",
+    "accent-deep": "#0f7b5f"
+  },
+  "fonts": {
+    "display": "Inter, \"Noto Sans TC\", \"Microsoft JhengHei\", \"Segoe UI\", Arial, sans-serif",
+    "body": "Inter, \"Noto Sans TC\", \"Microsoft JhengHei\", \"Segoe UI\", Arial, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [
+      "Inter"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "radius": "12px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.43,
+      "muted_on_bg": 7.05,
+      "accent_on_bg": 11.12,
+      "accent_ink_on_accent": 9.97,
+      "ink_on_surface": 13.94
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "curated: --text is the text colour; --ink on this page is the dark ground",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "accent2": "--gold on the live page",
+      "ok": "--good in the repo CSS",
+      "bad": "--bad in the repo CSS"
+    }
+  },
+  "derived": [
+    "fonts.mono"
+  ],
+  "curated": {
+    "ink": "--text is the text colour; --ink on this page is the dark ground"
+  },
+  "warnings": []
+}

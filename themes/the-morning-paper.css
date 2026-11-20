@@ -1,0 +1,26 @@
+/* The Morning Paper (the-morning-paper)
+   Light ground #faf8f3, red accent #8b1a1a, Georgia.
+   From: skills. Read from the repo CSS, checked 2026-11-20.
+   https://juw12.github.io/themes/#the-morning-paper
+*/
+:root {
+  color-scheme: light;
+  --bg: #faf8f3;
+  --surface: #ffffff;
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --line: #d4cfc7;
+  --accent: #8b1a1a;
+  --accent-ink: #ffffff;
+  --ok: #1a7f37;
+  --bad: #b3261e;
+  --x-outer: #f0ede6;
+  --x-ink-light: #4a4a4a;
+  --x-accent-dark: #6b1212;
+  --x-border-light: #e8e4dc;
+  --x-gold: #b8860b;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: Georgia, 'Times New Roman', serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --radius: 4px;
+}

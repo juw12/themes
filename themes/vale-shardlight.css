@@ -1,0 +1,26 @@
+/* Vale Shardlight (vale-shardlight)
+   Dark ground #050d0a, teal accent #5fe0ff, Cormorant Garamond over Inter.
+   From: vale. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#vale-shardlight
+   Web fonts: https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap
+*/
+:root {
+  color-scheme: dark;
+  --bg: #050d0a;
+  --surface: #0a1a14;
+  --ink: #e8efe5;
+  --muted: #9aaaa0;
+  --line: #29312d;
+  --accent: #5fe0ff;
+  --accent-ink: #050d0a;
+  --bad: #d97373;
+  --x-shard-cyan: #5fe0ff;
+  --x-elder-gold: #f5d76e;
+  --x-leaf: #4a8a5f;
+  --x-moss: #6fb38a;
+  --x-shard-glow: #b8f3ff;
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-body: Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 22px;
+}

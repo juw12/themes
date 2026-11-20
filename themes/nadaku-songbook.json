@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "id": "nadaku-songbook",
+  "name": "Nadaku Songbook",
+  "summary": "Light ground #efe8da, red accent #a8321f, Source Serif 4 over Source Sans 3, with a dark set.",
+  "note": "Tan songbook page, cream cards, a seal red and a gold highlight.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "nadaku",
+      "url": "https://github.com/juw12/nadaku",
+      "live": "https://juw12.github.io/nadaku/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#efe8da",
+    "surface": "#fffdf8",
+    "ink": "#2a2521",
+    "muted": "#625a52",
+    "line": "#e2d8c6",
+    "accent": "#a8321f",
+    "accent_ink": "#ffffff",
+    "accent2": "#f4b63f",
+    "ok": "#2fa66a",
+    "bad": "#e0443a"
+  },
+  "dark": {
+    "bg": "#12100e",
+    "surface": "#2a2620",
+    "ink": "#ece6dc",
+    "muted": "#b3a999",
+    "line": "#3a342d",
+    "accent": "#a8321f",
+    "accent_ink": "#ffffff",
+    "accent2": "#f4b63f",
+    "ok": "#2fa66a",
+    "bad": "#e0443a"
+  },
+  "extras": {
+    "t1": "#e8453c",
+    "t2": "#f08c00",
+    "t4": "#3b6fe0"
+  },
+  "fonts": {
+    "display": "\"Source Serif 4\", \"Noto Serif CJK SC\", serif",
+    "body": "\"Source Sans 3\", \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", \"Source Han Sans SC\", sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [
+      "Source Serif 4",
+      "Source Sans 3"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+  },
+  "radius": "4px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 12.44,
+      "muted_on_bg": 5.55,
+      "accent_on_bg": 5.48,
+      "accent_ink_on_accent": 6.69,
+      "ink_on_surface": 14.91
+    },
+    "dark": {
+      "ink_on_bg": 15.29,
+      "muted_on_bg": 8.18,
+      "accent_on_bg": 2.84,
+      "accent_ink_on_accent": 6.69,
+      "ink_on_surface": 12.11
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "strongest painted button / link",
+      "accent_ink": "text colour painted on the accent fill",
+      "accent2": "--gold on the live page",
+      "ok": "--ok on the live page",
+      "bad": "--bad on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "accent2": "dark scheme of the live page",
+      "ok": "dark scheme of the live page",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "fonts.mono"
+  ],
+  "curated": {},
+  "warnings": [
+    "dark set: accent on bg is 2.84:1, under 3:1; pair it with a border or use it on a darker panel"
+  ]
+}

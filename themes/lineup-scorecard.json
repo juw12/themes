@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "id": "lineup-scorecard",
+  "name": "Lineup Scorecard",
+  "summary": "Light ground #f6f3ec, orange accent #c2500f, Georgia over Segoe UI, with a dark set.",
+  "note": "Paper and burnt orange with Georgia headlines, like a printed scorecard.",
+  "scheme": "light",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "lineup",
+      "url": "https://github.com/juw12/lineup",
+      "live": "https://juw12.github.io/lineup/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f6f3ec",
+    "surface": "#fffdf8",
+    "ink": "#1d1b16",
+    "muted": "#6b665b",
+    "line": "#dcd6c8",
+    "accent": "#c2500f",
+    "accent_ink": "#ffffff"
+  },
+  "dark": {
+    "bg": "#16150f",
+    "surface": "#1f1d16",
+    "ink": "#ece7da",
+    "muted": "#a39d8d",
+    "line": "#37342a",
+    "accent": "#f08a3c",
+    "accent_ink": "#16150f"
+  },
+  "extras": {
+    "failed": "#a3261d"
+  },
+  "fonts": {
+    "display": "Georgia, \"Times New Roman\", serif",
+    "body": "\"Segoe UI\", system-ui, sans-serif",
+    "mono": "monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "10px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.53,
+      "muted_on_bg": 5.15,
+      "accent_on_bg": 4.26,
+      "accent_ink_on_accent": 4.72,
+      "ink_on_surface": 16.92
+    },
+    "dark": {
+      "ink_on_bg": 14.81,
+      "muted_on_bg": 6.76,
+      "accent_on_bg": 7.32,
+      "accent_ink_on_accent": 7.32,
+      "ink_on_surface": 13.66
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--soft on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": [
+    "light: accent on bg is 4.26:1; fine for fills and large text, not for small text"
+  ]
+}

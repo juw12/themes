@@ -1,0 +1,35 @@
+/* Retrace Teal (retrace-teal)
+   Light ground #f5f6f8, teal accent #0f6b63, Segoe UI Variable Text, with a dark set.
+   From: retrace. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#retrace-teal
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --ink: #15191f;
+  --muted: #555f6d;
+  --line: #e1e4e8;
+  --accent: #0f6b63;
+  --accent-ink: #ffffff;
+  --bad: #b42318;
+  --x-high: #166534;
+  --x-medium: #8f4407;
+  --x-low: #1d4ab4;
+  --font-display: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  --font-body: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "Cascadia Mono", "Cascadia Code", Consolas, ui-monospace, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1115;
+    --surface: #171a20;
+    --ink: #e8ebf0;
+    --muted: #a3acba;
+    --line: #2a2f38;
+    --accent: #4fc3b3;
+    --accent-ink: #0f1115;
+    --bad: #ff9a90;
+  }
+}

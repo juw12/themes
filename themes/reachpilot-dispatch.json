@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "reachpilot-dispatch",
+  "name": "Reachpilot Dispatch",
+  "summary": "Light ground #f4f1ea, blue accent #0a5aa8, Instrument Serif over Geist.",
+  "note": "Cairn's paper and type with a deep working blue in place of vermilion.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "reachpilot",
+      "url": "https://github.com/juw12/reachpilot",
+      "live": "https://juw12.github.io/reachpilot/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f4f1ea",
+    "surface": "#fffdf8",
+    "ink": "#1b1a17",
+    "muted": "#5f5a52",
+    "line": "#e1dbcf",
+    "accent": "#0a5aa8",
+    "accent_ink": "#ffffff",
+    "ok": "#05693b",
+    "warn": "#7d4c05",
+    "bad": "#b42318"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Instrument Serif\", \"Iowan Old Style\", Georgia, Cambria, serif",
+    "body": "Geist, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, Roboto, sans-serif",
+    "mono": "\"Geist Mono\", \"Cascadia Code\", Consolas, ui-monospace, monospace",
+    "web": [
+      "Instrument Serif",
+      "Geist",
+      "Geist Mono"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"
+  },
+  "radius": "6px",
+  "heading_weight": "400",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.43,
+      "muted_on_bg": 6.06,
+      "accent_on_bg": 6.12,
+      "accent_ink_on_accent": 6.91,
+      "ink_on_surface": 17.12
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "strongest painted button / link",
+      "accent_ink": "text colour painted on the accent fill",
+      "ok": "--green on the live page",
+      "warn": "--amber on the live page",
+      "bad": "--red on the live page"
+    }
+  },
+  "derived": [],
+  "curated": {},
+  "warnings": []
+}

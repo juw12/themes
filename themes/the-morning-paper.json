@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "the-morning-paper",
+  "name": "The Morning Paper",
+  "summary": "Light ground #faf8f3, red accent #8b1a1a, Georgia.",
+  "note": "Newspaper widget look: paper, a dark red rule, Georgia text and Courier figures.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "skills",
+      "url": "https://github.com/juw12/skills",
+      "live": ""
+    }
+  ],
+  "source": "repo CSS",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#faf8f3",
+    "surface": "#ffffff",
+    "ink": "#1a1a1a",
+    "muted": "#6b6b6b",
+    "line": "#d4cfc7",
+    "accent": "#8b1a1a",
+    "accent_ink": "#ffffff",
+    "ok": "#1a7f37",
+    "bad": "#b3261e"
+  },
+  "dark": null,
+  "extras": {
+    "outer": "#f0ede6",
+    "ink-light": "#4a4a4a",
+    "accent-dark": "#6b1212",
+    "border-light": "#e8e4dc",
+    "gold": "#b8860b"
+  },
+  "fonts": {
+    "display": "Georgia, 'Times New Roman', serif",
+    "body": "Georgia, 'Times New Roman', serif",
+    "mono": "'Courier New', Courier, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "4px",
+  "heading_weight": "",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.4,
+      "muted_on_bg": 5.02,
+      "accent_on_bg": 8.75,
+      "accent_ink_on_accent": 9.29,
+      "ink_on_surface": 17.4
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "declared in skills/widgettheme/assets/theme.css",
+      "surface": "declared in skills/widgettheme/assets/theme.css",
+      "ink": "declared in skills/widgettheme/assets/theme.css",
+      "muted": "declared in skills/widgettheme/assets/theme.css",
+      "line": "declared in skills/widgettheme/assets/theme.css",
+      "accent": "declared in skills/widgettheme/assets/theme.css",
+      "accent_ink": "text colour painted on the accent fill",
+      "ok": "declared in skills/widgettheme/assets/theme.css",
+      "bad": "declared in skills/widgettheme/assets/theme.css"
+    }
+  },
+  "derived": [],
+  "curated": {},
+  "warnings": []
+}

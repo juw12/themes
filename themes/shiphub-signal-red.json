@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "id": "shiphub-signal-red",
+  "name": "Shiphub Signal Red",
+  "summary": "Light ground #fafaf9, red accent #e5484d, Inter, with a dark set.",
+  "note": "Stone white with a signal red accent, Inter and a mono brand mark.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "shiphub",
+      "url": "https://github.com/juw12/shiphub",
+      "live": ""
+    }
+  ],
+  "source": "repo CSS",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#fafaf9",
+    "surface": "#ffffff",
+    "ink": "#1c1917",
+    "muted": "#57534e",
+    "line": "#e7e5e4",
+    "accent": "#e5484d",
+    "accent_ink": "#1c1917",
+    "ok": "#15a34a",
+    "warn": "#c26a06",
+    "bad": "#dc2626"
+  },
+  "dark": {
+    "bg": "#0c0c0e",
+    "surface": "#151518",
+    "ink": "#f4f4f5",
+    "muted": "#a7a7b0",
+    "line": "#26262b",
+    "accent": "#e5484d",
+    "accent_ink": "#0c0c0e",
+    "ok": "#15a34a",
+    "warn": "#c26a06",
+    "bad": "#dc2626"
+  },
+  "extras": {},
+  "fonts": {
+    "display": "\"Inter\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "body": "Inter, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, \"JetBrains Mono\", \"Cascadia Code\", \"SF Mono\", Consolas, monospace",
+    "web": [
+      "Inter"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "radius": "12px",
+  "heading_weight": "",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.74,
+      "muted_on_bg": 7.3,
+      "accent_on_bg": 3.75,
+      "accent_ink_on_accent": 4.47,
+      "ink_on_surface": 17.49
+    },
+    "dark": {
+      "ink_on_bg": 17.78,
+      "muted_on_bg": 8.19,
+      "accent_on_bg": 4.99,
+      "accent_ink_on_accent": 4.99,
+      "ink_on_surface": 16.58
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "--bg in the repo CSS",
+      "surface": "--surface in the repo CSS",
+      "ink": "--text in the repo CSS",
+      "muted": "--text-2 in the repo CSS",
+      "line": "--border in the repo CSS",
+      "accent": "--accent in the repo CSS",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "--green in the repo CSS",
+      "warn": "--amber in the repo CSS",
+      "bad": "--danger in the repo CSS"
+    },
+    "dark": {
+      "bg": "dark scheme of the repo CSS",
+      "surface": "dark scheme of the repo CSS",
+      "ink": "dark scheme of the repo CSS",
+      "muted": "dark scheme of the repo CSS",
+      "line": "dark scheme of the repo CSS",
+      "accent": "dark scheme of the repo CSS",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "dark scheme of the repo CSS",
+      "warn": "dark scheme of the repo CSS",
+      "bad": "dark scheme of the repo CSS"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "dark.accent_ink"
+  ],
+  "curated": {
+    "fonts.display": "--font (Inter) is the text face; mono is used for the brand mark only"
+  },
+  "warnings": [
+    "light: accent_ink on accent is 4.47:1, under the 4.5:1 needed for body text",
+    "light: accent on bg is 3.75:1; fine for fills and large text, not for small text"
+  ]
+}

@@ -1,0 +1,1020 @@
+{
+  "schema": 1,
+  "checked": "2026-11-20",
+  "count": 56,
+  "themes": [
+    {
+      "id": "cairn-paper",
+      "name": "Cairn Paper",
+      "summary": "Light ground #f4f1ea, red accent #d9481f, Instrument Serif over Geist, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "cairn",
+        "bits-and-tickers",
+        "founder-studio"
+      ],
+      "bg": "#f4f1ea",
+      "ink": "#1b1a17",
+      "accent": "#d9481f",
+      "display": "Instrument Serif",
+      "body": "Geist",
+      "json": "themes/cairn-paper.json",
+      "css": "themes/cairn-paper.css"
+    },
+    {
+      "id": "titip-counter-blue",
+      "name": "Titip Counter Blue",
+      "summary": "Light ground #f4f1ea, blue accent #2f5b8c, Instrument Serif over Geist, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "blue",
+      "projects": [
+        "titip"
+      ],
+      "bg": "#f4f1ea",
+      "ink": "#1b1a17",
+      "accent": "#2f5b8c",
+      "display": "Instrument Serif",
+      "body": "Geist",
+      "json": "themes/titip-counter-blue.json",
+      "css": "themes/titip-counter-blue.css"
+    },
+    {
+      "id": "relay-slate",
+      "name": "Relay Slate",
+      "summary": "Light ground #f4f1ea, blue accent #2f5b8c, -apple-system, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "blue",
+      "projects": [
+        "vector-relay"
+      ],
+      "bg": "#f4f1ea",
+      "ink": "#1b1a17",
+      "accent": "#2f5b8c",
+      "display": "-apple-system",
+      "body": "-apple-system",
+      "json": "themes/relay-slate.json",
+      "css": "themes/relay-slate.css"
+    },
+    {
+      "id": "reachpilot-dispatch",
+      "name": "Reachpilot Dispatch",
+      "summary": "Light ground #f4f1ea, blue accent #0a5aa8, Instrument Serif over Geist.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "blue",
+      "projects": [
+        "reachpilot"
+      ],
+      "bg": "#f4f1ea",
+      "ink": "#1b1a17",
+      "accent": "#0a5aa8",
+      "display": "Instrument Serif",
+      "body": "Geist",
+      "json": "themes/reachpilot-dispatch.json",
+      "css": "themes/reachpilot-dispatch.css"
+    },
+    {
+      "id": "morrow-broadsheet",
+      "name": "Morrow Broadsheet",
+      "summary": "Light ground #f7f6f2, red accent #b4232c, system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "morrow"
+      ],
+      "bg": "#f7f6f2",
+      "ink": "#14161a",
+      "accent": "#b4232c",
+      "display": "system-ui",
+      "body": "system-ui",
+      "json": "themes/morrow-broadsheet.json",
+      "css": "themes/morrow-broadsheet.css"
+    },
+    {
+      "id": "earlystar-zinc",
+      "name": "Earlystar Zinc",
+      "summary": "Light ground #fafafa, blue accent #4f46e5, Inter, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "blue",
+      "projects": [
+        "earlystar",
+        "nudge"
+      ],
+      "bg": "#fafafa",
+      "ink": "#09090b",
+      "accent": "#4f46e5",
+      "display": "Inter",
+      "body": "Inter",
+      "json": "themes/earlystar-zinc.json",
+      "css": "themes/earlystar-zinc.css"
+    },
+    {
+      "id": "portfolio-cobalt",
+      "name": "Portfolio Cobalt",
+      "summary": "Light ground #ffffff, blue accent #1f5eff, Inter, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "blue",
+      "projects": [
+        "portfolio",
+        "juw12.github.io"
+      ],
+      "bg": "#ffffff",
+      "ink": "#0f172a",
+      "accent": "#1f5eff",
+      "display": "Inter",
+      "body": "Inter",
+      "json": "themes/portfolio-cobalt.json",
+      "css": "themes/portfolio-cobalt.css"
+    },
+    {
+      "id": "lelet-ember",
+      "name": "Lelet Ember",
+      "summary": "Light ground #f4efe6, red accent #d9381e, Iowan Old Style over system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "lelet"
+      ],
+      "bg": "#f4efe6",
+      "ink": "#1b1a17",
+      "accent": "#d9381e",
+      "display": "Iowan Old Style",
+      "body": "system-ui",
+      "json": "themes/lelet-ember.json",
+      "css": "themes/lelet-ember.css"
+    },
+    {
+      "id": "index-card-indigo",
+      "name": "Index Card Indigo",
+      "summary": "Light ground #f7f8fb, blue accent #4f46e5, -apple-system.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "blue",
+      "projects": [
+        "projects"
+      ],
+      "bg": "#f7f8fb",
+      "ink": "#101828",
+      "accent": "#4f46e5",
+      "display": "-apple-system",
+      "body": "-apple-system",
+      "json": "themes/index-card-indigo.json",
+      "css": "themes/index-card-indigo.css"
+    },
+    {
+      "id": "buddy-tangerine",
+      "name": "Buddy Tangerine",
+      "summary": "Light ground #fffaf4, orange accent #ff8424, Bricolage Grotesque over Inter.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "buddy"
+      ],
+      "bg": "#fffaf4",
+      "ink": "#1f2130",
+      "accent": "#ff8424",
+      "display": "Bricolage Grotesque",
+      "body": "Inter",
+      "json": "themes/buddy-tangerine.json",
+      "css": "themes/buddy-tangerine.css"
+    },
+    {
+      "id": "lineup-scorecard",
+      "name": "Lineup Scorecard",
+      "summary": "Light ground #f6f3ec, orange accent #c2500f, Georgia over Segoe UI, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "orange",
+      "projects": [
+        "lineup"
+      ],
+      "bg": "#f6f3ec",
+      "ink": "#1d1b16",
+      "accent": "#c2500f",
+      "display": "Georgia",
+      "body": "Segoe UI",
+      "json": "themes/lineup-scorecard.json",
+      "css": "themes/lineup-scorecard.css"
+    },
+    {
+      "id": "hoki-temple-gold",
+      "name": "Hoki Temple Gold",
+      "summary": "Light ground #f6f2eb, yellow accent #8a6418, Iowan Old Style over system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "yellow",
+      "projects": [
+        "hoki"
+      ],
+      "bg": "#f6f2eb",
+      "ink": "#26221d",
+      "accent": "#8a6418",
+      "display": "Iowan Old Style",
+      "body": "system-ui",
+      "json": "themes/hoki-temple-gold.json",
+      "css": "themes/hoki-temple-gold.css"
+    },
+    {
+      "id": "saver-pine",
+      "name": "Saver Pine",
+      "summary": "Light ground #f5f3ee, teal accent #2f5d50, -apple-system, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "teal",
+      "projects": [
+        "social-saver"
+      ],
+      "bg": "#f5f3ee",
+      "ink": "#1d1c1a",
+      "accent": "#2f5d50",
+      "display": "-apple-system",
+      "body": "-apple-system",
+      "json": "themes/saver-pine.json",
+      "css": "themes/saver-pine.css"
+    },
+    {
+      "id": "eco-terminal",
+      "name": "Eco Terminal",
+      "summary": "Dark ground #0f1412, green accent #22aa55, Segoe UI.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "green",
+      "projects": [
+        "cpu-eco-toggle"
+      ],
+      "bg": "#0f1412",
+      "ink": "#e6ece8",
+      "accent": "#22aa55",
+      "display": "Segoe UI",
+      "body": "Segoe UI",
+      "json": "themes/eco-terminal.json",
+      "css": "themes/eco-terminal.css"
+    },
+    {
+      "id": "inti-night-amber",
+      "name": "Inti Night Amber",
+      "summary": "Dark ground #0e1116, orange accent #f2b34a, system-ui.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "inti"
+      ],
+      "bg": "#0e1116",
+      "ink": "#e6e9ee",
+      "accent": "#f2b34a",
+      "display": "system-ui",
+      "body": "system-ui",
+      "json": "themes/inti-night-amber.json",
+      "css": "themes/inti-night-amber.css"
+    },
+    {
+      "id": "kemudi-helm",
+      "name": "Kemudi Helm",
+      "summary": "Light ground #f5f2ea, teal accent #0d6b63, Georgia over system-ui.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "teal",
+      "projects": [
+        "kemudi"
+      ],
+      "bg": "#f5f2ea",
+      "ink": "#1c1b19",
+      "accent": "#0d6b63",
+      "display": "Georgia",
+      "body": "system-ui",
+      "json": "themes/kemudi-helm.json",
+      "css": "themes/kemudi-helm.css"
+    },
+    {
+      "id": "steward-blue",
+      "name": "Steward Blue",
+      "summary": "Light ground #f4f6fb, blue accent #1f6fd1, Segoe UI, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "blue",
+      "projects": [
+        "steward",
+        "hexbane"
+      ],
+      "bg": "#f4f6fb",
+      "ink": "#172033",
+      "accent": "#1f6fd1",
+      "display": "Segoe UI",
+      "body": "Segoe UI",
+      "json": "themes/steward-blue.json",
+      "css": "themes/steward-blue.css"
+    },
+    {
+      "id": "vera-noir",
+      "name": "Vera Noir",
+      "summary": "Dark ground #14130f, orange accent #ffb020, Georgia.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "not-real-vera"
+      ],
+      "bg": "#14130f",
+      "ink": "#f3efe6",
+      "accent": "#ffb020",
+      "display": "Georgia",
+      "body": "Georgia",
+      "json": "themes/vera-noir.json",
+      "css": "themes/vera-noir.css"
+    },
+    {
+      "id": "kilat-flash",
+      "name": "Kilat Flash",
+      "summary": "Light ground #fbfaf7, orange accent #b45309, Cascadia Code over system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "orange",
+      "projects": [
+        "kilat"
+      ],
+      "bg": "#fbfaf7",
+      "ink": "#1c1b19",
+      "accent": "#b45309",
+      "display": "Cascadia Code",
+      "body": "system-ui",
+      "json": "themes/kilat-flash.json",
+      "css": "themes/kilat-flash.css"
+    },
+    {
+      "id": "trunnion-workshop",
+      "name": "Trunnion Workshop",
+      "summary": "Light ground #f3f4f5, orange accent #b3460e, IBM Plex Sans Condensed over IBM Plex Sans.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "trunnion-topopt"
+      ],
+      "bg": "#f3f4f5",
+      "ink": "#15181c",
+      "accent": "#b3460e",
+      "display": "IBM Plex Sans Condensed",
+      "body": "IBM Plex Sans",
+      "json": "themes/trunnion-workshop.json",
+      "css": "themes/trunnion-workshop.css"
+    },
+    {
+      "id": "telisik-case-file",
+      "name": "Telisik Case File",
+      "summary": "Light ground #fbfbf8, red accent #c8321f, Iowan Old Style over system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "telisik"
+      ],
+      "bg": "#fbfbf8",
+      "ink": "#16181d",
+      "accent": "#c8321f",
+      "display": "Iowan Old Style",
+      "body": "system-ui",
+      "json": "themes/telisik-case-file.json",
+      "css": "themes/telisik-case-file.css"
+    },
+    {
+      "id": "tolstack-blueprint",
+      "name": "Tolstack Blueprint",
+      "summary": "Dark ground #0c1a2b, orange accent #c2410c, Roboto Slab over IBM Plex Sans.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "tolstack"
+      ],
+      "bg": "#0c1a2b",
+      "ink": "#e5eef8",
+      "accent": "#c2410c",
+      "display": "Roboto Slab",
+      "body": "IBM Plex Sans",
+      "json": "themes/tolstack-blueprint.json",
+      "css": "themes/tolstack-blueprint.css"
+    },
+    {
+      "id": "gate-ledger",
+      "name": "Gate Ledger",
+      "summary": "Light ground #f7f5ef, green accent #0f6b3a, Source Serif 4 over IBM Plex Sans.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "green",
+      "projects": [
+        "gate"
+      ],
+      "bg": "#f7f5ef",
+      "ink": "#1c1d21",
+      "accent": "#0f6b3a",
+      "display": "Source Serif 4",
+      "body": "IBM Plex Sans",
+      "json": "themes/gate-ledger.json",
+      "css": "themes/gate-ledger.css"
+    },
+    {
+      "id": "lahap-sambal",
+      "name": "Lahap Sambal",
+      "summary": "Light ground #f5efe3, red accent #b4380f, Iowan Old Style over system-ui.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "red",
+      "projects": [
+        "lahap"
+      ],
+      "bg": "#f5efe3",
+      "ink": "#1d1813",
+      "accent": "#b4380f",
+      "display": "Iowan Old Style",
+      "body": "system-ui",
+      "json": "themes/lahap-sambal.json",
+      "css": "themes/lahap-sambal.css"
+    },
+    {
+      "id": "precedent-casebook",
+      "name": "Precedent Casebook",
+      "summary": "Light ground #fffaf3, red accent #8c2f1b, Libre Caslon Display over Inter.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "red",
+      "projects": [
+        "precedent"
+      ],
+      "bg": "#fffaf3",
+      "ink": "#1f2330",
+      "accent": "#8c2f1b",
+      "display": "Libre Caslon Display",
+      "body": "Inter",
+      "json": "themes/precedent-casebook.json",
+      "css": "themes/precedent-casebook.css"
+    },
+    {
+      "id": "batam-harbour",
+      "name": "Batam Harbour",
+      "summary": "Light ground #f4f5f7, blue accent #0b3b5c, Instrument Serif over Inter.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "blue",
+      "projects": [
+        "batam-uncle-says"
+      ],
+      "bg": "#f4f5f7",
+      "ink": "#0f172a",
+      "accent": "#0b3b5c",
+      "display": "Instrument Serif",
+      "body": "Inter",
+      "json": "themes/batam-harbour.json",
+      "css": "themes/batam-harbour.css"
+    },
+    {
+      "id": "tagalong-trail",
+      "name": "Tagalong Trail",
+      "summary": "Light ground #f5f0e6, red accent #b93a1e, Iowan Old Style over system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "tagalong"
+      ],
+      "bg": "#f5f0e6",
+      "ink": "#1e1b16",
+      "accent": "#b93a1e",
+      "display": "Iowan Old Style",
+      "body": "system-ui",
+      "json": "themes/tagalong-trail.json",
+      "css": "themes/tagalong-trail.css"
+    },
+    {
+      "id": "jeda-brass",
+      "name": "Jeda Brass",
+      "summary": "Light ground #f6f2eb, orange accent #b8862b, Iowan Old Style over Inter.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "jeda"
+      ],
+      "bg": "#f6f2eb",
+      "ink": "#26221d",
+      "accent": "#b8862b",
+      "display": "Iowan Old Style",
+      "body": "Inter",
+      "json": "themes/jeda-brass.json",
+      "css": "themes/jeda-brass.css"
+    },
+    {
+      "id": "mcp-report-red",
+      "name": "MCP Report Red",
+      "summary": "Light ground #ffffff, red accent #d70015, -apple-system.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "red",
+      "projects": [
+        "state-of-mcp-servers"
+      ],
+      "bg": "#ffffff",
+      "ink": "#1a1a1e",
+      "accent": "#d70015",
+      "display": "-apple-system",
+      "body": "-apple-system",
+      "json": "themes/mcp-report-red.json",
+      "css": "themes/mcp-report-red.css"
+    },
+    {
+      "id": "pocketdex-red",
+      "name": "Pocketdex Red",
+      "summary": "Light ground #f6f2eb, red accent #c0432f, Iowan Old Style over Segoe UI.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "red",
+      "projects": [
+        "pocketdex"
+      ],
+      "bg": "#f6f2eb",
+      "ink": "#26221d",
+      "accent": "#c0432f",
+      "display": "Iowan Old Style",
+      "body": "Segoe UI",
+      "json": "themes/pocketdex-red.json",
+      "css": "themes/pocketdex-red.css"
+    },
+    {
+      "id": "millennium-violet",
+      "name": "Millennium Violet",
+      "summary": "Light ground #fbfaf7, violet accent #6d3fd1, Segoe UI.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "violet",
+      "projects": [
+        "millennium-digest"
+      ],
+      "bg": "#fbfaf7",
+      "ink": "#1c2230",
+      "accent": "#6d3fd1",
+      "display": "Segoe UI",
+      "body": "Segoe UI",
+      "json": "themes/millennium-violet.json",
+      "css": "themes/millennium-violet.css"
+    },
+    {
+      "id": "nadaku-songbook",
+      "name": "Nadaku Songbook",
+      "summary": "Light ground #efe8da, red accent #a8321f, Source Serif 4 over Source Sans 3, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "nadaku"
+      ],
+      "bg": "#efe8da",
+      "ink": "#2a2521",
+      "accent": "#a8321f",
+      "display": "Source Serif 4",
+      "body": "Source Sans 3",
+      "json": "themes/nadaku-songbook.json",
+      "css": "themes/nadaku-songbook.css"
+    },
+    {
+      "id": "scentvec-plum",
+      "name": "Scentvec Plum",
+      "summary": "Light ground #faf6f0, pink accent #7a2e5a, Iowan Old Style over -apple-system, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "pink",
+      "projects": [
+        "scentvec"
+      ],
+      "bg": "#faf6f0",
+      "ink": "#221a1f",
+      "accent": "#7a2e5a",
+      "display": "Iowan Old Style",
+      "body": "-apple-system",
+      "json": "themes/scentvec-plum.json",
+      "css": "themes/scentvec-plum.css"
+    },
+    {
+      "id": "blame-midnight-gold",
+      "name": "Blame Midnight Gold",
+      "summary": "Dark ground #0a0f1f, yellow accent #f2c14e, system-ui.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "yellow",
+      "projects": [
+        "mlbb-blame"
+      ],
+      "bg": "#0a0f1f",
+      "ink": "#eef1f8",
+      "accent": "#f2c14e",
+      "display": "system-ui",
+      "body": "system-ui",
+      "json": "themes/blame-midnight-gold.json",
+      "css": "themes/blame-midnight-gold.css"
+    },
+    {
+      "id": "jepret-shutter",
+      "name": "Jepret Shutter",
+      "summary": "Light ground #f5f1ea, red accent #c43d22, system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "jepret"
+      ],
+      "bg": "#f5f1ea",
+      "ink": "#1d1b18",
+      "accent": "#c43d22",
+      "display": "system-ui",
+      "body": "system-ui",
+      "json": "themes/jepret-shutter.json",
+      "css": "themes/jepret-shutter.css"
+    },
+    {
+      "id": "ruang-terracotta",
+      "name": "Ruang Terracotta",
+      "summary": "Light ground #f4f1ea, orange accent #a84b25, Iowan Old Style over Segoe UI, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "orange",
+      "projects": [
+        "ruang"
+      ],
+      "bg": "#f4f1ea",
+      "ink": "#1e2328",
+      "accent": "#a84b25",
+      "display": "Iowan Old Style",
+      "body": "Segoe UI",
+      "json": "themes/ruang-terracotta.json",
+      "css": "themes/ruang-terracotta.css"
+    },
+    {
+      "id": "bilas-enamel",
+      "name": "Bilas Enamel",
+      "summary": "Light ground #e9e4d8, red accent #c8442c, Bahnschrift over Segoe UI, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "bilas"
+      ],
+      "bg": "#e9e4d8",
+      "ink": "#1d2629",
+      "accent": "#c8442c",
+      "display": "Bahnschrift",
+      "body": "Segoe UI",
+      "json": "themes/bilas-enamel.json",
+      "css": "themes/bilas-enamel.css"
+    },
+    {
+      "id": "reda-still-teal",
+      "name": "Reda Still Teal",
+      "summary": "Light ground #f6f1ea, teal accent #1f5f55, Charter over system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "teal",
+      "projects": [
+        "reda"
+      ],
+      "bg": "#f6f1ea",
+      "ink": "#231e1a",
+      "accent": "#1f5f55",
+      "display": "Charter",
+      "body": "system-ui",
+      "json": "themes/reda-still-teal.json",
+      "css": "themes/reda-still-teal.css"
+    },
+    {
+      "id": "riak-tidepool",
+      "name": "Riak Tidepool",
+      "summary": "Light ground #f5f0e7, teal accent #1f5f4a, Fraunces over Source Sans 3, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "teal",
+      "projects": [
+        "riak"
+      ],
+      "bg": "#f5f0e7",
+      "ink": "#1d2a27",
+      "accent": "#1f5f4a",
+      "display": "Fraunces",
+      "body": "Source Sans 3",
+      "json": "themes/riak-tidepool.json",
+      "css": "themes/riak-tidepool.css"
+    },
+    {
+      "id": "vale-shardlight",
+      "name": "Vale Shardlight",
+      "summary": "Dark ground #050d0a, teal accent #5fe0ff, Cormorant Garamond over Inter.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "teal",
+      "projects": [
+        "vale"
+      ],
+      "bg": "#050d0a",
+      "ink": "#e8efe5",
+      "accent": "#5fe0ff",
+      "display": "Cormorant Garamond",
+      "body": "Inter",
+      "json": "themes/vale-shardlight.json",
+      "css": "themes/vale-shardlight.css"
+    },
+    {
+      "id": "vow-brick",
+      "name": "Vow Brick",
+      "summary": "Light ground #f7f3ea, red accent #a8261b, Iowan Old Style over system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "vow"
+      ],
+      "bg": "#f7f3ea",
+      "ink": "#1d1a16",
+      "accent": "#a8261b",
+      "display": "Iowan Old Style",
+      "body": "system-ui",
+      "json": "themes/vow-brick.json",
+      "css": "themes/vow-brick.css"
+    },
+    {
+      "id": "nongkrong-warung",
+      "name": "Nongkrong Warung",
+      "summary": "Light ground #f7f5f0, red accent #a63d24, DM Serif Display over IBM Plex Sans, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "nongkrong"
+      ],
+      "bg": "#f7f5f0",
+      "ink": "#1f1e1c",
+      "accent": "#a63d24",
+      "display": "DM Serif Display",
+      "body": "IBM Plex Sans",
+      "json": "themes/nongkrong-warung.json",
+      "css": "themes/nongkrong-warung.css"
+    },
+    {
+      "id": "mise-station",
+      "name": "Mise Station",
+      "summary": "Light ground #f4efe6, red accent #b4472b, Iowan Old Style over Segoe UI.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "red",
+      "projects": [
+        "mise"
+      ],
+      "bg": "#f4efe6",
+      "ink": "#1f2420",
+      "accent": "#b4472b",
+      "display": "Iowan Old Style",
+      "body": "Segoe UI",
+      "json": "themes/mise-station.json",
+      "css": "themes/mise-station.css"
+    },
+    {
+      "id": "game-table-amber",
+      "name": "Game Table Amber",
+      "summary": "Light ground #fbf7f0, orange accent #b45309, system-ui, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "orange",
+      "projects": [
+        "game"
+      ],
+      "bg": "#fbf7f0",
+      "ink": "#1c1917",
+      "accent": "#b45309",
+      "display": "system-ui",
+      "body": "system-ui",
+      "json": "themes/game-table-amber.json",
+      "css": "themes/game-table-amber.css"
+    },
+    {
+      "id": "teduh-field-guide",
+      "name": "Teduh Field Guide",
+      "summary": "Light ground #f8f3e8, green accent #2f5d4a, Fraunces over Figtree.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "green",
+      "projects": [
+        "teduh"
+      ],
+      "bg": "#f8f3e8",
+      "ink": "#23302a",
+      "accent": "#2f5d4a",
+      "display": "Fraunces",
+      "body": "Figtree",
+      "json": "themes/teduh-field-guide.json",
+      "css": "themes/teduh-field-guide.css"
+    },
+    {
+      "id": "meetline-signal",
+      "name": "Meetline Signal",
+      "summary": "Dark ground #0e1114, orange accent #f2b233, Barlow Semi Condensed over Manrope.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "meetline"
+      ],
+      "bg": "#0e1114",
+      "ink": "#e7eaee",
+      "accent": "#f2b233",
+      "display": "Barlow Semi Condensed",
+      "body": "Manrope",
+      "json": "themes/meetline-signal.json",
+      "css": "themes/meetline-signal.css"
+    },
+    {
+      "id": "retrace-teal",
+      "name": "Retrace Teal",
+      "summary": "Light ground #f5f6f8, teal accent #0f6b63, Segoe UI Variable Text, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "teal",
+      "projects": [
+        "retrace"
+      ],
+      "bg": "#f5f6f8",
+      "ink": "#15191f",
+      "accent": "#0f6b63",
+      "display": "Segoe UI Variable Text",
+      "body": "Segoe UI Variable Text",
+      "json": "themes/retrace-teal.json",
+      "css": "themes/retrace-teal.css"
+    },
+    {
+      "id": "tally-navy",
+      "name": "Tally Navy",
+      "summary": "Light ground #f6f5f2, blue accent #1f3b5c, -apple-system, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "blue",
+      "projects": [
+        "tally"
+      ],
+      "bg": "#f6f5f2",
+      "ink": "#141414",
+      "accent": "#1f3b5c",
+      "display": "-apple-system",
+      "body": "-apple-system",
+      "json": "themes/tally-navy.json",
+      "css": "themes/tally-navy.css"
+    },
+    {
+      "id": "atomize-violet",
+      "name": "Atomize Violet",
+      "summary": "Light ground #f8f7fb, violet accent #6d28d9, system-ui.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "violet",
+      "projects": [
+        "atomize"
+      ],
+      "bg": "#f8f7fb",
+      "ink": "#1d1a24",
+      "accent": "#6d28d9",
+      "display": "system-ui",
+      "body": "system-ui",
+      "json": "themes/atomize-violet.json",
+      "css": "themes/atomize-violet.css"
+    },
+    {
+      "id": "undanu-rose-clay",
+      "name": "Undanu Rose Clay",
+      "summary": "Light ground #f8f5f2, orange accent #b5826e, Cormorant Garamond over Jost.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "undanu"
+      ],
+      "bg": "#f8f5f2",
+      "ink": "#26222b",
+      "accent": "#b5826e",
+      "display": "Cormorant Garamond",
+      "body": "Jost",
+      "json": "themes/undanu-rose-clay.json",
+      "css": "themes/undanu-rose-clay.css"
+    },
+    {
+      "id": "peakwise-summit",
+      "name": "Peakwise Summit",
+      "summary": "Dark ground #0f1720, green accent #2ee6a0, Inter.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "green",
+      "projects": [
+        "peakwise"
+      ],
+      "bg": "#0f1720",
+      "ink": "#e8eef3",
+      "accent": "#2ee6a0",
+      "display": "Inter",
+      "body": "Inter",
+      "json": "themes/peakwise-summit.json",
+      "css": "themes/peakwise-summit.css"
+    },
+    {
+      "id": "handoff-lamp",
+      "name": "Handoff Lamp",
+      "summary": "Dark ground #0f0e0d, orange accent #e8a838, ui-serif over ui-sans-serif.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "orange",
+      "projects": [
+        "handoff"
+      ],
+      "bg": "#0f0e0d",
+      "ink": "#e8e6e3",
+      "accent": "#e8a838",
+      "display": "ui-serif",
+      "body": "ui-sans-serif",
+      "json": "themes/handoff-lamp.json",
+      "css": "themes/handoff-lamp.css"
+    },
+    {
+      "id": "shiphub-signal-red",
+      "name": "Shiphub Signal Red",
+      "summary": "Light ground #fafaf9, red accent #e5484d, Inter, with a dark set.",
+      "scheme": "light",
+      "has_dark": true,
+      "hue": "red",
+      "projects": [
+        "shiphub"
+      ],
+      "bg": "#fafaf9",
+      "ink": "#1c1917",
+      "accent": "#e5484d",
+      "display": "Inter",
+      "body": "Inter",
+      "json": "themes/shiphub-signal-red.json",
+      "css": "themes/shiphub-signal-red.css"
+    },
+    {
+      "id": "spry-green",
+      "name": "Spry Green",
+      "summary": "Light ground #ffffff, green accent #1a7f5a, Instrument Sans over Inter.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "green",
+      "projects": [
+        "spry"
+      ],
+      "bg": "#ffffff",
+      "ink": "#1f2330",
+      "accent": "#1a7f5a",
+      "display": "Instrument Sans",
+      "body": "Inter",
+      "json": "themes/spry-green.json",
+      "css": "themes/spry-green.css"
+    },
+    {
+      "id": "the-morning-paper",
+      "name": "The Morning Paper",
+      "summary": "Light ground #faf8f3, red accent #8b1a1a, Georgia.",
+      "scheme": "light",
+      "has_dark": false,
+      "hue": "red",
+      "projects": [
+        "skills"
+      ],
+      "bg": "#faf8f3",
+      "ink": "#1a1a1a",
+      "accent": "#8b1a1a",
+      "display": "Georgia",
+      "body": "Georgia",
+      "json": "themes/the-morning-paper.json",
+      "css": "themes/the-morning-paper.css"
+    },
+    {
+      "id": "studio-graphite",
+      "name": "Studio Graphite",
+      "summary": "Dark ground #121314, blue accent #2563eb, Segoe UI Semibold over Segoe UI.",
+      "scheme": "dark",
+      "has_dark": false,
+      "hue": "blue",
+      "projects": [
+        "skills"
+      ],
+      "bg": "#121314",
+      "ink": "#ecedee",
+      "accent": "#2563eb",
+      "display": "Segoe UI Semibold",
+      "body": "Segoe UI",
+      "json": "themes/studio-graphite.json",
+      "css": "themes/studio-graphite.css"
+    }
+  ]
+}

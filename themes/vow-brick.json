@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "vow-brick",
+  "name": "Vow Brick",
+  "summary": "Light ground #f7f3ea, red accent #a8261b, Iowan Old Style over system-ui, with a dark set.",
+  "note": "Warm paper and a brick red with an old-style serif headline.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "vow",
+      "url": "https://github.com/juw12/vow",
+      "live": "https://juw12.github.io/vow/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f7f3ea",
+    "surface": "#fffdf9",
+    "ink": "#1d1a16",
+    "muted": "#645b50",
+    "line": "#e2d9c8",
+    "accent": "#a8261b",
+    "accent_ink": "#ffffff",
+    "warn": "#8a4f0c"
+  },
+  "dark": {
+    "bg": "#15120e",
+    "surface": "#201c17",
+    "ink": "#f2ebdd",
+    "muted": "#b3a895",
+    "line": "#3a332a",
+    "accent": "#f05a47",
+    "accent_ink": "#15120e",
+    "warn": "#f0a640"
+  },
+  "extras": {
+    "kept": "#1d6b3a"
+  },
+  "fonts": {
+    "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, Georgia, serif",
+    "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "12px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.65,
+      "muted_on_bg": 6.01,
+      "accent_on_bg": 6.41,
+      "accent_ink_on_accent": 7.1,
+      "ink_on_surface": 17.06
+    },
+    "dark": {
+      "ink_on_bg": 15.74,
+      "muted_on_bg": 7.96,
+      "accent_on_bg": 5.56,
+      "accent_ink_on_accent": 5.56,
+      "ink_on_surface": 14.28
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "strongest painted button / link",
+      "accent_ink": "text colour painted on the accent fill",
+      "warn": "--warn on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "warn": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "fonts.mono",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

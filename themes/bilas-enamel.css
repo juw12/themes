@@ -1,0 +1,36 @@
+/* Bilas Enamel (bilas-enamel)
+   Light ground #e9e4d8, red accent #c8442c, Bahnschrift over Segoe UI, with a dark set.
+   From: bilas. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#bilas-enamel
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #e9e4d8;
+  --surface: #f6f2ea;
+  --ink: #1d2629;
+  --muted: #5a5f5e;
+  --line: #c8c6bc;
+  --accent: #c8442c;
+  --accent-ink: #ffffff;
+  --bad: #c8442c;
+  --x-brass: #c9a14a;
+  --x-enamel: #245a51;
+  --x-celadon: #9cc5b5;
+  --x-enamel-ink: #f3ecdc;
+  --font-display: Bahnschrift, "DIN Alternate", "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151d20;
+    --surface: #1f2a2d;
+    --ink: #efe9dc;
+    --muted: #8d8d87;
+    --line: #383e3e;
+    --accent: #c8442c;
+    --accent-ink: #ffffff;
+    --bad: #c8442c;
+  }
+}

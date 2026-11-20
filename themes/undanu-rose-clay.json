@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "undanu-rose-clay",
+  "name": "Undanu Rose Clay",
+  "summary": "Light ground #f8f5f2, orange accent #b5826e, Cormorant Garamond over Jost.",
+  "note": "Blush white, plum-grey ink and a rose clay accent; Garamond headlines over Jost.",
+  "scheme": "light",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "undanu",
+      "url": "https://github.com/juw12/undanu",
+      "live": "https://juw12.github.io/undanu/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f8f5f2",
+    "surface": "#ffffff",
+    "ink": "#26222b",
+    "muted": "#6f6870",
+    "line": "#e6dfda",
+    "accent": "#b5826e",
+    "accent_ink": "#26222b",
+    "warn": "#b7802b",
+    "bad": "#b2493a"
+  },
+  "dark": null,
+  "extras": {
+    "info": "#3d6a8a",
+    "primary": "#3b3541"
+  },
+  "fonts": {
+    "display": "'Cormorant Garamond', Georgia, serif",
+    "body": "Jost, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [
+      "Cormorant Garamond",
+      "Jost"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap"
+  },
+  "radius": "14px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 14.36,
+      "muted_on_bg": 4.97,
+      "accent_on_bg": 3.03,
+      "accent_ink_on_accent": 4.74,
+      "ink_on_surface": 15.6
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "warn": "--warn on the live page",
+      "bad": "--danger on the live page"
+    }
+  },
+  "derived": [
+    "accent_ink"
+  ],
+  "curated": {
+    "fonts.display": "--serif and --script in the CSS are both Cormorant Garamond and are set on h1; the page measured rendered Jost"
+  },
+  "warnings": [
+    "light: accent on bg is 3.03:1; fine for fills and large text, not for small text"
+  ]
+}

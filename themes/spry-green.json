@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "spry-green",
+  "name": "Spry Green",
+  "summary": "Light ground #ffffff, green accent #1a7f5a, Instrument Sans over Inter.",
+  "note": "Clean white, a green accent and very round 24px corners.",
+  "scheme": "light",
+  "hue": "green",
+  "projects": [
+    {
+      "repo": "spry",
+      "url": "https://github.com/juw12/spry",
+      "live": "https://juw12.github.io/p/spry/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#ffffff",
+    "surface": "#ffffff",
+    "ink": "#1f2330",
+    "muted": "#5d6273",
+    "line": "#e6e8ee",
+    "accent": "#1a7f5a",
+    "accent_ink": "#ffffff"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Instrument Sans\", system-ui, sans-serif",
+    "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [
+      "Instrument Sans",
+      "Inter"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "radius": "24px",
+  "heading_weight": "800",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.66,
+      "muted_on_bg": 6.07,
+      "accent_on_bg": 4.97,
+      "accent_ink_on_accent": 4.97,
+      "ink_on_surface": 15.66
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "fonts.mono"
+  ],
+  "curated": {},
+  "warnings": []
+}

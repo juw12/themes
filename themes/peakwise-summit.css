@@ -1,0 +1,25 @@
+/* Peakwise Summit (peakwise-summit)
+   Dark ground #0f1720, green accent #2ee6a0, Inter.
+   From: peakwise. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#peakwise-summit
+   Web fonts: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap
+*/
+:root {
+  color-scheme: dark;
+  --bg: #0f1720;
+  --surface: #16212c;
+  --ink: #e8eef3;
+  --muted: #93a4b3;
+  --line: #26343f;
+  --accent: #2ee6a0;
+  --accent-ink: #04261b;
+  --accent2: #f5c542;
+  --ok: #0f7b5f;
+  --bad: #b42318;
+  --x-gold: #f5c542;
+  --x-accent-deep: #0f7b5f;
+  --font-display: Inter, "Noto Sans TC", "Microsoft JhengHei", "Segoe UI", Arial, sans-serif;
+  --font-body: Inter, "Noto Sans TC", "Microsoft JhengHei", "Segoe UI", Arial, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 12px;
+}

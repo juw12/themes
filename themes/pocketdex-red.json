@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "pocketdex-red",
+  "name": "Pocketdex Red",
+  "summary": "Light ground #f6f2eb, red accent #c0432f, Iowan Old Style over Segoe UI.",
+  "note": "Soft paper and rounded cards with a ball red accent.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "pocketdex",
+      "url": "https://github.com/juw12/pocketdex",
+      "live": "https://juw12.github.io/pocketdex/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f6f2eb",
+    "surface": "#ffffff",
+    "ink": "#26221d",
+    "muted": "#6b6157",
+    "line": "#e6dfd3",
+    "accent": "#c0432f",
+    "accent_ink": "#ffffff",
+    "ok": "#3f7f52"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", \"Noto Serif\", Georgia, serif",
+    "body": "\"Segoe UI\", system-ui, -apple-system, Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif",
+    "mono": "ui-monospace, \"Cascadia Mono\", Consolas, Menlo, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "20px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 14.16,
+      "muted_on_bg": 5.42,
+      "accent_on_bg": 4.61,
+      "accent_ink_on_accent": 5.14,
+      "ink_on_surface": 15.8
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "--ok on the live page"
+    }
+  },
+  "derived": [
+    "accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

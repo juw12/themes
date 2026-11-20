@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "vera-noir",
+  "name": "Vera Noir",
+  "summary": "Dark ground #14130f, orange accent #ffb020, Georgia.",
+  "note": "Near-black with cream ink, a single amber light and Georgia everywhere.",
+  "scheme": "dark",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "not-real-vera",
+      "url": "https://github.com/juw12/not-real-vera",
+      "live": "https://juw12.github.io/not-real-vera/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#14130f",
+    "surface": "#1d1b16",
+    "ink": "#f3efe6",
+    "muted": "#a9a394",
+    "line": "#34302a",
+    "accent": "#ffb020",
+    "accent_ink": "#14130f",
+    "warn": "#ffb020"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "Georgia, \"Times New Roman\", serif",
+    "body": "Georgia, \"Times New Roman\", serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "4px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.2,
+      "muted_on_bg": 7.39,
+      "accent_on_bg": 10.16,
+      "accent_ink_on_accent": 10.16,
+      "ink_on_surface": 14.99
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "curated: --amber is the only accent variable on the page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "warn": "--amber on the live page"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "fonts.mono"
+  ],
+  "curated": {
+    "accent": "--amber is the only accent variable on the page"
+  },
+  "warnings": []
+}

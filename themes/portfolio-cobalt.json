@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "portfolio-cobalt",
+  "name": "Portfolio Cobalt",
+  "summary": "Light ground #ffffff, blue accent #1f5eff, Inter, with a dark set.",
+  "note": "Plain white, navy ink and a cobalt link colour.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "portfolio",
+      "url": "https://github.com/juw12/portfolio",
+      "live": "https://juw12.github.io/portfolio/"
+    },
+    {
+      "repo": "juw12.github.io",
+      "url": "https://github.com/juw12/juw12.github.io",
+      "live": "https://juw12.github.io/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#ffffff",
+    "surface": "#ffffff",
+    "ink": "#0f172a",
+    "muted": "#556070",
+    "line": "#e4e8ef",
+    "accent": "#1f5eff",
+    "accent_ink": "#ffffff"
+  },
+  "dark": {
+    "bg": "#0b0f17",
+    "surface": "#121925",
+    "ink": "#e7ecf3",
+    "muted": "#9aa5b6",
+    "line": "#212b3b",
+    "accent": "#6d9eff",
+    "accent_ink": "#0b0f17"
+  },
+  "extras": {},
+  "fonts": {
+    "display": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "body": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, \"Cascadia Code\", \"SF Mono\", Consolas, monospace",
+    "web": [
+      "Inter"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "radius": "12px",
+  "heading_weight": "800",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 17.85,
+      "muted_on_bg": 6.38,
+      "accent_on_bg": 5.12,
+      "accent_ink_on_accent": 5.12,
+      "ink_on_surface": 17.85
+    },
+    "dark": {
+      "ink_on_bg": 16.16,
+      "muted_on_bg": 7.7,
+      "accent_on_bg": 7.29,
+      "accent_ink_on_accent": 7.29,
+      "ink_on_surface": 14.85
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--text-muted on the live page",
+      "line": "--border on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    }
+  },
+  "derived": [
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

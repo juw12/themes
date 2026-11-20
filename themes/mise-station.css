@@ -1,0 +1,20 @@
+/* Mise Station (mise-station)
+   Light ground #f4efe6, red accent #b4472b, Iowan Old Style over Segoe UI.
+   From: mise. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#mise-station
+*/
+:root {
+  color-scheme: light;
+  --bg: #f4efe6;
+  --surface: #ffffff;
+  --ink: #1f2420;
+  --muted: #565d58;
+  --line: #dcd4c6;
+  --accent: #b4472b;
+  --accent-ink: #ffffff;
+  --warn: #8a5a12;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-body: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", sans-serif;
+  --font-mono: Consolas, "SF Mono", Menlo, "Liberation Mono", monospace;
+  --radius: 10px;
+}

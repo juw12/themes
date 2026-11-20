@@ -1,0 +1,37 @@
+/* Ruang Terracotta (ruang-terracotta)
+   Light ground #f4f1ea, orange accent #a84b25, Iowan Old Style over Segoe UI, with a dark set.
+   From: ruang. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#ruang-terracotta
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f4f1ea;
+  --surface: #fbfaf6;
+  --ink: #1e2328;
+  --muted: #565d64;
+  --line: #d9d3c7;
+  --accent: #a84b25;
+  --accent-ink: #ffffff;
+  --ok: #2f7a52;
+  --warn: #9a6a10;
+  --bad: #a3321f;
+  --x-lens: #285a86;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Noto Serif", serif;
+  --font-body: "Segoe UI", system-ui, -apple-system, "Noto Sans", "Helvetica Neue", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  --radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15181b;
+    --surface: #1c2024;
+    --ink: #ece8e0;
+    --muted: #a9afb4;
+    --line: #30363c;
+    --accent: #e0814f;
+    --accent-ink: #15181b;
+    --ok: #6cc596;
+    --warn: #e2b04a;
+    --bad: #f08a72;
+  }
+}

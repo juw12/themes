@@ -1,0 +1,35 @@
+/* Scentvec Plum (scentvec-plum)
+   Light ground #faf6f0, pink accent #7a2e5a, Iowan Old Style over -apple-system, with a dark set.
+   From: scentvec. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#scentvec-plum
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #faf6f0;
+  --surface: #fffdf9;
+  --ink: #221a1f;
+  --muted: #6d5f66;
+  --line: #e4d9ce;
+  --accent: #7a2e5a;
+  --accent-ink: #ffffff;
+  --accent2: #0f766e;
+  --ok: #2f6b4f;
+  --warn: #a8650f;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171216;
+    --surface: #201920;
+    --ink: #f3eaed;
+    --muted: #ab9aa3;
+    --line: #382c35;
+    --accent: #e59ac8;
+    --accent-ink: #171216;
+    --accent2: #5fd0c5;
+    --warn: #e5b264;
+  }
+}

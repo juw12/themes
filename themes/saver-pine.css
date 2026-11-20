@@ -1,0 +1,34 @@
+/* Saver Pine (saver-pine)
+   Light ground #f5f3ee, teal accent #2f5d50, -apple-system, with a dark set.
+   From: social-saver. Read from the repo CSS, checked 2026-11-20.
+   https://juw12.github.io/themes/#saver-pine
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f5f3ee;
+  --surface: #ffffff;
+  --ink: #1d1c1a;
+  --muted: #6d6a63;
+  --line: #e2ded5;
+  --accent: #2f5d50;
+  --accent-ink: #ffffff;
+  --ok: #2f8f5b;
+  --warn: #a2541a;
+  --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, Menlo, Consolas, monospace;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151614;
+    --surface: #1e201d;
+    --ink: #ecebe6;
+    --muted: #9a988f;
+    --line: #30332e;
+    --accent: #7fc4a8;
+    --accent-ink: #151614;
+    --ok: #7fd3a0;
+    --warn: #e0a063;
+  }
+}

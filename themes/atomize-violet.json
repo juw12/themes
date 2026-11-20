@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "atomize-violet",
+  "name": "Atomize Violet",
+  "summary": "Light ground #f8f7fb, violet accent #6d28d9, system-ui.",
+  "note": "Lilac-tinted white with one strong violet.",
+  "scheme": "light",
+  "hue": "violet",
+  "projects": [
+    {
+      "repo": "atomize",
+      "url": "https://github.com/juw12/atomize",
+      "live": "https://juw12.github.io/atomize/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f8f7fb",
+    "surface": "#ffffff",
+    "ink": "#1d1a24",
+    "muted": "#55506a",
+    "line": "#e2dfea",
+    "accent": "#6d28d9",
+    "accent_ink": "#ffffff"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "8px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.07,
+      "muted_on_bg": 7.18,
+      "accent_on_bg": 6.66,
+      "accent_ink_on_accent": 7.1,
+      "ink_on_surface": 17.14
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill"
+    }
+  },
+  "derived": [
+    "fonts.mono"
+  ],
+  "curated": {},
+  "warnings": []
+}

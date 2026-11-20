@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "trunnion-workshop",
+  "name": "Trunnion Workshop",
+  "summary": "Light ground #f3f4f5, orange accent #b3460e, IBM Plex Sans Condensed over IBM Plex Sans.",
+  "note": "Cool shop-floor grey, rust accent, condensed IBM Plex headlines.",
+  "scheme": "light",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "trunnion-topopt",
+      "url": "https://github.com/juw12/trunnion-topopt",
+      "live": "https://juw12.github.io/trunnion-topopt/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f3f4f5",
+    "surface": "#ffffff",
+    "ink": "#15181c",
+    "muted": "#5b6570",
+    "line": "#d7dbdf",
+    "accent": "#b3460e",
+    "accent_ink": "#ffffff"
+  },
+  "dark": null,
+  "extras": {
+    "pass": "#2e6b39",
+    "fail": "#a3261b"
+  },
+  "fonts": {
+    "display": "\"IBM Plex Sans Condensed\", \"IBM Plex Sans\", sans-serif",
+    "body": "\"IBM Plex Sans\", system-ui, sans-serif",
+    "mono": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "web": [
+      "IBM Plex Sans Condensed",
+      "IBM Plex Sans",
+      "IBM Plex Mono"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+  },
+  "radius": "4px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.17,
+      "muted_on_bg": 5.39,
+      "accent_on_bg": 5.02,
+      "accent_ink_on_accent": 5.53,
+      "ink_on_surface": 17.81
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill"
+    }
+  },
+  "derived": [],
+  "curated": {},
+  "warnings": []
+}

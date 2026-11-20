@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "eco-terminal",
+  "name": "Eco Terminal",
+  "summary": "Dark ground #0f1412, green accent #22aa55, Segoe UI.",
+  "note": "Green-black panels with a single switch-on green.",
+  "scheme": "dark",
+  "hue": "green",
+  "projects": [
+    {
+      "repo": "cpu-eco-toggle",
+      "url": "https://github.com/juw12/cpu-eco-toggle",
+      "live": "https://juw12.github.io/cpu-eco-toggle/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#0f1412",
+    "surface": "#171d1a",
+    "ink": "#e6ece8",
+    "muted": "#9aa8a0",
+    "line": "#2a332e",
+    "accent": "#22aa55",
+    "accent_ink": "#06210f"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+    "body": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "8px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.52,
+      "muted_on_bg": 7.51,
+      "accent_on_bg": 6.15,
+      "accent_ink_on_accent": 5.64,
+      "ink_on_surface": 14.28
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "strongest painted button / link",
+      "accent_ink": "text colour painted on the accent fill"
+    }
+  },
+  "derived": [
+    "fonts.mono"
+  ],
+  "curated": {},
+  "warnings": []
+}

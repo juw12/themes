@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "id": "vale-shardlight",
+  "name": "Vale Shardlight",
+  "summary": "Dark ground #050d0a, teal accent #5fe0ff, Cormorant Garamond over Inter.",
+  "note": "Forest black with a cyan shard glow and a Garamond display face.",
+  "scheme": "dark",
+  "hue": "teal",
+  "projects": [
+    {
+      "repo": "vale",
+      "url": "https://github.com/juw12/vale",
+      "live": "https://juw12.github.io/vale/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#050d0a",
+    "surface": "#0a1a14",
+    "ink": "#e8efe5",
+    "muted": "#9aaaa0",
+    "line": "#29312d",
+    "accent": "#5fe0ff",
+    "accent_ink": "#050d0a",
+    "bad": "#d97373"
+  },
+  "dark": null,
+  "extras": {
+    "shard-cyan": "#5fe0ff",
+    "elder-gold": "#f5d76e",
+    "leaf": "#4a8a5f",
+    "moss": "#6fb38a",
+    "shard-glow": "#b8f3ff"
+  },
+  "fonts": {
+    "display": "\"Cormorant Garamond\", \"Iowan Old Style\", Georgia, \"Times New Roman\", serif",
+    "body": "Inter, \"Segoe UI\", system-ui, -apple-system, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [
+      "Cormorant Garamond",
+      "Inter"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "radius": "22px",
+  "heading_weight": "",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.76,
+      "muted_on_bg": 8.08,
+      "accent_on_bg": 12.72,
+      "accent_ink_on_accent": 12.72,
+      "ink_on_surface": 15.3
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "curated: --bg-mid; the real panel is translucent (--panel)",
+      "ink": "--ink on the live page",
+      "muted": "--ink-mute on the live page",
+      "line": "derived: 16% ink over bg",
+      "accent": "curated: --shard-cyan is the declared highlight",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "bad": "--danger on the live page"
+    }
+  },
+  "derived": [
+    "line",
+    "accent_ink",
+    "fonts.mono"
+  ],
+  "curated": {
+    "accent": "--shard-cyan is the declared highlight",
+    "surface": "--bg-mid; the real panel is translucent (--panel)",
+    "fonts.display": "--serif in the CSS; the page had no heading to measure"
+  },
+  "warnings": []
+}

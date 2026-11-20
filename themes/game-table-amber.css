@@ -1,0 +1,30 @@
+/* Game Table Amber (game-table-amber)
+   Light ground #fbf7f0, orange accent #b45309, system-ui, with a dark set.
+   From: game. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#game-table-amber
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #fbf7f0;
+  --surface: #ffffff;
+  --ink: #1c1917;
+  --muted: #57534e;
+  --line: #e7e0d4;
+  --accent: #b45309;
+  --accent-ink: #fbf7f0;
+  --font-display: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171412;
+    --surface: #211d1a;
+    --ink: #f5f0e8;
+    --muted: #b8afa3;
+    --line: #2f2a25;
+    --accent: #f59e0b;
+    --accent-ink: #171412;
+  }
+}

@@ -1,0 +1,3129 @@
+{
+  "spry": {
+    "repo": "spry",
+    "homepage": "https://juw12.github.io/p/spry/",
+    "pushed": "2026-11-20",
+    "source": "live page",
+    "light": {
+      "bg": "#ffffff",
+      "surface": "#ffffff",
+      "ink": "#1f2330",
+      "muted": "#5d6273",
+      "line": "#e6e8ee",
+      "accent": "#1a7f5a"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"Instrument Sans\", system-ui, sans-serif",
+      "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+      "mono": "",
+      "loaded": [
+        "Instrument Sans",
+        "Inter",
+        "JetBrains Mono"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "800",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "",
+    "radius": "24px",
+    "has_design_doc": false,
+    "files": []
+  },
+  "titip": {
+    "repo": "titip",
+    "homepage": "https://juw12.github.io/p/titip/",
+    "pushed": "2026-11-20",
+    "source": "repo CSS",
+    "light": {
+      "bg": "#fffdf8",
+      "surface": "#fffdf8",
+      "ink": "#1b1a17",
+      "muted": "#6c665d",
+      "line": "#e1dbcf",
+      "accent": "#2f5b8c",
+      "ok": "#2e7566"
+    },
+    "dark": {
+      "bg": "#1c1b18",
+      "surface": "#201f1c",
+      "ink": "#efebe3",
+      "muted": "#968f83",
+      "line": "#2e2c28",
+      "accent": "#86aee0",
+      "ok": "#6fc2ad"
+    },
+    "origin": {
+      "bg": "--paper in the repo CSS",
+      "surface": "--card in the repo CSS",
+      "ink": "--ink in the repo CSS",
+      "muted": "--muted in the repo CSS",
+      "line": "--line in the repo CSS",
+      "accent": "--accent in the repo CSS",
+      "ok": "--good in the repo CSS"
+    },
+    "fonts": {
+      "display": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
+      "body": "\"Geist Mono\", ui-monospace, \"SF Mono\", Consolas, monospace",
+      "mono": "\"Geist Mono\", ui-monospace, \"SF Mono\", Consolas, monospace",
+      "loaded": [
+        "Instrument Serif",
+        "Geist",
+        "Geist Mono"
+      ]
+    },
+    "type": {},
+    "extras": {},
+    "accent_ink": "",
+    "radius": "6px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "docs/index.html",
+      "titip/web/index.html",
+      "docs/styles.css",
+      "titip/web/styles.css"
+    ]
+  },
+  "morrow": {
+    "repo": "morrow",
+    "homepage": "https://juw12.github.io/morrow/",
+    "pushed": "2026-11-20",
+    "source": "live page",
+    "light": {
+      "bg": "#f7f6f2",
+      "surface": "#ffffff",
+      "ink": "#14161a",
+      "muted": "#474c55",
+      "line": "#e7e4dd",
+      "accent": "#b4232c",
+      "ok": "#0b7a46",
+      "bad": "#c32a1f"
+    },
+    "dark": {
+      "bg": "#0e0f11",
+      "surface": "#16181b",
+      "ink": "#ecebe7",
+      "muted": "#b9b7b1",
+      "line": "#24272b",
+      "accent": "#ff6b6b",
+      "ok": "#3ccf8e",
+      "bad": "#ff6b5e"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--ink2 on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--up on the live page",
+      "bad": "--down on the live page"
+    },
+    "fonts": {
+      "display": "system-ui, -apple-system, \"Segoe UI Variable Text\", \"Segoe UI\", Inter, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "body": "system-ui, -apple-system, \"Segoe UI Variable Text\", \"Segoe UI\", Inter, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, \"Cascadia Mono\", \"SF Mono\", Consolas, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "16px",
+    "has_design_doc": false,
+    "files": [
+      "index.html"
+    ]
+  },
+  "bits-and-tickers": {
+    "repo": "bits-and-tickers",
+    "homepage": "https://juw12.github.io/bits-and-tickers/",
+    "pushed": "2026-11-20",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f1ea",
+      "surface": "#fffdf8",
+      "ink": "#1b1a17",
+      "muted": "#6c665d",
+      "line": "#e1dbcf",
+      "accent": "#d9481f"
+    },
+    "dark": {
+      "bg": "#151412",
+      "surface": "#1c1b18",
+      "ink": "#efebe3",
+      "muted": "#968f83",
+      "line": "#2e2c28",
+      "accent": "#f0764d"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"Instrument Serif\", Georgia, serif",
+      "body": "Geist, \"Segoe UI\", system-ui, sans-serif",
+      "mono": "\"Geist Mono\", ui-monospace, Consolas, monospace",
+      "loaded": [
+        "Geist",
+        "Geist Mono",
+        "Instrument Serif"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "task": "#2f5b8c",
+      "journal": "#2e7566",
+      "idea": "#b07415"
+    },
+    "accent_ink": "",
+    "radius": "10px",
+    "has_design_doc": false,
+    "files": [
+      "index.html",
+      "newsletter/index.html"
+    ]
+  },
+  "earlystar": {
+    "repo": "earlystar",
+    "homepage": "https://juw12.github.io/earlystar/",
+    "pushed": "2026-11-20",
+    "source": "live page",
+    "light": {
+      "bg": "#fafafa",
+      "surface": "#ffffff",
+      "ink": "#09090b",
+      "muted": "#63636b",
+      "line": "#e4e4e7",
+      "accent": "#4f46e5",
+      "accent2": "#4f46e5",
+      "ok": "#15803d",
+      "warn": "#c2410c",
+      "bad": "#dc2626"
+    },
+    "dark": {
+      "bg": "#09090b",
+      "surface": "#111113",
+      "ink": "#fafafa",
+      "muted": "#a1a1aa",
+      "line": "#232327",
+      "accent": "#818cf8",
+      "accent2": "#818cf8",
+      "ok": "#4ade80",
+      "warn": "#fb923c",
+      "bad": "#f87171"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--border on the live page",
+      "accent": "--accent on the live page",
+      "accent2": "--accent2 on the live page",
+      "ok": "--good on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--bad on the live page"
+    },
+    "fonts": {
+      "display": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "body": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "mono": "ui-monospace, \"SF Mono\", Consolas, monospace",
+      "loaded": [
+        "Inter"
+      ]
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "650",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "accent-text": "#4338ca"
+    },
+    "accent_ink": "",
+    "radius": "8px",
+    "has_design_doc": false,
+    "files": [
+      "index.html"
+    ]
+  },
+  "cairn": {
+    "repo": "cairn",
+    "homepage": "https://juw12.github.io/cairn/",
+    "pushed": "2026-11-20",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f1ea",
+      "surface": "#fffdf8",
+      "ink": "#1b1a17",
+      "muted": "#6c665d",
+      "line": "#e1dbcf",
+      "accent": "#d9481f",
+      "bad": "#b3261e"
+    },
+    "dark": {
+      "bg": "#151412",
+      "surface": "#1c1b18",
+      "ink": "#efebe3",
+      "muted": "#968f83",
+      "line": "#2e2c28",
+      "accent": "#f0764d",
+      "bad": "#f2867d"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "bad": "--danger on the live page"
+    },
+    "fonts": {
+      "display": "\"Instrument Serif\", \"Iowan Old Style\", Georgia, serif",
+      "body": "Geist, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "\"Geist Mono\", ui-monospace, \"SF Mono\", \"Cascadia Code\", Menlo, Consolas, monospace",
+      "loaded": [
+        "Geist",
+        "Geist Mono",
+        "Instrument Serif"
+      ]
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "idea": "#b07415",
+      "task": "#2f5b8c",
+      "decision": "#56631c",
+      "journal": "#2e7566",
+      "session": "#24748a"
+    },
+    "accent_ink": "",
+    "radius": "6px",
+    "has_design_doc": true,
+    "files": [
+      "plan/DESIGN.md",
+      "brain/tasks/editorial-redesign.md",
+      "docs/index.html",
+      "docs/styles.css"
+    ]
+  },
+  "juw12.github.io": {
+    "repo": "juw12.github.io",
+    "homepage": "https://juw12.github.io/",
+    "pushed": "2026-11-20",
+    "source": "live page",
+    "light": {
+      "bg": "#ffffff",
+      "surface": "#ffffff",
+      "ink": "#0f172a",
+      "muted": "#556070",
+      "line": "#e4e8ef",
+      "accent": "#1f5eff"
+    },
+    "dark": {
+      "bg": "#0b0f17",
+      "surface": "#121925",
+      "ink": "#e7ecf3",
+      "muted": "#9aa5b6",
+      "line": "#212b3b",
+      "accent": "#6d9eff"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--text-muted on the live page",
+      "line": "--border on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "body": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "800",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "12px",
+    "has_design_doc": false,
+    "files": [
+      "index.html",
+      "p/index.html"
+    ]
+  },
+  "lelet": {
+    "repo": "lelet",
+    "homepage": "https://juw12.github.io/lelet/",
+    "pushed": "2026-11-19",
+    "source": "live page",
+    "light": {
+      "bg": "#f4efe6",
+      "surface": "#fbf8f2",
+      "ink": "#1b1a17",
+      "muted": "#5a554c",
+      "line": "#d8cfbf",
+      "accent": "#d9381e",
+      "ok": "#1f7a3d"
+    },
+    "dark": {
+      "bg": "#161513",
+      "surface": "#211f1c",
+      "ink": "#efe9dd",
+      "muted": "#aaa294",
+      "line": "#3a362f",
+      "accent": "#e8492c",
+      "ok": "#6cc98a"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--ink-2 on the live page",
+      "line": "--rule on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--ok on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, \"Cascadia Mono\", \"SF Mono\", Consolas, Menlo, \"Liberation Mono\", monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "10px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "styles.css"
+    ]
+  },
+  "portfolio": {
+    "repo": "portfolio",
+    "homepage": "https://juw12.github.io/portfolio/",
+    "pushed": "2026-11-19",
+    "source": "live page",
+    "light": {
+      "bg": "#ffffff",
+      "surface": "#ffffff",
+      "ink": "#0f172a",
+      "muted": "#556070",
+      "line": "#e4e8ef",
+      "accent": "#1f5eff"
+    },
+    "dark": {
+      "bg": "#0b0f17",
+      "surface": "#121925",
+      "ink": "#e7ecf3",
+      "muted": "#9aa5b6",
+      "line": "#212b3b",
+      "accent": "#6d9eff"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--text-muted on the live page",
+      "line": "--border on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "body": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, \"Cascadia Code\", \"SF Mono\", Consolas, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "800",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "12px",
+    "has_design_doc": true,
+    "files": [
+      "townsquare-3d/design.md",
+      "cozy-island/source/design.md",
+      "index.html",
+      "hi/index.html",
+      "styles.css",
+      "townsquare-3d/style.css",
+      "hi/hi.css",
+      "log/log.css"
+    ]
+  },
+  "projects": {
+    "repo": "projects",
+    "homepage": "https://juw12.github.io/projects/",
+    "pushed": "2026-11-19",
+    "source": "live page",
+    "light": {
+      "bg": "#f7f8fb",
+      "surface": "#ffffff",
+      "ink": "#101828",
+      "muted": "#667085",
+      "line": "#e4e7ec",
+      "accent": "#4f46e5",
+      "accent2": "#ffc83d",
+      "ok": "#059669",
+      "warn": "#f59e0b",
+      "bad": "#b42318"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--brand on the live page",
+      "accent2": "--gold in the repo CSS",
+      "ok": "--ok in the repo CSS",
+      "warn": "--warn in the repo CSS",
+      "bad": "--red in the repo CSS"
+    },
+    "fonts": {
+      "display": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "mono": "\"SF Mono\", \"Fira Code\", Consolas, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "brand-600": "#4338ca"
+    },
+    "accent_ink": "",
+    "radius": "12px",
+    "has_design_doc": true,
+    "files": [
+      "apps/twin/docs/design.md",
+      "agents-lab/E-coder/docs/DESIGN.md",
+      "agents-dashboard/index.html",
+      "respark/web/index.html",
+      "respark/web/style.css",
+      "apps/twin/web/theme.css",
+      "apps/sweep/web/theme.css",
+      "apps/fade/web/styles.css"
+    ]
+  },
+  "vector-relay": {
+    "repo": "vector-relay",
+    "homepage": "https://vector-relay.pages.dev",
+    "pushed": "2026-11-19",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f1ea",
+      "surface": "#fffdf8",
+      "ink": "#1b1a17",
+      "muted": "#6b665c",
+      "line": "#dcd6c8",
+      "accent": "#2f5b8c",
+      "ok": "#3f7d4e"
+    },
+    "dark": {
+      "bg": "#171613",
+      "surface": "#201f1c",
+      "ink": "#ece8df",
+      "muted": "#a39d90",
+      "line": "#35322c",
+      "accent": "#8fb6e0",
+      "ok": "#7fc08d"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--soft on the live page",
+      "line": "--line on the live page",
+      "accent": "--link on the live page",
+      "ok": "--green on the live page"
+    },
+    "fonts": {
+      "display": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"PingFang TC\", \"Microsoft JhengHei\", sans-serif",
+      "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"PingFang TC\", \"Microsoft JhengHei\", sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "650",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "orange": "#d9481f"
+    },
+    "accent_ink": "",
+    "radius": "8px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html",
+      "docs/styles.css"
+    ]
+  },
+  "reachpilot": {
+    "repo": "reachpilot",
+    "homepage": "https://juw12.github.io/reachpilot/",
+    "pushed": "2026-11-19",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f1ea",
+      "surface": "#fffdf8",
+      "ink": "#1b1a17",
+      "muted": "#5f5a52",
+      "line": "#e1dbcf",
+      "ok": "#05693b",
+      "warn": "#7d4c05",
+      "bad": "#b42318",
+      "accent": "#0a5aa8"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "ok": "--green on the live page",
+      "warn": "--amber on the live page",
+      "bad": "--red on the live page",
+      "accent": "strongest painted button / link"
+    },
+    "fonts": {
+      "display": "\"Instrument Serif\", \"Iowan Old Style\", Georgia, Cambria, serif",
+      "body": "Geist, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, Roboto, sans-serif",
+      "mono": "\"Geist Mono\", \"Cascadia Code\", Consolas, ui-monospace, monospace",
+      "loaded": [
+        "Geist",
+        "Geist Mono",
+        "Instrument Serif"
+      ]
+    },
+    "type": {
+      "body_size": "14.5px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "6px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "docs/index.html"
+    ]
+  },
+  "buddy": {
+    "repo": "buddy",
+    "homepage": "https://juw12.github.io/buddy/",
+    "pushed": "2026-11-19",
+    "source": "live page",
+    "light": {
+      "bg": "#fffaf4",
+      "ink": "#1f2130",
+      "muted": "#6b6f80",
+      "line": "#eadccb",
+      "ok": "#2fb36d",
+      "bad": "#e5484d",
+      "accent": "#a64200",
+      "surface": "#ffffff"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "ok": "--green on the live page",
+      "bad": "--red on the live page",
+      "accent": "strongest painted button / link",
+      "surface": "largest painted panel"
+    },
+    "fonts": {
+      "display": "\"Bricolage Grotesque\", \"Segoe UI Variable Display\", \"Segoe UI\", system-ui, sans-serif",
+      "body": "Inter, \"Segoe UI Variable Text\", \"Segoe UI\", system-ui, sans-serif",
+      "mono": "\"Cascadia Code\", Consolas, monospace",
+      "loaded": [
+        "Bricolage Grotesque",
+        "Inter"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "800",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "orange": "#ff8424"
+    },
+    "accent_ink": "",
+    "radius": "18px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html",
+      "docs/island/index.html",
+      "docs/styles.css",
+      "docs/island/island.css"
+    ]
+  },
+  "lineup": {
+    "repo": "lineup",
+    "homepage": "https://juw12.github.io/lineup/",
+    "pushed": "2026-11-19",
+    "source": "live page",
+    "light": {
+      "bg": "#f6f3ec",
+      "surface": "#fffdf8",
+      "ink": "#1d1b16",
+      "muted": "#6b665b",
+      "line": "#dcd6c8",
+      "accent": "#c2500f"
+    },
+    "dark": {
+      "bg": "#16150f",
+      "surface": "#1f1d16",
+      "ink": "#ece7da",
+      "muted": "#a39d8d",
+      "line": "#37342a",
+      "accent": "#f08a3c"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--soft on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "Georgia, \"Times New Roman\", serif",
+      "body": "\"Segoe UI\", system-ui, sans-serif",
+      "mono": "monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "failed": "#a3261d"
+    },
+    "accent_ink": "",
+    "radius": "10px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html"
+    ]
+  },
+  "hoki": {
+    "repo": "hoki",
+    "homepage": "https://juw12.github.io/hoki/",
+    "pushed": "2026-11-19",
+    "source": "live page",
+    "light": {
+      "bg": "#f6f2eb",
+      "surface": "#ffffff",
+      "ink": "#26221d",
+      "muted": "#6b6157",
+      "line": "#e6dfd3",
+      "accent2": "#d9a441",
+      "bad": "#b7443a"
+    },
+    "dark": {
+      "bg": "#221b16",
+      "surface": "#2c241e",
+      "ink": "#efe9e0",
+      "muted": "#b0a596",
+      "line": "#483b31",
+      "accent2": "#d9a441",
+      "bad": "#b7443a"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent2": "--gold on the live page",
+      "bad": "--red on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Noto Serif\", \"Noto Serif SC\", \"Songti SC\", SimSun, Georgia, serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans\", \"Noto Sans SC\", \"Microsoft YaHei\", sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "sky-top": "#b4cddd",
+      "temple-light": "#ffcf7a"
+    },
+    "accent_ink": "",
+    "radius": "20px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "css/style.css"
+    ]
+  },
+  "social-saver": {
+    "repo": "social-saver",
+    "homepage": "https://juw12.github.io/p/social-saver/",
+    "pushed": "2026-11-19",
+    "source": "repo CSS",
+    "light": {
+      "bg": "#f5f3ee",
+      "surface": "#ffffff",
+      "ink": "#1d1c1a",
+      "muted": "#6d6a63",
+      "line": "#e2ded5",
+      "accent": "#2f5d50",
+      "ok": "#2f8f5b",
+      "warn": "#a2541a"
+    },
+    "dark": {
+      "bg": "#151614",
+      "surface": "#1e201d",
+      "ink": "#ecebe6",
+      "muted": "#9a988f",
+      "line": "#30332e",
+      "accent": "#7fc4a8",
+      "ok": "#7fd3a0",
+      "warn": "#e0a063"
+    },
+    "origin": {
+      "bg": "--page in the repo CSS",
+      "surface": "--card in the repo CSS",
+      "ink": "--ink in the repo CSS",
+      "muted": "--muted in the repo CSS",
+      "line": "--line in the repo CSS",
+      "accent": "--accent in the repo CSS",
+      "ok": "--ok in the repo CSS",
+      "warn": "--warn in the repo CSS"
+    },
+    "fonts": {
+      "display": "",
+      "body": "ui-monospace, Menlo, Consolas, monospace",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {},
+    "extras": {},
+    "accent_ink": "",
+    "radius": "12px",
+    "has_design_doc": false,
+    "files": [
+      "web/index.html"
+    ]
+  },
+  "cpu-eco-toggle": {
+    "repo": "cpu-eco-toggle",
+    "homepage": "https://juw12.github.io/cpu-eco-toggle/",
+    "pushed": "2026-11-18",
+    "source": "live page",
+    "light": {
+      "bg": "#0f1412",
+      "surface": "#171d1a",
+      "ink": "#e6ece8",
+      "muted": "#9aa8a0",
+      "line": "#2a332e",
+      "accent": "#22aa55"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "strongest painted button / link"
+    },
+    "fonts": {
+      "display": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "body": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#06210f",
+    "radius": "8px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html"
+    ]
+  },
+  "inti": {
+    "repo": "inti",
+    "homepage": "https://juw12.github.io/inti/",
+    "pushed": "2026-11-17",
+    "source": "live page",
+    "light": {
+      "bg": "#0e1116",
+      "surface": "#161b22",
+      "ink": "#e6e9ee",
+      "muted": "#a3adba",
+      "line": "#2a313c",
+      "accent": "#f2b34a",
+      "ok": "#7fd18b"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--soft on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--good on the live page"
+    },
+    "fonts": {
+      "display": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "Consolas, \"DejaVu Sans Mono\", \"Liberation Mono\", monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "",
+    "radius": "4px",
+    "has_design_doc": true,
+    "files": [
+      "docs/design.md",
+      "docs/src/design.md",
+      "docs/index.html",
+      "docs/demo.css"
+    ]
+  },
+  "kemudi": {
+    "repo": "kemudi",
+    "homepage": "https://juw12.github.io/p/kemudi/",
+    "pushed": "2026-11-17",
+    "source": "repo CSS",
+    "light": {
+      "bg": "#f5f2ea",
+      "surface": "#fffdf8",
+      "ink": "#1c1b19",
+      "muted": "#6b675f",
+      "line": "#d9d3c5",
+      "warn": "#a8321f",
+      "accent": "#0d4f6b"
+    },
+    "dark": {
+      "bg": "#131514",
+      "surface": "#1b1e1c",
+      "ink": "#e9e6dd",
+      "muted": "#9a968c",
+      "line": "#343833",
+      "warn": "#ef8a73"
+    },
+    "origin": {
+      "bg": "--paper in the repo CSS",
+      "surface": "--panel in the repo CSS",
+      "ink": "--ink in the repo CSS",
+      "muted": "--soft in the repo CSS",
+      "line": "--line in the repo CSS",
+      "warn": "--warn in the repo CSS",
+      "accent": "most used saturated colour in the repo CSS"
+    },
+    "fonts": {
+      "display": "",
+      "body": "Georgia, \"Times New Roman\", serif",
+      "mono": "ui-monospace, \"Cascadia Mono\", Consolas, monospace",
+      "loaded": []
+    },
+    "type": {},
+    "extras": {},
+    "accent_ink": "",
+    "radius": "6px",
+    "has_design_doc": false,
+    "files": [
+      "kemudi/web/index.html"
+    ]
+  },
+  "steward": {
+    "repo": "steward",
+    "homepage": "https://juw12.github.io/steward/",
+    "pushed": "2026-11-17",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f6fb",
+      "surface": "#ffffff",
+      "ink": "#172033",
+      "muted": "#5c6782",
+      "line": "#dde3ef",
+      "accent": "#1f6fd1"
+    },
+    "dark": {
+      "bg": "#0f1420",
+      "surface": "#171e2e",
+      "ink": "#e6e9f2",
+      "muted": "#8b95b0",
+      "line": "#26304a",
+      "accent": "#4aa3ff"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "body": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "mono": "\"Cascadia Code\", Consolas, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "allow": "#1f9d5a",
+      "redirect": "#c98a06",
+      "throttle": "#d4621a",
+      "block": "#d1343a"
+    },
+    "accent_ink": "",
+    "radius": "0.5rem",
+    "has_design_doc": false,
+    "files": [
+      "apps/playground/web/index.html",
+      "apps/playground/web/styles.css",
+      "apps/dashboard/app/globals.css"
+    ]
+  },
+  "not-real-vera": {
+    "repo": "not-real-vera",
+    "homepage": "https://juw12.github.io/not-real-vera/",
+    "pushed": "2026-11-17",
+    "source": "live page",
+    "light": {
+      "bg": "#14130f",
+      "surface": "#1d1b16",
+      "ink": "#f3efe6",
+      "muted": "#a9a394",
+      "line": "#34302a",
+      "warn": "#ffb020"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "warn": "--amber on the live page"
+    },
+    "fonts": {
+      "display": "Georgia, \"Times New Roman\", serif",
+      "body": "Georgia, \"Times New Roman\", serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "17px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "",
+    "radius": "4px",
+    "has_design_doc": false,
+    "files": [
+      "index.html"
+    ]
+  },
+  "kilat": {
+    "repo": "kilat",
+    "homepage": "https://juw12.github.io/kilat/",
+    "pushed": "2026-11-16",
+    "source": "live page",
+    "light": {
+      "bg": "#fbfaf7",
+      "surface": "#fffefb",
+      "ink": "#1c1b19",
+      "muted": "#625e56",
+      "line": "#d9d5cc",
+      "accent": "#b45309",
+      "bad": "#b42318"
+    },
+    "dark": {
+      "bg": "#161513",
+      "surface": "#1d1b18",
+      "ink": "#ece9e2",
+      "muted": "#a8a297",
+      "line": "#37332d",
+      "accent": "#fbbf24",
+      "bad": "#ff8f80"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "bad": "--error on the live page"
+    },
+    "fonts": {
+      "display": "\"Cascadia Code\", \"Cascadia Mono\", Consolas, \"SF Mono\", Menlo, \"DejaVu Sans Mono\", monospace",
+      "body": "system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "mono": "\"Cascadia Code\", \"Cascadia Mono\", Consolas, \"SF Mono\", Menlo, \"DejaVu Sans Mono\", monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "6px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html"
+    ]
+  },
+  "trunnion-topopt": {
+    "repo": "trunnion-topopt",
+    "homepage": "https://juw12.github.io/trunnion-topopt/",
+    "pushed": "2026-11-16",
+    "source": "live page",
+    "light": {
+      "bg": "#f3f4f5",
+      "surface": "#ffffff",
+      "ink": "#15181c",
+      "muted": "#5b6570",
+      "line": "#d7dbdf",
+      "accent": "#b3460e"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"IBM Plex Sans Condensed\", \"IBM Plex Sans\", sans-serif",
+      "body": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "mono": "\"IBM Plex Mono\", ui-monospace, monospace",
+      "loaded": [
+        "IBM Plex Mono",
+        "IBM Plex Sans",
+        "IBM Plex Sans Condensed"
+      ]
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "pass": "#2e6b39",
+      "fail": "#a3261b"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "4px",
+    "has_design_doc": true,
+    "files": [
+      "results/design.md",
+      "index.html"
+    ]
+  },
+  "telisik": {
+    "repo": "telisik",
+    "homepage": "https://juw12.github.io/telisik/",
+    "pushed": "2026-11-16",
+    "source": "live page",
+    "light": {
+      "bg": "#fbfbf8",
+      "surface": "#f2f1ea",
+      "ink": "#16181d",
+      "muted": "#555a66",
+      "line": "#d6d4ca",
+      "accent": "#c8321f",
+      "warn": "#8a5300"
+    },
+    "dark": {
+      "bg": "#111318",
+      "surface": "#1a1d24",
+      "ink": "#e6e4de",
+      "muted": "#a3a7b2",
+      "line": "#353a45",
+      "accent": "#ff7a66",
+      "warn": "#f0b860"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--rule on the live page",
+      "accent": "--accent on the live page",
+      "warn": "--warn on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, \"Cascadia Mono\", \"SF Mono\", Consolas, \"Liberation Mono\", monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "visited": "#5b2a86"
+    },
+    "accent_ink": "",
+    "radius": "2px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "css/style.css",
+      "extension/page.css"
+    ]
+  },
+  "tolstack": {
+    "repo": "tolstack",
+    "homepage": "https://juw12.github.io/p/tolstack/",
+    "pushed": "2026-11-16",
+    "source": "live page",
+    "light": {
+      "bg": "#0c1a2b",
+      "surface": "#10233a",
+      "ink": "#e5eef8",
+      "muted": "#9db1c7",
+      "line": "#223a54",
+      "accent": "#c2410c"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"Roboto Slab\", system-ui, sans-serif",
+      "body": "\"IBM Plex Sans\", Inter, sans-serif",
+      "mono": "\"IBM Plex Mono\", monospace",
+      "loaded": [
+        "IBM Plex Mono",
+        "IBM Plex Sans",
+        "JetBrains Mono",
+        "Roboto Slab"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "16px",
+    "has_design_doc": false,
+    "files": []
+  },
+  "gate": {
+    "repo": "gate",
+    "homepage": "https://juw12.github.io/gate/",
+    "pushed": "2026-11-16",
+    "source": "live page",
+    "light": {
+      "bg": "#f7f5ef",
+      "surface": "#efece3",
+      "ink": "#1c1d21",
+      "muted": "#55575e",
+      "line": "#d6d0c2",
+      "accent": "#0f6b3a"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--soft on the live page",
+      "line": "--rule on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"Source Serif 4\", Georgia, serif",
+      "body": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "mono": "\"IBM Plex Mono\", monospace",
+      "loaded": [
+        "IBM Plex Mono",
+        "IBM Plex Sans",
+        "Source Serif 4"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "t-bad": "#a3321f",
+      "t-warn": "#8a5a00"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "2px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "docs/index.html"
+    ]
+  },
+  "lahap": {
+    "repo": "lahap",
+    "homepage": "https://juw12.github.io/lahap/",
+    "pushed": "2026-11-16",
+    "source": "live page",
+    "light": {
+      "bg": "#f5efe3",
+      "surface": "#fffdf8",
+      "ink": "#1d1813",
+      "muted": "#4e463c",
+      "line": "#e0d5c2",
+      "accent": "#b4380f",
+      "warn": "#85560a"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "warn": "--amber on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", \"Book Antiqua\", Palatino, Georgia, serif",
+      "body": "system-ui, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, \"Cascadia Mono\", Consolas, \"SF Mono\", Menlo, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "leaf": "#2f6a3a",
+      "chili": "#8f2a0a"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "10px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "styles.css"
+    ]
+  },
+  "precedent": {
+    "repo": "precedent",
+    "homepage": "https://juw12.github.io/p/precedent/",
+    "pushed": "2026-11-16",
+    "source": "live page",
+    "light": {
+      "bg": "#fffaf3",
+      "surface": "#ffffff",
+      "ink": "#1f2330",
+      "muted": "#5d6273",
+      "line": "#ece4d6",
+      "accent": "#8c2f1b"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"Libre Caslon Display\", system-ui, sans-serif",
+      "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+      "mono": "\"JetBrains Mono\", ui-monospace, monospace",
+      "loaded": [
+        "Inter",
+        "JetBrains Mono",
+        "Libre Caslon Display"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "16px",
+    "has_design_doc": false,
+    "files": []
+  },
+  "batam-uncle-says": {
+    "repo": "batam-uncle-says",
+    "homepage": "https://juw12.github.io/batam-uncle-says/",
+    "pushed": "2026-11-16",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f5f7",
+      "surface": "#ffffff",
+      "ink": "#0f172a",
+      "muted": "#475569",
+      "line": "#e4e7ec",
+      "accent": "#0b3b5c",
+      "ok": "#047857",
+      "warn": "#9a4508",
+      "bad": "#b91c1c"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--ink-2 on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--ok on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--bad on the live page"
+    },
+    "fonts": {
+      "display": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
+      "body": "Inter, system-ui, -apple-system, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "mono": "",
+      "loaded": [
+        "Instrument Serif",
+        "Inter"
+      ]
+    },
+    "type": {
+      "body_size": "15px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "",
+    "radius": "16px",
+    "has_design_doc": false,
+    "files": [
+      "index.html",
+      "ferry/index.html"
+    ]
+  },
+  "tagalong": {
+    "repo": "tagalong",
+    "homepage": "https://juw12.github.io/tagalong/",
+    "pushed": "2026-11-14",
+    "source": "live page",
+    "light": {
+      "bg": "#f5f0e6",
+      "surface": "#fffdf8",
+      "ink": "#1e1b16",
+      "muted": "#5f574b",
+      "line": "#d9cfbd",
+      "accent": "#b93a1e",
+      "ok": "#1f6b4a"
+    },
+    "dark": {
+      "bg": "#16140f",
+      "surface": "#211e17",
+      "ink": "#efe8d8",
+      "muted": "#b3a995",
+      "line": "#3a3528",
+      "accent": "#f08060",
+      "ok": "#7fd0a4"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--good on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, \"Cascadia Mono\", \"SF Mono\", Consolas, \"Liberation Mono\", monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "next": "#e2a48f"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "10px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "styles.css"
+    ]
+  },
+  "jeda": {
+    "repo": "jeda",
+    "homepage": "https://juw12.github.io/jeda/",
+    "pushed": "2026-11-13",
+    "source": "live page",
+    "light": {
+      "bg": "#f6f2eb",
+      "surface": "#ffffff",
+      "ink": "#26221d",
+      "muted": "#6b6157",
+      "line": "#e6dfd3",
+      "accent": "#b8862b",
+      "ok": "#3f8f5a",
+      "warn": "#c98a2b",
+      "bad": "#c4513f"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--ok on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--danger on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Noto Serif\", Georgia, serif",
+      "body": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans\", \"Noto Sans SC\", sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#000000",
+    "radius": "20px",
+    "has_design_doc": false,
+    "files": [
+      "index.html",
+      "css/style.css"
+    ]
+  },
+  "hexbane": {
+    "repo": "hexbane",
+    "homepage": "https://juw12.github.io/hexbane/",
+    "pushed": "2026-11-13",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f6fb",
+      "surface": "#ffffff",
+      "ink": "#172033",
+      "muted": "#5c6782",
+      "line": "#dde3ef",
+      "accent": "#1f6fd1"
+    },
+    "dark": {
+      "bg": "#0f1420",
+      "surface": "#171e2e",
+      "ink": "#e6e9f2",
+      "muted": "#8b95b0",
+      "line": "#26304a",
+      "accent": "#4aa3ff"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "body": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "mono": "\"Cascadia Code\", Consolas, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "allow": "#1f9d5a",
+      "redirect": "#c98a06",
+      "throttle": "#d4621a",
+      "block": "#d1343a",
+      "sev-critical": "#c4262e"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "8px",
+    "has_design_doc": false,
+    "files": [
+      "web/index.html",
+      "web/styles.css"
+    ]
+  },
+  "state-of-mcp-servers": {
+    "repo": "state-of-mcp-servers",
+    "homepage": "",
+    "pushed": "2026-11-13",
+    "source": "repo CSS",
+    "light": {
+      "ink": "#1a1a1e",
+      "muted": "#5a5a60",
+      "line": "#b8b8c0",
+      "bg": "#ffffff",
+      "accent": "#d70015"
+    },
+    "dark": {},
+    "origin": {
+      "ink": "--text-primary in the repo CSS",
+      "muted": "--text-secondary in the repo CSS",
+      "line": "--border-default in the repo CSS",
+      "bg": "body background in the repo CSS",
+      "accent": "most used saturated colour in the repo CSS"
+    },
+    "fonts": {
+      "display": "",
+      "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "mono": "\"SF Mono\", Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "loaded": []
+    },
+    "type": {},
+    "extras": {},
+    "accent_ink": "",
+    "radius": "8px",
+    "has_design_doc": false,
+    "files": [
+      "web/index.html",
+      "web/styles.css"
+    ]
+  },
+  "pocketdex": {
+    "repo": "pocketdex",
+    "homepage": "https://juw12.github.io/pocketdex/",
+    "pushed": "2026-11-13",
+    "source": "live page",
+    "light": {
+      "bg": "#f6f2eb",
+      "surface": "#ffffff",
+      "ink": "#26221d",
+      "muted": "#6b6157",
+      "line": "#e6dfd3",
+      "accent": "#c0432f",
+      "ok": "#3f7f52"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--ok on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", \"Noto Serif\", Georgia, serif",
+      "body": "\"Segoe UI\", system-ui, -apple-system, Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif",
+      "mono": "ui-monospace, \"Cascadia Mono\", Consolas, Menlo, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "15px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "",
+    "radius": "20px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "widget/index.html",
+      "styles.css",
+      "fonts/fonts.css"
+    ]
+  },
+  "millennium-digest": {
+    "repo": "millennium-digest",
+    "homepage": "https://juw12.github.io/millennium-digest/",
+    "pushed": "2026-11-13",
+    "source": "live page",
+    "light": {
+      "bg": "#fbfaf7",
+      "ink": "#1c2230",
+      "muted": "#5b6475",
+      "line": "#e3e6ec",
+      "accent": "#6d3fd1",
+      "surface": "#ffffff"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "surface": "largest painted panel"
+    },
+    "fonts": {
+      "display": "\"Segoe UI\", system-ui, -apple-system, Arial, sans-serif",
+      "body": "\"Segoe UI\", system-ui, -apple-system, Arial, sans-serif",
+      "mono": "monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "",
+    "radius": "8px",
+    "has_design_doc": false,
+    "files": [
+      "lab/index.html",
+      "docs/index.html",
+      "lab/lab.css"
+    ]
+  },
+  "nadaku": {
+    "repo": "nadaku",
+    "homepage": "https://juw12.github.io/nadaku/",
+    "pushed": "2026-11-13",
+    "source": "live page",
+    "light": {
+      "bg": "#efe8da",
+      "surface": "#fffdf8",
+      "ink": "#2a2521",
+      "muted": "#625a52",
+      "line": "#e2d8c6",
+      "accent2": "#f4b63f",
+      "ok": "#2fa66a",
+      "bad": "#e0443a",
+      "accent": "#a8321f"
+    },
+    "dark": {
+      "bg": "#12100e",
+      "surface": "#2a2620",
+      "ink": "#ece6dc",
+      "muted": "#b3a999",
+      "line": "#3a342d",
+      "accent2": "#f4b63f",
+      "ok": "#2fa66a",
+      "bad": "#e0443a",
+      "accent": "#a8321f"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent2": "--gold on the live page",
+      "ok": "--ok on the live page",
+      "bad": "--bad on the live page",
+      "accent": "strongest painted button / link"
+    },
+    "fonts": {
+      "display": "\"Source Serif 4\", \"Noto Serif CJK SC\", serif",
+      "body": "\"Source Sans 3\", \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", \"Source Han Sans SC\", sans-serif",
+      "mono": "",
+      "loaded": [
+        "Source Sans 3",
+        "Source Serif 4"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "t1": "#e8453c",
+      "t2": "#f08c00",
+      "t4": "#3b6fe0"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "4px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "styles.css"
+    ]
+  },
+  "scentvec": {
+    "repo": "scentvec",
+    "homepage": "https://juw12.github.io/scentvec/",
+    "pushed": "2026-11-13",
+    "source": "live page",
+    "light": {
+      "bg": "#faf6f0",
+      "surface": "#fffdf9",
+      "ink": "#221a1f",
+      "muted": "#6d5f66",
+      "line": "#e4d9ce",
+      "accent": "#7a2e5a",
+      "accent2": "#0f766e",
+      "warn": "#a8650f",
+      "ok": "#2f6b4f"
+    },
+    "dark": {
+      "bg": "#171216",
+      "surface": "#201920",
+      "ink": "#f3eaed",
+      "muted": "#ab9aa3",
+      "line": "#382c35",
+      "accent": "#e59ac8",
+      "accent2": "#5fd0c5",
+      "warn": "#e5b264"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent2": "--second on the live page",
+      "warn": "--amber on the live page",
+      "ok": "--good in the repo CSS"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif",
+      "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "14px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html",
+      "src/scentvec/web/index.html"
+    ]
+  },
+  "mlbb-blame": {
+    "repo": "mlbb-blame",
+    "homepage": "https://juw12.github.io/mlbb-blame/",
+    "pushed": "2026-11-11",
+    "source": "live page",
+    "light": {
+      "bg": "#0a0f1f",
+      "surface": "#121a30",
+      "ink": "#eef1f8",
+      "muted": "#9aa4c2",
+      "line": "#26314f",
+      "accent2": "#f2c14e",
+      "ok": "#3fd391",
+      "bad": "#ff6b78",
+      "accent": "#1c2642"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent2": "--gold on the live page",
+      "ok": "--win on the live page",
+      "bad": "--lose on the live page",
+      "accent": "strongest painted button / link"
+    },
+    "fonts": {
+      "display": "system-ui, \"Segoe UI\", Roboto, sans-serif",
+      "body": "system-ui, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "15px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "blue": "#6f9bff"
+    },
+    "accent_ink": "#eef1f8",
+    "radius": "12px",
+    "has_design_doc": false,
+    "files": [
+      "index.html"
+    ]
+  },
+  "jepret": {
+    "repo": "jepret",
+    "homepage": "https://juw12.github.io/jepret/",
+    "pushed": "2026-11-11",
+    "source": "live page",
+    "light": {
+      "bg": "#f5f1ea",
+      "surface": "#fffdf9",
+      "ink": "#1d1b18",
+      "muted": "#6b645a",
+      "line": "#e2dbcf",
+      "accent": "#c43d22",
+      "warn": "#9a6416"
+    },
+    "dark": {
+      "bg": "#141311",
+      "surface": "#1d1b18",
+      "ink": "#efe9df",
+      "muted": "#a39b8f",
+      "line": "#34302a",
+      "accent": "#f0643f",
+      "warn": "#e2a84b"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "warn": "--warn on the live page"
+    },
+    "fonts": {
+      "display": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "keep": "#2f7d4f"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "10px",
+    "has_design_doc": false,
+    "files": [
+      "index.html",
+      "styles.css"
+    ]
+  },
+  "ruang": {
+    "repo": "ruang",
+    "homepage": "https://juw12.github.io/ruang/",
+    "pushed": "2026-11-10",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f1ea",
+      "surface": "#fbfaf6",
+      "ink": "#1e2328",
+      "muted": "#565d64",
+      "line": "#d9d3c7",
+      "accent": "#a84b25",
+      "ok": "#2f7a52",
+      "warn": "#9a6a10",
+      "bad": "#a3321f"
+    },
+    "dark": {
+      "bg": "#15181b",
+      "surface": "#1c2024",
+      "ink": "#ece8e0",
+      "muted": "#a9afb4",
+      "line": "#30363c",
+      "accent": "#e0814f",
+      "ok": "#6cc596",
+      "warn": "#e2b04a",
+      "bad": "#f08a72"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--sheet on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--ok on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--bad on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, \"Noto Serif\", serif",
+      "body": "\"Segoe UI\", system-ui, -apple-system, \"Noto Sans\", \"Helvetica Neue\", Arial, \"PingFang TC\", \"Microsoft JhengHei\", sans-serif",
+      "mono": "ui-monospace, \"Cascadia Mono\", SFMono-Regular, Consolas, \"Liberation Mono\", monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "15px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "lens": "#285a86"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "4px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "styles.css"
+    ]
+  },
+  "bilas": {
+    "repo": "bilas",
+    "homepage": "https://juw12.github.io/bilas/",
+    "pushed": "2026-11-10",
+    "source": "live page",
+    "light": {
+      "bg": "#e9e4d8",
+      "bad": "#c8442c",
+      "ink": "#1d2629",
+      "accent": "#c8442c",
+      "surface": "#f6f2ea"
+    },
+    "dark": {
+      "bg": "#151d20",
+      "bad": "#c8442c",
+      "ink": "#efe9dc",
+      "accent": "#c8442c",
+      "surface": "#1f2a2d"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "bad": "--red on the live page",
+      "ink": "rendered body text",
+      "accent": "strongest painted button / link",
+      "surface": "largest painted panel"
+    },
+    "fonts": {
+      "display": "Bahnschrift, \"DIN Alternate\", \"Barlow Condensed\", \"Arial Narrow\", sans-serif",
+      "body": "\"Segoe UI\", system-ui, -apple-system, \"Helvetica Neue\", Roboto, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "brass": "#c9a14a",
+      "enamel": "#245a51"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "10px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "css/style.css"
+    ]
+  },
+  "reda": {
+    "repo": "reda",
+    "homepage": "https://juw12.github.io/reda/",
+    "pushed": "2026-11-10",
+    "source": "live page",
+    "light": {
+      "bg": "#f6f1ea",
+      "surface": "#fffdf9",
+      "ink": "#231e1a",
+      "muted": "#5f554c",
+      "line": "#e2d8cb",
+      "accent": "#1f5f55",
+      "bad": "#a8281f"
+    },
+    "dark": {
+      "bg": "#171513",
+      "surface": "#211e1b",
+      "ink": "#efe8df",
+      "muted": "#b3a89a",
+      "line": "#3a342f",
+      "accent": "#7cc4b5",
+      "bad": "#ff8a7a"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "bad": "--danger on the live page"
+    },
+    "fonts": {
+      "display": "Charter, \"Bitstream Charter\", \"Sitka Text\", Cambria, Georgia, serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans\", \"Helvetica Neue\", sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "caution-line": "#e9cf96",
+      "skin": "#e9c3a9",
+      "band-severe": "#e59a8c"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "18px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "css/style.css"
+    ]
+  },
+  "skills": {
+    "repo": "skills",
+    "homepage": "",
+    "pushed": "2026-11-10",
+    "source": "repo CSS",
+    "light": {
+      "bg": "#121314",
+      "surface": "#1a1b1d",
+      "ink": "#1a1a1a",
+      "muted": "#6b6b6b",
+      "line": "#2e3033",
+      "accent": "#8b1a1a",
+      "ok": "#1a7f37",
+      "bad": "#b3261e"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "--bg in the repo CSS",
+      "surface": "--panel in the repo CSS",
+      "ink": "--color-ink in the repo CSS",
+      "muted": "--color-muted in the repo CSS",
+      "line": "--line in the repo CSS",
+      "accent": "--color-accent in the repo CSS",
+      "ok": "--color-productive in the repo CSS",
+      "bad": "--color-distracting in the repo CSS"
+    },
+    "fonts": {
+      "display": "Georgia, \"Times New Roman\", serif",
+      "body": "Georgia, \"Times New Roman\", serif",
+      "mono": "\"Courier New\", Courier, monospace",
+      "loaded": []
+    },
+    "type": {},
+    "extras": {},
+    "accent_ink": "",
+    "radius": "10px",
+    "has_design_doc": true,
+    "files": [
+      "skills/ambitious-founder/studio/design.md",
+      "skills/ambitious-founder/studio/index.html",
+      "skills/widgettheme/assets/theme.css",
+      "skills/ambitious-founder/studio/styles.css"
+    ]
+  },
+  "riak": {
+    "repo": "riak",
+    "homepage": "https://juw12.github.io/riak/",
+    "pushed": "2026-11-10",
+    "source": "live page",
+    "light": {
+      "bg": "#f5f0e7",
+      "surface": "#ffffff",
+      "ink": "#1d2a27",
+      "muted": "#56625e",
+      "line": "#e5ddcf",
+      "accent": "#1f5f4a",
+      "accent2": "#87590c",
+      "warn": "#8a3b22"
+    },
+    "dark": {
+      "bg": "#141a18",
+      "surface": "#1b2320",
+      "ink": "#ece6d8",
+      "muted": "#a9b3ad",
+      "line": "#2f3a36",
+      "accent": "#6fbf9c",
+      "accent2": "#e2b450",
+      "warn": "#e59a7c"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--rule on the live page",
+      "accent": "--accent on the live page",
+      "accent2": "--gold on the live page",
+      "warn": "--warn on the live page"
+    },
+    "fonts": {
+      "display": "Fraunces, Georgia, \"Times New Roman\", serif",
+      "body": "\"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif",
+      "mono": "",
+      "loaded": [
+        "Fraunces",
+        "Source Sans 3"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "",
+    "radius": "18px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "css/app.css",
+      "fonts/fonts.css"
+    ]
+  },
+  "vale": {
+    "repo": "vale",
+    "homepage": "https://juw12.github.io/vale/",
+    "pushed": "2026-11-10",
+    "source": "live page",
+    "light": {
+      "bg": "#050d0a",
+      "surface": "#07110d",
+      "ink": "#e8efe5",
+      "muted": "#9aaaa0",
+      "bad": "#d97373"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--ink-mute on the live page",
+      "bad": "--danger on the live page"
+    },
+    "fonts": {
+      "display": "",
+      "body": "Inter, \"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "",
+      "heading_style": "",
+      "heading_transform": ""
+    },
+    "extras": {
+      "shard-cyan": "#5fe0ff",
+      "elder-gold": "#f5d76e",
+      "leaf": "#4a8a5f",
+      "moss": "#6fb38a"
+    },
+    "accent_ink": "",
+    "radius": "22px",
+    "has_design_doc": false,
+    "files": [
+      "index.html"
+    ]
+  },
+  "vow": {
+    "repo": "vow",
+    "homepage": "https://juw12.github.io/vow/",
+    "pushed": "2026-11-09",
+    "source": "live page",
+    "light": {
+      "bg": "#f7f3ea",
+      "surface": "#fffdf9",
+      "ink": "#1d1a16",
+      "muted": "#645b50",
+      "line": "#e2d9c8",
+      "warn": "#8a4f0c",
+      "accent": "#a8261b"
+    },
+    "dark": {
+      "bg": "#15120e",
+      "surface": "#201c17",
+      "ink": "#f2ebdd",
+      "muted": "#b3a895",
+      "line": "#3a332a",
+      "warn": "#f0a640",
+      "accent": "#f05a47"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "warn": "--warn on the live page",
+      "accent": "strongest painted button / link"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, Georgia, serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "kept": "#1d6b3a"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "12px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html"
+    ]
+  },
+  "nongkrong": {
+    "repo": "nongkrong",
+    "homepage": "https://juw12.github.io/nongkrong/",
+    "pushed": "2026-11-09",
+    "source": "live page",
+    "light": {
+      "bg": "#f7f5f0",
+      "surface": "#ffffff",
+      "ink": "#1f1e1c",
+      "muted": "#5f5b55",
+      "line": "#e4e0d7",
+      "accent": "#a63d24"
+    },
+    "dark": {
+      "bg": "#151816",
+      "surface": "#1d211e",
+      "ink": "#ece8df",
+      "muted": "#aaa59a",
+      "line": "#323833",
+      "accent": "#e0866a"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"DM Serif Display\", Georgia, serif",
+      "body": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "mono": "",
+      "loaded": [
+        "DM Serif Display",
+        "IBM Plex Sans"
+      ]
+    },
+    "type": {
+      "body_size": "15px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "12px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "app.css"
+    ]
+  },
+  "mise": {
+    "repo": "mise",
+    "homepage": "https://juw12.github.io/mise/",
+    "pushed": "2026-11-09",
+    "source": "live page",
+    "light": {
+      "bg": "#f4efe6",
+      "surface": "#ffffff",
+      "ink": "#1f2420",
+      "muted": "#565d58",
+      "line": "#dcd4c6",
+      "accent": "#b4472b",
+      "warn": "#8a5a12"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "warn": "--amber on the live page"
+    },
+    "fonts": {
+      "display": "\"Iowan Old Style\", \"Palatino Linotype\", \"Book Antiqua\", Georgia, serif",
+      "body": "\"Segoe UI\", system-ui, -apple-system, Roboto, \"Helvetica Neue\", sans-serif",
+      "mono": "Consolas, \"SF Mono\", Menlo, \"Liberation Mono\", monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "10px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "css/style.css"
+    ]
+  },
+  "founder-studio": {
+    "repo": "founder-studio",
+    "homepage": "https://juw12.github.io/founder-studio/",
+    "pushed": "2026-11-09",
+    "source": "live page",
+    "light": {
+      "bg": "#f4f1ea",
+      "surface": "#fffdf8",
+      "ink": "#1b1a17",
+      "muted": "#67625a",
+      "line": "#e1dbcf",
+      "accent": "#d9481f"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "\"Instrument Serif\", \"Iowan Old Style\", Georgia, serif",
+      "body": "Geist, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "\"Geist Mono\", ui-monospace, \"Cascadia Code\", Consolas, monospace",
+      "loaded": [
+        "Geist",
+        "Geist Mono",
+        "Instrument Serif"
+      ]
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "400",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "accent-text": "#a8340f",
+      "buy": "#2b6e47",
+      "pass": "#b3261e",
+      "buy-fg": "#22593a",
+      "pass-fg": "#8f1d17"
+    },
+    "accent_ink": "",
+    "radius": "8px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "docs/index.html",
+      "styles.css",
+      "docs/styles.css"
+    ]
+  },
+  "game": {
+    "repo": "game",
+    "homepage": "https://juw12.github.io/game/",
+    "pushed": "2026-11-09",
+    "source": "live page",
+    "light": {
+      "bg": "#fbf7f0",
+      "surface": "#ffffff",
+      "ink": "#1c1917",
+      "muted": "#57534e",
+      "line": "#e7e0d4",
+      "accent": "#b45309"
+    },
+    "dark": {
+      "bg": "#171412",
+      "surface": "#211d1a",
+      "ink": "#f5f0e8",
+      "muted": "#b8afa3",
+      "line": "#2f2a25",
+      "accent": "#f59e0b"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "system-ui, -apple-system, \"Segoe UI\", sans-serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#fbf7f0",
+    "radius": "14px",
+    "has_design_doc": false,
+    "files": [
+      "index.html",
+      "vale/index.html"
+    ]
+  },
+  "teduh": {
+    "repo": "teduh",
+    "homepage": "https://juw12.github.io/teduh/",
+    "pushed": "2026-11-09",
+    "source": "live page",
+    "light": {
+      "bg": "#a8d4e6",
+      "surface": "#efe7d6",
+      "ink": "#23302a",
+      "muted": "#56615a",
+      "line": "#d9cfba",
+      "accent": "#2f5d4a",
+      "warn": "#9c3b26"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--paper-2 on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "warn": "--warn on the live page"
+    },
+    "fonts": {
+      "display": "Fraunces, Georgia, \"Times New Roman\", serif",
+      "body": "Figtree, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+      "mono": "",
+      "loaded": [
+        "Figtree",
+        "Fraunces"
+      ]
+    },
+    "type": {
+      "body_size": "15px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "sun": "#c9951a"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "6px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "css/style.css"
+    ]
+  },
+  "meetline": {
+    "repo": "meetline",
+    "homepage": "https://juw12.github.io/meetline/",
+    "pushed": "2026-11-09",
+    "source": "live page",
+    "light": {
+      "bg": "#0e1114",
+      "ink": "#e7eaee",
+      "muted": "#aab3bd",
+      "line": "#2a3038",
+      "accent": "#f2b233",
+      "surface": "#161a1f"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "surface": "largest painted panel"
+    },
+    "fonts": {
+      "display": "\"JetBrains Mono\", ui-monospace, \"Cascadia Mono\", monospace",
+      "body": "Manrope, \"Segoe UI\", system-ui, sans-serif",
+      "mono": "\"JetBrains Mono\", ui-monospace, \"Cascadia Mono\", monospace",
+      "loaded": [
+        "Barlow Semi Condensed",
+        "JetBrains Mono",
+        "Manrope"
+      ]
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "500",
+      "heading_style": "normal",
+      "heading_transform": "uppercase"
+    },
+    "extras": {},
+    "accent_ink": "#15120a",
+    "radius": "6px",
+    "has_design_doc": true,
+    "files": [
+      "design.md",
+      "index.html",
+      "directions/A/index.html",
+      "style.css",
+      "src/base.css",
+      "directions/A/style.css",
+      "directions/B/style.css"
+    ]
+  },
+  "retrace": {
+    "repo": "retrace",
+    "homepage": "https://juw12.github.io/retrace/",
+    "pushed": "2026-11-09",
+    "source": "live page",
+    "light": {
+      "bg": "#f5f6f8",
+      "surface": "#ffffff",
+      "ink": "#15191f",
+      "muted": "#555f6d",
+      "line": "#e1e4e8",
+      "accent": "#0f6b63",
+      "bad": "#b42318"
+    },
+    "dark": {
+      "bg": "#0f1115",
+      "surface": "#171a20",
+      "ink": "#e8ebf0",
+      "muted": "#a3acba",
+      "line": "#2a2f38",
+      "accent": "#4fc3b3",
+      "bad": "#ff9a90"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "bad": "--danger on the live page"
+    },
+    "fonts": {
+      "display": "\"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif",
+      "body": "\"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif",
+      "mono": "\"Cascadia Mono\", \"Cascadia Code\", Consolas, ui-monospace, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "15px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "high": "#166534",
+      "medium": "#8f4407",
+      "low": "#1d4ab4"
+    },
+    "accent_ink": "#ffffff",
+    "radius": "10px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html",
+      "static/index.html"
+    ]
+  },
+  "tally": {
+    "repo": "tally",
+    "homepage": "https://juw12.github.io/tally/",
+    "pushed": "2026-11-08",
+    "source": "live page",
+    "light": {
+      "bg": "#f6f5f2",
+      "surface": "#ffffff",
+      "ink": "#141414",
+      "muted": "#5c5954",
+      "line": "#e4e2dd",
+      "accent": "#1f3b5c",
+      "ok": "#2f6b45",
+      "bad": "#a8321e"
+    },
+    "dark": {
+      "bg": "#121212",
+      "surface": "#1b1b1b",
+      "ink": "#ececea",
+      "muted": "#9b9893",
+      "line": "#2a2a2a",
+      "accent": "#9db8d6",
+      "ok": "#7fbf93",
+      "bad": "#e07a63"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--positive on the live page",
+      "bad": "--negative on the live page"
+    },
+    "fonts": {
+      "display": "-apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "body": "-apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "15px",
+      "heading_weight": "650",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#f6f5f2",
+    "radius": "10px",
+    "has_design_doc": false,
+    "files": [
+      "index.html",
+      "app.css"
+    ]
+  },
+  "atomize": {
+    "repo": "atomize",
+    "homepage": "https://juw12.github.io/atomize/",
+    "pushed": "2026-11-08",
+    "source": "live page",
+    "light": {
+      "bg": "#f8f7fb",
+      "surface": "#ffffff",
+      "ink": "#1d1a24",
+      "muted": "#55506a",
+      "line": "#e2dfea",
+      "accent": "#6d28d9"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page"
+    },
+    "fonts": {
+      "display": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#ffffff",
+    "radius": "8px",
+    "has_design_doc": false,
+    "files": [
+      "index.html",
+      "style.css"
+    ]
+  },
+  "undanu": {
+    "repo": "undanu",
+    "homepage": "https://juw12.github.io/undanu/",
+    "pushed": "2026-11-07",
+    "source": "live page",
+    "light": {
+      "bg": "#f8f5f2",
+      "surface": "#ffffff",
+      "ink": "#26222b",
+      "muted": "#6f6870",
+      "line": "#e6dfda",
+      "accent": "#b5826e",
+      "warn": "#b7802b",
+      "bad": "#b2493a"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--danger on the live page"
+    },
+    "fonts": {
+      "display": "Jost, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "body": "Jost, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "ui-monospace, Consolas, monospace",
+      "loaded": [
+        "Cormorant Garamond",
+        "Jost"
+      ]
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "600",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {
+      "info": "#3d6a8a"
+    },
+    "accent_ink": "",
+    "radius": "14px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html",
+      "public/index.html",
+      "docs/assets/app.css",
+      "public/assets/app.css",
+      "docs/assets/invite.css",
+      "public/assets/invite.css"
+    ]
+  },
+  "nudge": {
+    "repo": "nudge",
+    "homepage": "https://juw12.github.io/nudge/",
+    "pushed": "2026-11-07",
+    "source": "live page",
+    "light": {
+      "bg": "#fafafa",
+      "surface": "#ffffff",
+      "ink": "#18181b",
+      "muted": "#66666e",
+      "line": "#e4e4e7",
+      "accent": "#4f46e5",
+      "ok": "#15803d",
+      "warn": "#b45309",
+      "bad": "#b91c1c"
+    },
+    "dark": {
+      "bg": "#09090b",
+      "surface": "#111113",
+      "ink": "#fafafa",
+      "muted": "#a1a1aa",
+      "line": "#27272a",
+      "accent": "#6366f1",
+      "ok": "#4ade80",
+      "warn": "#fbbf24",
+      "bad": "#fca5a5"
+    },
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--border on the live page",
+      "accent": "--accent on the live page",
+      "ok": "--good on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--danger on the live page"
+    },
+    "fonts": {
+      "display": "Inter, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "body": "Inter, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "14px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "",
+    "radius": "10px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html",
+      "docs/styles.css"
+    ]
+  },
+  "peakwise": {
+    "repo": "peakwise",
+    "homepage": "https://juw12.github.io/peakwise/",
+    "pushed": "2026-11-06",
+    "source": "live page",
+    "light": {
+      "bg": "#0f1720",
+      "surface": "#16212c",
+      "ink": "#0f1720",
+      "muted": "#93a4b3",
+      "line": "#26343f",
+      "accent": "#2ee6a0",
+      "accent2": "#f5c542",
+      "ok": "#0f7b5f",
+      "bad": "#b42318"
+    },
+    "dark": {},
+    "origin": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent2": "--gold on the live page",
+      "ok": "--good in the repo CSS",
+      "bad": "--bad in the repo CSS"
+    },
+    "fonts": {
+      "display": "Inter, \"Noto Sans TC\", \"Microsoft JhengHei\", \"Segoe UI\", Arial, sans-serif",
+      "body": "Inter, \"Noto Sans TC\", \"Microsoft JhengHei\", \"Segoe UI\", Arial, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {
+      "body_size": "16px",
+      "heading_weight": "700",
+      "heading_style": "normal",
+      "heading_transform": "none"
+    },
+    "extras": {},
+    "accent_ink": "#04261b",
+    "radius": "12px",
+    "has_design_doc": false,
+    "files": [
+      "docs/index.html",
+      "docs/calculator/index.html"
+    ]
+  },
+  "handoff": {
+    "repo": "handoff",
+    "homepage": "",
+    "pushed": "2026-11-05",
+    "source": "repo CSS",
+    "light": {
+      "surface": "#0f0e0d",
+      "accent": "#e8a838",
+      "bg": "#0f0e0d",
+      "ink": "#e8e6e3"
+    },
+    "dark": {},
+    "origin": {
+      "surface": "--surface in the repo CSS",
+      "accent": "--brand in the repo CSS",
+      "bg": "body background in the repo CSS",
+      "ink": "body color in the repo CSS"
+    },
+    "fonts": {
+      "display": "ui-serif, Georgia, \"Times New Roman\", serif",
+      "body": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "mono": "",
+      "loaded": []
+    },
+    "type": {},
+    "extras": {},
+    "accent_ink": "",
+    "radius": "4px",
+    "has_design_doc": false,
+    "files": [
+      "saas/app/globals.css",
+      "portfolio/app/globals.css",
+      "templates/fake-door/app/globals.css",
+      "demos/listing-writer/app/globals.css"
+    ]
+  },
+  "shiphub": {
+    "repo": "shiphub",
+    "homepage": "",
+    "pushed": "2026-11-04",
+    "source": "repo CSS",
+    "light": {
+      "bg": "#fafaf9",
+      "surface": "#ffffff",
+      "ink": "#1c1917",
+      "muted": "#57534e",
+      "line": "#e7e5e4",
+      "accent": "#e5484d",
+      "ok": "#15a34a",
+      "warn": "#c26a06",
+      "bad": "#dc2626"
+    },
+    "dark": {
+      "bg": "#0c0c0e",
+      "surface": "#151518",
+      "ink": "#f4f4f5",
+      "muted": "#a7a7b0",
+      "line": "#26262b",
+      "accent": "#e5484d",
+      "ok": "#15a34a",
+      "warn": "#c26a06",
+      "bad": "#dc2626"
+    },
+    "origin": {
+      "bg": "--bg in the repo CSS",
+      "surface": "--surface in the repo CSS",
+      "ink": "--text in the repo CSS",
+      "muted": "--text-2 in the repo CSS",
+      "line": "--border in the repo CSS",
+      "accent": "--accent in the repo CSS",
+      "ok": "--green in the repo CSS",
+      "warn": "--amber in the repo CSS",
+      "bad": "--danger in the repo CSS"
+    },
+    "fonts": {
+      "display": "ui-monospace, \"JetBrains Mono\", \"Cascadia Code\", \"SF Mono\", Consolas, monospace",
+      "body": "Inter, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "ui-monospace, \"JetBrains Mono\", \"Cascadia Code\", \"SF Mono\", Consolas, monospace",
+      "loaded": []
+    },
+    "type": {},
+    "extras": {},
+    "accent_ink": "",
+    "radius": "12px",
+    "has_design_doc": false,
+    "files": [
+      "static/index.html",
+      "static/app.css"
+    ]
+  }
+}

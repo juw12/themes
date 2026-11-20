@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "id": "bilas-enamel",
+  "name": "Bilas Enamel",
+  "summary": "Light ground #e9e4d8, red accent #c8442c, Bahnschrift over Segoe UI, with a dark set.",
+  "note": "Enamel-sign colours: stone ground, signal red, brass and green, a DIN-style headline.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "bilas",
+      "url": "https://github.com/juw12/bilas",
+      "live": "https://juw12.github.io/bilas/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#e9e4d8",
+    "surface": "#f6f2ea",
+    "ink": "#1d2629",
+    "muted": "#5a5f5e",
+    "line": "#c8c6bc",
+    "accent": "#c8442c",
+    "accent_ink": "#ffffff",
+    "bad": "#c8442c"
+  },
+  "dark": {
+    "bg": "#151d20",
+    "surface": "#1f2a2d",
+    "ink": "#efe9dc",
+    "muted": "#8d8d87",
+    "line": "#383e3e",
+    "accent": "#c8442c",
+    "accent_ink": "#ffffff",
+    "bad": "#c8442c"
+  },
+  "extras": {
+    "brass": "#c9a14a",
+    "enamel": "#245a51",
+    "celadon": "#9cc5b5",
+    "enamel-ink": "#f3ecdc"
+  },
+  "fonts": {
+    "display": "Bahnschrift, \"DIN Alternate\", \"Barlow Condensed\", \"Arial Narrow\", sans-serif",
+    "body": "\"Segoe UI\", system-ui, -apple-system, \"Helvetica Neue\", Roboto, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "10px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 12.16,
+      "muted_on_bg": 5.12,
+      "accent_on_bg": 3.83,
+      "accent_ink_on_accent": 4.86,
+      "ink_on_surface": 13.81
+    },
+    "dark": {
+      "ink_on_bg": 14.13,
+      "muted_on_bg": 5.12,
+      "accent_on_bg": 3.52,
+      "accent_ink_on_accent": 4.86,
+      "ink_on_surface": 12.16
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "largest painted panel",
+      "ink": "rendered body text",
+      "muted": "derived: ink softened toward bg, kept at 4.5:1 or better",
+      "line": "derived: 16% ink over bg",
+      "accent": "strongest painted button / link",
+      "accent_ink": "text colour painted on the accent fill",
+      "bad": "--red on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "derived: ink softened toward bg, kept at 4.5:1 or better",
+      "line": "derived: 16% ink over bg",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "muted",
+    "line",
+    "fonts.mono",
+    "dark.muted",
+    "dark.line"
+  ],
+  "curated": {},
+  "warnings": [
+    "light: accent on bg is 3.83:1; fine for fills and large text, not for small text",
+    "dark set: accent on bg is 3.52:1; fine for fills and large text, not for small text"
+  ]
+}

@@ -1,0 +1,24 @@
+/* Studio Graphite (studio-graphite)
+   Dark ground #121314, blue accent #2563eb, Segoe UI Semibold over Segoe UI.
+   From: skills. Read from the repo CSS, checked 2026-11-20.
+   https://juw12.github.io/themes/#studio-graphite
+*/
+:root {
+  color-scheme: dark;
+  --bg: #121314;
+  --surface: #1a1b1d;
+  --ink: #ecedee;
+  --muted: #9a9ea5;
+  --line: #2e3033;
+  --accent: #2563eb;
+  --accent-ink: #ffffff;
+  --ok: #3fb871;
+  --warn: #e0a43a;
+  --bad: #ef5a5a;
+  --x-panel-2: #222326;
+  --x-accent-text: #7fb0ff;
+  --font-display: "Segoe UI Semibold", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 10px;
+}

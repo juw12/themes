@@ -1,0 +1,33 @@
+/* Relay Slate (relay-slate)
+   Light ground #f4f1ea, blue accent #2f5b8c, -apple-system, with a dark set.
+   From: vector-relay. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#relay-slate
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f4f1ea;
+  --surface: #fffdf8;
+  --ink: #1b1a17;
+  --muted: #6b665c;
+  --line: #dcd6c8;
+  --accent: #2f5b8c;
+  --accent-ink: #ffffff;
+  --ok: #3f7d4e;
+  --x-orange: #d9481f;
+  --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 8px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171613;
+    --surface: #201f1c;
+    --ink: #ece8df;
+    --muted: #a39d90;
+    --line: #35322c;
+    --accent: #8fb6e0;
+    --accent-ink: #171613;
+    --ok: #7fc08d;
+  }
+}

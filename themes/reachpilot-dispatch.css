@@ -1,0 +1,23 @@
+/* Reachpilot Dispatch (reachpilot-dispatch)
+   Light ground #f4f1ea, blue accent #0a5aa8, Instrument Serif over Geist.
+   From: reachpilot. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#reachpilot-dispatch
+   Web fonts: https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap
+*/
+:root {
+  color-scheme: light;
+  --bg: #f4f1ea;
+  --surface: #fffdf8;
+  --ink: #1b1a17;
+  --muted: #5f5a52;
+  --line: #e1dbcf;
+  --accent: #0a5aa8;
+  --accent-ink: #ffffff;
+  --ok: #05693b;
+  --warn: #7d4c05;
+  --bad: #b42318;
+  --font-display: "Instrument Serif", "Iowan Old Style", Georgia, Cambria, serif;
+  --font-body: Geist, "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --font-mono: "Geist Mono", "Cascadia Code", Consolas, ui-monospace, monospace;
+  --radius: 6px;
+}

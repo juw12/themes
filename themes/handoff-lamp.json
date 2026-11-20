@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "handoff-lamp",
+  "name": "Handoff Lamp",
+  "summary": "Dark ground #0f0e0d, orange accent #e8a838, ui-serif over ui-sans-serif.",
+  "note": "Near-black with one lamp amber; serif display over system sans.",
+  "scheme": "dark",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "handoff",
+      "url": "https://github.com/juw12/handoff",
+      "live": ""
+    }
+  ],
+  "source": "repo CSS",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#0f0e0d",
+    "surface": "#1a1918",
+    "ink": "#e8e6e3",
+    "muted": "#868583",
+    "line": "#32312f",
+    "accent": "#e8a838",
+    "accent_ink": "#0f0e0d"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "ui-serif, Georgia, \"Times New Roman\", serif",
+    "body": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "4px",
+  "heading_weight": "",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.48,
+      "muted_on_bg": 5.23,
+      "accent_on_bg": 9.27,
+      "accent_ink_on_accent": 9.27,
+      "ink_on_surface": 14.09
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "body background in the repo CSS",
+      "surface": "curated: --surface-raised in saas/app/globals.css",
+      "ink": "body color in the repo CSS",
+      "muted": "derived: ink softened toward bg, kept at 4.5:1 or better",
+      "line": "derived: 16% ink over bg",
+      "accent": "--brand in the repo CSS",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    }
+  },
+  "derived": [
+    "muted",
+    "line",
+    "accent_ink",
+    "fonts.mono"
+  ],
+  "curated": {
+    "surface": "--surface-raised in saas/app/globals.css"
+  },
+  "warnings": []
+}

@@ -1,0 +1,19 @@
+/* Atomize Violet (atomize-violet)
+   Light ground #f8f7fb, violet accent #6d28d9, system-ui.
+   From: atomize. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#atomize-violet
+*/
+:root {
+  color-scheme: light;
+  --bg: #f8f7fb;
+  --surface: #ffffff;
+  --ink: #1d1a24;
+  --muted: #55506a;
+  --line: #e2dfea;
+  --accent: #6d28d9;
+  --accent-ink: #ffffff;
+  --font-display: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 8px;
+}

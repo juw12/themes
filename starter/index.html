@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Starter: one screen on eleven tokens</title>
+<meta name="description" content="A plain app screen that uses only the theme tokens. Add ?theme=<id> to try any theme from the library.">
+<link rel="stylesheet" href="theme.css" id="theme">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./">Orders</a>
+  <nav aria-label="Main">
+    <a href="#list" aria-current="page">Open</a>
+    <a href="#new">New order</a>
+    <a href="#totals">Totals</a>
+  </nav>
+  <label class="pick">Theme
+    <select id="pick" aria-label="Theme"></select>
+  </label>
+</header>
+<main class="page">
+  <section class="intro">
+    <p class="eyebrow">Week 47</p>
+    <h1>Three orders are waiting on you.</h1>
+    <p class="lede">This screen is the starter. Every colour, font and corner on it comes from the theme file,
+    so swapping <code>theme.css</code> re-dresses all of it.</p>
+    <p>
+      <button class="btn primary" type="button">Confirm all three</button>
+      <button class="btn" type="button">Export</button>
+      <a href="../">Back to the theme library</a>
+    </p>
+  </section>
+  <section id="list" class="panel" aria-labelledby="list-h">
+    <h2 id="list-h">Open orders</h2>
+    <table>
+      <thead><tr><th scope="col">Order</th><th scope="col">Customer</th><th scope="col">State</th><th scope="col" class="num">Total</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">A-1042</th><td>Sari Dewi</td><td><span class="state ok">Paid</span></td><td class="num">184.00</td></tr>
+        <tr><th scope="row">A-1043</th><td>Tan Wei Ming</td><td><span class="state warn">Waiting</span></td><td class="num">62.50</td></tr>
+        <tr><th scope="row">A-1044</th><td>Maria Santos</td><td><span class="state bad">Card declined</span></td><td class="num">310.75</td></tr>
+        <tr><th scope="row">A-1045</th><td>Budi Hartono</td><td><span class="state">Draft</span></td><td class="num">48.00</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="new" class="panel" aria-labelledby="new-h">
+    <h2 id="new-h">New order</h2>
+    <form onsubmit="return false">
+      <label>Customer <input type="text" name="customer" placeholder="Name" autocomplete="off"></label>
+      <label>Amount <input type="text" name="amount" inputmode="decimal" placeholder="0.00"></label>
+      <label>Note <textarea name="note" rows="3" placeholder="Anything the packer should know"></textarea></label>
+      <label class="check"><input type="checkbox" name="rush"> Rush order</label>
+      <p><button class="btn primary" type="submit">Save order</button> <button class="btn" type="reset">Clear</button></p>
+    </form>
+  </section>
+  <section id="totals" class="totals" aria-label="Totals">
+    <div><span>Today</span><b>605.25</b></div>
+    <div><span>This week</span><b>4,912.00</b></div>
+    <div><span>Unpaid</span><b>373.25</b></div>
+  </section>
+</main>
+<footer class="foot">Starter from <a href="https://github.com/juw12/themes">juw12/themes</a>. The sample rows are made up.</footer>
+<script>
+(function () {
+  var pick = document.getElementById('pick');
+  var link = document.getElementById('theme');
+  var params = new URLSearchParams(location.search);
+  function apply(id, themes) {
+    var found = themes.filter(function (t) { return t.id === id; })[0];
+    if (!found) return;
+    link.href = '../' + found.css;
+    fetch('../' + found.json).then(function (r) { return r.json(); }).then(function (theme) {
+      var old = document.getElementById('webfonts');
+      if (old) old.remove();
+      if (theme.fonts.web_url) {
+        var fonts = document.createElement('link');
+        fonts.rel = 'stylesheet';
+        fonts.id = 'webfonts';
+        fonts.href = theme.fonts.web_url;
+        document.head.appendChild(fonts);
+      }
+    });
+  }
+  // The picker only works while the starter still sits inside the library. On its own it just uses theme.css.
+  fetch('../themes.json').then(function (r) { return r.ok ? r.json() : Promise.reject(); }).then(function (index) {
+    index.themes.forEach(function (t) {
+      var option = document.createElement('option');
+      option.value = t.id;
+      option.textContent = t.name;
+      pick.appendChild(option);
+    });
+    var wanted = params.get('theme') || 'cairn-paper';
+    pick.value = wanted;
+    if (params.get('theme')) apply(wanted, index.themes);
+    pick.addEventListener('change', function () {
+      apply(pick.value, index.themes);
+      history.replaceState(null, '', '?theme=' + pick.value);
+    });
+  }).catch(function () { pick.closest('.pick').hidden = true; });
+})();
+</script>
+</body>
+</html>

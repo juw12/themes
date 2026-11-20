@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "id": "steward-blue",
+  "name": "Steward Blue",
+  "summary": "Light ground #f4f6fb, blue accent #1f6fd1, Segoe UI, with a dark set.",
+  "note": "Blue-tinted white, navy ink, a clear blue accent, Segoe UI.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "steward",
+      "url": "https://github.com/juw12/steward",
+      "live": "https://juw12.github.io/steward/"
+    },
+    {
+      "repo": "hexbane",
+      "url": "https://github.com/juw12/hexbane",
+      "live": "https://juw12.github.io/hexbane/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f4f6fb",
+    "surface": "#ffffff",
+    "ink": "#172033",
+    "muted": "#5c6782",
+    "line": "#dde3ef",
+    "accent": "#1f6fd1",
+    "accent_ink": "#ffffff"
+  },
+  "dark": {
+    "bg": "#0f1420",
+    "surface": "#171e2e",
+    "ink": "#e6e9f2",
+    "muted": "#8b95b0",
+    "line": "#26304a",
+    "accent": "#4aa3ff",
+    "accent_ink": "#0f1420"
+  },
+  "extras": {
+    "allow": "#1f9d5a",
+    "redirect": "#c98a06",
+    "throttle": "#d4621a",
+    "block": "#d1343a"
+  },
+  "fonts": {
+    "display": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+    "body": "\"Segoe UI\", system-ui, -apple-system, sans-serif",
+    "mono": "\"Cascadia Code\", Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "0.5rem",
+  "heading_weight": "400",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.05,
+      "muted_on_bg": 5.22,
+      "accent_on_bg": 4.57,
+      "accent_ink_on_accent": 4.94,
+      "ink_on_surface": 16.27
+    },
+    "dark": {
+      "ink_on_bg": 15.16,
+      "muted_on_bg": 6.15,
+      "accent_on_bg": 6.99,
+      "accent_ink_on_accent": 6.99,
+      "ink_on_surface": 13.71
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

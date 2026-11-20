@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "id": "ruang-terracotta",
+  "name": "Ruang Terracotta",
+  "summary": "Light ground #f4f1ea, orange accent #a84b25, Iowan Old Style over Segoe UI, with a dark set.",
+  "note": "Paper with cool charcoal ink, terracotta accent and tight 4px corners.",
+  "scheme": "light",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "ruang",
+      "url": "https://github.com/juw12/ruang",
+      "live": "https://juw12.github.io/ruang/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f4f1ea",
+    "surface": "#fbfaf6",
+    "ink": "#1e2328",
+    "muted": "#565d64",
+    "line": "#d9d3c7",
+    "accent": "#a84b25",
+    "accent_ink": "#ffffff",
+    "ok": "#2f7a52",
+    "warn": "#9a6a10",
+    "bad": "#a3321f"
+  },
+  "dark": {
+    "bg": "#15181b",
+    "surface": "#1c2024",
+    "ink": "#ece8e0",
+    "muted": "#a9afb4",
+    "line": "#30363c",
+    "accent": "#e0814f",
+    "accent_ink": "#15181b",
+    "ok": "#6cc596",
+    "warn": "#e2b04a",
+    "bad": "#f08a72"
+  },
+  "extras": {
+    "lens": "#285a86"
+  },
+  "fonts": {
+    "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, \"Noto Serif\", serif",
+    "body": "\"Segoe UI\", system-ui, -apple-system, \"Noto Sans\", \"Helvetica Neue\", Arial, \"PingFang TC\", \"Microsoft JhengHei\", sans-serif",
+    "mono": "ui-monospace, \"Cascadia Mono\", SFMono-Regular, Consolas, \"Liberation Mono\", monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "4px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 14.04,
+      "muted_on_bg": 5.92,
+      "accent_on_bg": 5.03,
+      "accent_ink_on_accent": 5.68,
+      "ink_on_surface": 15.16
+    },
+    "dark": {
+      "ink_on_bg": 14.58,
+      "muted_on_bg": 8.04,
+      "accent_on_bg": 6.3,
+      "accent_ink_on_accent": 6.3,
+      "ink_on_surface": 13.41
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--sheet on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "ok": "--ok on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--bad on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "dark scheme of the live page",
+      "warn": "dark scheme of the live page",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

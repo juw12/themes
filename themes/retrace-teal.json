@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "retrace-teal",
+  "name": "Retrace Teal",
+  "summary": "Light ground #f5f6f8, teal accent #0f6b63, Segoe UI Variable Text, with a dark set.",
+  "note": "Cool grey, deep teal, Segoe UI Variable; a Windows-native feel.",
+  "scheme": "light",
+  "hue": "teal",
+  "projects": [
+    {
+      "repo": "retrace",
+      "url": "https://github.com/juw12/retrace",
+      "live": "https://juw12.github.io/retrace/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f5f6f8",
+    "surface": "#ffffff",
+    "ink": "#15191f",
+    "muted": "#555f6d",
+    "line": "#e1e4e8",
+    "accent": "#0f6b63",
+    "accent_ink": "#ffffff",
+    "bad": "#b42318"
+  },
+  "dark": {
+    "bg": "#0f1115",
+    "surface": "#171a20",
+    "ink": "#e8ebf0",
+    "muted": "#a3acba",
+    "line": "#2a2f38",
+    "accent": "#4fc3b3",
+    "accent_ink": "#0f1115",
+    "bad": "#ff9a90"
+  },
+  "extras": {
+    "high": "#166534",
+    "medium": "#8f4407",
+    "low": "#1d4ab4"
+  },
+  "fonts": {
+    "display": "\"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif",
+    "body": "\"Segoe UI Variable Text\", \"Segoe UI\", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif",
+    "mono": "\"Cascadia Mono\", \"Cascadia Code\", Consolas, ui-monospace, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "10px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.31,
+      "muted_on_bg": 5.99,
+      "accent_on_bg": 5.88,
+      "accent_ink_on_accent": 6.36,
+      "ink_on_surface": 17.64
+    },
+    "dark": {
+      "ink_on_bg": 15.81,
+      "muted_on_bg": 8.25,
+      "accent_on_bg": 8.81,
+      "accent_ink_on_accent": 8.81,
+      "ink_on_surface": 14.58
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "bad": "--danger on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

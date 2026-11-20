@@ -1,0 +1,20 @@
+/* Vera Noir (vera-noir)
+   Dark ground #14130f, orange accent #ffb020, Georgia.
+   From: not-real-vera. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#vera-noir
+*/
+:root {
+  color-scheme: dark;
+  --bg: #14130f;
+  --surface: #1d1b16;
+  --ink: #f3efe6;
+  --muted: #a9a394;
+  --line: #34302a;
+  --accent: #ffb020;
+  --accent-ink: #14130f;
+  --warn: #ffb020;
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: Georgia, "Times New Roman", serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 4px;
+}

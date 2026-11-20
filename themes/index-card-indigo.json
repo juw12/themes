@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "id": "index-card-indigo",
+  "name": "Index Card Indigo",
+  "summary": "Light ground #f7f8fb, blue accent #4f46e5, -apple-system.",
+  "note": "Cool grey page, white cards, indigo accent, platform fonts.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "projects",
+      "url": "https://github.com/juw12/projects",
+      "live": "https://juw12.github.io/projects/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f7f8fb",
+    "surface": "#ffffff",
+    "ink": "#101828",
+    "muted": "#667085",
+    "line": "#e4e7ec",
+    "accent": "#4f46e5",
+    "accent_ink": "#ffffff",
+    "accent2": "#ffc83d",
+    "ok": "#059669",
+    "warn": "#f59e0b",
+    "bad": "#b42318"
+  },
+  "dark": null,
+  "extras": {
+    "brand-600": "#4338ca"
+  },
+  "fonts": {
+    "display": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "mono": "\"SF Mono\", \"Fira Code\", Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "12px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.71,
+      "muted_on_bg": 4.68,
+      "accent_on_bg": 5.92,
+      "accent_ink_on_accent": 6.29,
+      "ink_on_surface": 17.75
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--brand on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "accent2": "--gold in the repo CSS",
+      "ok": "--ok in the repo CSS",
+      "warn": "--warn in the repo CSS",
+      "bad": "--red in the repo CSS"
+    }
+  },
+  "derived": [
+    "accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

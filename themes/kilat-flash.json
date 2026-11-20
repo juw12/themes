@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "kilat-flash",
+  "name": "Kilat Flash",
+  "summary": "Light ground #fbfaf7, orange accent #b45309, Cascadia Code over system-ui, with a dark set.",
+  "note": "Off-white with an amber-brown accent and a monospace headline.",
+  "scheme": "light",
+  "hue": "orange",
+  "projects": [
+    {
+      "repo": "kilat",
+      "url": "https://github.com/juw12/kilat",
+      "live": "https://juw12.github.io/kilat/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#fbfaf7",
+    "surface": "#fffefb",
+    "ink": "#1c1b19",
+    "muted": "#625e56",
+    "line": "#d9d5cc",
+    "accent": "#b45309",
+    "accent_ink": "#ffffff",
+    "bad": "#b42318"
+  },
+  "dark": {
+    "bg": "#161513",
+    "surface": "#1d1b18",
+    "ink": "#ece9e2",
+    "muted": "#a8a297",
+    "line": "#37332d",
+    "accent": "#fbbf24",
+    "accent_ink": "#161513",
+    "bad": "#ff8f80"
+  },
+  "extras": {},
+  "fonts": {
+    "display": "\"Cascadia Code\", \"Cascadia Mono\", Consolas, \"SF Mono\", Menlo, \"DejaVu Sans Mono\", monospace",
+    "body": "system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "mono": "\"Cascadia Code\", \"Cascadia Mono\", Consolas, \"SF Mono\", Menlo, \"DejaVu Sans Mono\", monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "6px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.49,
+      "muted_on_bg": 6.18,
+      "accent_on_bg": 4.81,
+      "accent_ink_on_accent": 5.02,
+      "ink_on_surface": 17.06
+    },
+    "dark": {
+      "ink_on_bg": 15.05,
+      "muted_on_bg": 7.2,
+      "accent_on_bg": 10.93,
+      "accent_ink_on_accent": 10.93,
+      "ink_on_surface": 14.17
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "bad": "--error on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

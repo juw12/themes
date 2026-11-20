@@ -1,0 +1,22 @@
+/* Gate Ledger (gate-ledger)
+   Light ground #f7f5ef, green accent #0f6b3a, Source Serif 4 over IBM Plex Sans.
+   From: gate. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#gate-ledger
+   Web fonts: https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap
+*/
+:root {
+  color-scheme: light;
+  --bg: #f7f5ef;
+  --surface: #efece3;
+  --ink: #1c1d21;
+  --muted: #55575e;
+  --line: #d6d0c2;
+  --accent: #0f6b3a;
+  --accent-ink: #ffffff;
+  --x-t-bad: #a3321f;
+  --x-t-warn: #8a5a00;
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --radius: 2px;
+}

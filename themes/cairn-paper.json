@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "id": "cairn-paper",
+  "name": "Cairn Paper",
+  "summary": "Light ground #f4f1ea, red accent #d9481f, Instrument Serif over Geist, with a dark set.",
+  "note": "The house look: warm paper, one vermilion accent, a serif headline over a quiet grotesque.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "cairn",
+      "url": "https://github.com/juw12/cairn",
+      "live": "https://juw12.github.io/cairn/"
+    },
+    {
+      "repo": "bits-and-tickers",
+      "url": "https://github.com/juw12/bits-and-tickers",
+      "live": "https://juw12.github.io/bits-and-tickers/"
+    },
+    {
+      "repo": "founder-studio",
+      "url": "https://github.com/juw12/founder-studio",
+      "live": "https://juw12.github.io/founder-studio/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f4f1ea",
+    "surface": "#fffdf8",
+    "ink": "#1b1a17",
+    "muted": "#6c665d",
+    "line": "#e1dbcf",
+    "accent": "#d9481f",
+    "accent_ink": "#ffffff",
+    "bad": "#b3261e"
+  },
+  "dark": {
+    "bg": "#151412",
+    "surface": "#1c1b18",
+    "ink": "#efebe3",
+    "muted": "#968f83",
+    "line": "#2e2c28",
+    "accent": "#f0764d",
+    "accent_ink": "#151412",
+    "bad": "#f2867d"
+  },
+  "extras": {
+    "idea": "#b07415",
+    "task": "#2f5b8c",
+    "decision": "#56631c",
+    "journal": "#2e7566",
+    "session": "#24748a"
+  },
+  "fonts": {
+    "display": "\"Instrument Serif\", \"Iowan Old Style\", Georgia, serif",
+    "body": "Geist, ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "mono": "\"Geist Mono\", ui-monospace, \"SF Mono\", \"Cascadia Code\", Menlo, Consolas, monospace",
+    "web": [
+      "Instrument Serif",
+      "Geist",
+      "Geist Mono"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"
+  },
+  "radius": "6px",
+  "heading_weight": "400",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.43,
+      "muted_on_bg": 5.04,
+      "accent_on_bg": 3.8,
+      "accent_ink_on_accent": 4.29,
+      "ink_on_surface": 17.12
+    },
+    "dark": {
+      "ink_on_bg": 15.48,
+      "muted_on_bg": 5.75,
+      "accent_on_bg": 6.49,
+      "accent_ink_on_accent": 6.49,
+      "ink_on_surface": 14.49
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "bad": "--danger on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": [
+    "light: accent_ink on accent is 4.29:1, under the 4.5:1 needed for body text",
+    "light: accent on bg is 3.8:1; fine for fills and large text, not for small text"
+  ]
+}

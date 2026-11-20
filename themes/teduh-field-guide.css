@@ -1,0 +1,23 @@
+/* Teduh Field Guide (teduh-field-guide)
+   Light ground #f8f3e8, green accent #2f5d4a, Fraunces over Figtree.
+   From: teduh. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#teduh-field-guide
+   Web fonts: https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Figtree:wght@400;500;600;700&display=swap
+*/
+:root {
+  color-scheme: light;
+  --bg: #f8f3e8;
+  --surface: #efe7d6;
+  --ink: #23302a;
+  --muted: #56615a;
+  --line: #d9cfba;
+  --accent: #2f5d4a;
+  --accent-ink: #ffffff;
+  --warn: #9c3b26;
+  --x-sun: #c9951a;
+  --x-sky: #a8d4e6;
+  --font-display: Fraunces, Georgia, "Times New Roman", serif;
+  --font-body: Figtree, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 6px;
+}

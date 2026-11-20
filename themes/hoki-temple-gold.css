@@ -1,0 +1,37 @@
+/* Hoki Temple Gold (hoki-temple-gold)
+   Light ground #f6f2eb, yellow accent #8a6418, Iowan Old Style over system-ui, with a dark set.
+   From: hoki. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#hoki-temple-gold
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f6f2eb;
+  --surface: #ffffff;
+  --ink: #26221d;
+  --muted: #6b6157;
+  --line: #e6dfd3;
+  --accent: #8a6418;
+  --accent-ink: #ffffff;
+  --accent2: #d9a441;
+  --bad: #b7443a;
+  --x-sky-top: #b4cddd;
+  --x-temple-light: #ffcf7a;
+  --x-gold: #d9a441;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Noto Serif", "Noto Serif SC", "Songti SC", SimSun, Georgia, serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #221b16;
+    --surface: #2c241e;
+    --ink: #efe9e0;
+    --muted: #b0a596;
+    --line: #483b31;
+    --accent: #d9a441;
+    --accent-ink: #221b16;
+    --accent2: #d9a441;
+    --bad: #b7443a;
+  }
+}

@@ -1,0 +1,31 @@
+/* Portfolio Cobalt (portfolio-cobalt)
+   Light ground #ffffff, blue accent #1f5eff, Inter, with a dark set.
+   From: portfolio, juw12.github.io. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#portfolio-cobalt
+   Web fonts: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --ink: #0f172a;
+  --muted: #556070;
+  --line: #e4e8ef;
+  --accent: #1f5eff;
+  --accent-ink: #ffffff;
+  --font-display: Inter, "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-body: Inter, "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "SF Mono", Consolas, monospace;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0f17;
+    --surface: #121925;
+    --ink: #e7ecf3;
+    --muted: #9aa5b6;
+    --line: #212b3b;
+    --accent: #6d9eff;
+    --accent-ink: #0b0f17;
+  }
+}

@@ -1,0 +1,35 @@
+/* Reda Still Teal (reda-still-teal)
+   Light ground #f6f1ea, teal accent #1f5f55, Charter over system-ui, with a dark set.
+   From: reda. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#reda-still-teal
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f6f1ea;
+  --surface: #fffdf9;
+  --ink: #231e1a;
+  --muted: #5f554c;
+  --line: #e2d8cb;
+  --accent: #1f5f55;
+  --accent-ink: #ffffff;
+  --bad: #a8281f;
+  --x-caution-line: #e9cf96;
+  --x-skin: #e9c3a9;
+  --x-band-severe: #e59a8c;
+  --font-display: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 18px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171513;
+    --surface: #211e1b;
+    --ink: #efe8df;
+    --muted: #b3a89a;
+    --line: #3a342f;
+    --accent: #7cc4b5;
+    --accent-ink: #171513;
+    --bad: #ff8a7a;
+  }
+}

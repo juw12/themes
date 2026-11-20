@@ -1,0 +1,33 @@
+/* Jepret Shutter (jepret-shutter)
+   Light ground #f5f1ea, red accent #c43d22, system-ui, with a dark set.
+   From: jepret. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#jepret-shutter
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f5f1ea;
+  --surface: #fffdf9;
+  --ink: #1d1b18;
+  --muted: #6b645a;
+  --line: #e2dbcf;
+  --accent: #c43d22;
+  --accent-ink: #ffffff;
+  --warn: #9a6416;
+  --x-keep: #2f7d4f;
+  --font-display: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141311;
+    --surface: #1d1b18;
+    --ink: #efe9df;
+    --muted: #a39b8f;
+    --line: #34302a;
+    --accent: #f0643f;
+    --accent-ink: #141311;
+    --warn: #e2a84b;
+  }
+}

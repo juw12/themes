@@ -1,0 +1,19 @@
+/* Handoff Lamp (handoff-lamp)
+   Dark ground #0f0e0d, orange accent #e8a838, ui-serif over ui-sans-serif.
+   From: handoff. Read from the repo CSS, checked 2026-11-20.
+   https://juw12.github.io/themes/#handoff-lamp
+*/
+:root {
+  color-scheme: dark;
+  --bg: #0f0e0d;
+  --surface: #1a1918;
+  --ink: #e8e6e3;
+  --muted: #868583;
+  --line: #32312f;
+  --accent: #e8a838;
+  --accent-ink: #0f0e0d;
+  --font-display: ui-serif, Georgia, "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 4px;
+}

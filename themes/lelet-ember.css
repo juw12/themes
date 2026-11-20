@@ -1,0 +1,32 @@
+/* Lelet Ember (lelet-ember)
+   Light ground #f4efe6, red accent #d9381e, Iowan Old Style over system-ui, with a dark set.
+   From: lelet. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#lelet-ember
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f4efe6;
+  --surface: #fbf8f2;
+  --ink: #1b1a17;
+  --muted: #5a554c;
+  --line: #d8cfbf;
+  --accent: #d9381e;
+  --accent-ink: #ffffff;
+  --ok: #1f7a3d;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, Menlo, "Liberation Mono", monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161513;
+    --surface: #211f1c;
+    --ink: #efe9dd;
+    --muted: #aaa294;
+    --line: #3a362f;
+    --accent: #e8492c;
+    --accent-ink: #161513;
+    --ok: #6cc98a;
+  }
+}

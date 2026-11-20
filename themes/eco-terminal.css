@@ -1,0 +1,19 @@
+/* Eco Terminal (eco-terminal)
+   Dark ground #0f1412, green accent #22aa55, Segoe UI.
+   From: cpu-eco-toggle. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#eco-terminal
+*/
+:root {
+  color-scheme: dark;
+  --bg: #0f1412;
+  --surface: #171d1a;
+  --ink: #e6ece8;
+  --muted: #9aa8a0;
+  --line: #2a332e;
+  --accent: #22aa55;
+  --accent-ink: #06210f;
+  --font-display: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-body: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 8px;
+}

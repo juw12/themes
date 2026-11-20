@@ -1,0 +1,24 @@
+/* Blame Midnight Gold (blame-midnight-gold)
+   Dark ground #0a0f1f, yellow accent #f2c14e, system-ui.
+   From: mlbb-blame. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#blame-midnight-gold
+*/
+:root {
+  color-scheme: dark;
+  --bg: #0a0f1f;
+  --surface: #121a30;
+  --ink: #eef1f8;
+  --muted: #9aa4c2;
+  --line: #26314f;
+  --accent: #f2c14e;
+  --accent-ink: #0a0f1f;
+  --accent2: #f2c14e;
+  --ok: #3fd391;
+  --bad: #ff6b78;
+  --x-blue: #6f9bff;
+  --x-button: #1c2642;
+  --font-display: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 12px;
+}

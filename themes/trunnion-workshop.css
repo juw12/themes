@@ -1,0 +1,22 @@
+/* Trunnion Workshop (trunnion-workshop)
+   Light ground #f3f4f5, orange accent #b3460e, IBM Plex Sans Condensed over IBM Plex Sans.
+   From: trunnion-topopt. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#trunnion-workshop
+   Web fonts: https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap
+*/
+:root {
+  color-scheme: light;
+  --bg: #f3f4f5;
+  --surface: #ffffff;
+  --ink: #15181c;
+  --muted: #5b6570;
+  --line: #d7dbdf;
+  --accent: #b3460e;
+  --accent-ink: #ffffff;
+  --x-pass: #2e6b39;
+  --x-fail: #a3261b;
+  --font-display: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --radius: 4px;
+}

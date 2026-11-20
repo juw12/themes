@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "kemudi-helm",
+  "name": "Kemudi Helm",
+  "summary": "Light ground #f5f2ea, teal accent #0d6b63, Georgia over system-ui.",
+  "note": "Paper with a sea-teal action colour and Georgia for the long text.",
+  "scheme": "light",
+  "hue": "teal",
+  "projects": [
+    {
+      "repo": "kemudi",
+      "url": "https://github.com/juw12/kemudi",
+      "live": "https://juw12.github.io/p/kemudi/"
+    }
+  ],
+  "source": "repo CSS",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f5f2ea",
+    "surface": "#fffdf8",
+    "ink": "#1c1b19",
+    "muted": "#6b675f",
+    "line": "#d9d3c5",
+    "accent": "#0d6b63",
+    "accent_ink": "#ffffff",
+    "warn": "#a8321f"
+  },
+  "dark": null,
+  "extras": {
+    "made": "#0d4f6b",
+    "go-soft": "#cfe6e1"
+  },
+  "fonts": {
+    "display": "Georgia, \"Times New Roman\", serif",
+    "body": "system-ui, \"Segoe UI\", sans-serif",
+    "mono": "ui-monospace, \"Cascadia Mono\", Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "6px",
+  "heading_weight": "",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.38,
+      "muted_on_bg": 5.03,
+      "accent_on_bg": 5.69,
+      "accent_ink_on_accent": 6.36,
+      "ink_on_surface": 16.93
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "--paper in the repo CSS",
+      "surface": "--panel in the repo CSS",
+      "ink": "--ink in the repo CSS",
+      "muted": "--soft in the repo CSS",
+      "line": "--line in the repo CSS",
+      "accent": "curated: --go is the declared action colour; the scan had guessed the most used colour (--made)",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "warn": "--warn in the repo CSS"
+    }
+  },
+  "derived": [
+    "accent_ink"
+  ],
+  "curated": {
+    "accent": "--go is the declared action colour; the scan had guessed the most used colour (--made)",
+    "fonts": "body rule is system-ui; Georgia is the only other face and is used for the reading text"
+  },
+  "warnings": []
+}

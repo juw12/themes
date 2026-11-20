@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "precedent-casebook",
+  "name": "Precedent Casebook",
+  "summary": "Light ground #fffaf3, red accent #8c2f1b, Libre Caslon Display over Inter.",
+  "note": "Cream page, oxblood accent and a Caslon display face.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "precedent",
+      "url": "https://github.com/juw12/precedent",
+      "live": "https://juw12.github.io/p/precedent/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#fffaf3",
+    "surface": "#ffffff",
+    "ink": "#1f2330",
+    "muted": "#5d6273",
+    "line": "#ece4d6",
+    "accent": "#8c2f1b",
+    "accent_ink": "#ffffff"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Libre Caslon Display\", system-ui, sans-serif",
+    "body": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+    "mono": "\"JetBrains Mono\", ui-monospace, monospace",
+    "web": [
+      "Libre Caslon Display",
+      "Inter",
+      "JetBrains Mono"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+  },
+  "radius": "16px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.07,
+      "muted_on_bg": 5.84,
+      "accent_on_bg": 7.97,
+      "accent_ink_on_accent": 8.28,
+      "ink_on_surface": 15.66
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill"
+    }
+  },
+  "derived": [],
+  "curated": {},
+  "warnings": []
+}

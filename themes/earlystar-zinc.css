@@ -1,0 +1,40 @@
+/* Earlystar Zinc (earlystar-zinc)
+   Light ground #fafafa, blue accent #4f46e5, Inter, with a dark set.
+   From: earlystar, nudge. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#earlystar-zinc
+   Web fonts: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --ink: #09090b;
+  --muted: #63636b;
+  --line: #e4e4e7;
+  --accent: #4f46e5;
+  --accent-ink: #ffffff;
+  --accent2: #4f46e5;
+  --ok: #15803d;
+  --warn: #c2410c;
+  --bad: #dc2626;
+  --x-accent-text: #4338ca;
+  --font-display: Inter, "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-body: Inter, "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Consolas, monospace;
+  --radius: 8px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #09090b;
+    --surface: #111113;
+    --ink: #fafafa;
+    --muted: #a1a1aa;
+    --line: #232327;
+    --accent: #818cf8;
+    --accent-ink: #09090b;
+    --accent2: #818cf8;
+    --ok: #4ade80;
+    --warn: #fb923c;
+    --bad: #f87171;
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "blame-midnight-gold",
+  "name": "Blame Midnight Gold",
+  "summary": "Dark ground #0a0f1f, yellow accent #f2c14e, system-ui.",
+  "note": "Midnight blue panels with a gold highlight; win and lose colours included.",
+  "scheme": "dark",
+  "hue": "yellow",
+  "projects": [
+    {
+      "repo": "mlbb-blame",
+      "url": "https://github.com/juw12/mlbb-blame",
+      "live": "https://juw12.github.io/mlbb-blame/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#0a0f1f",
+    "surface": "#121a30",
+    "ink": "#eef1f8",
+    "muted": "#9aa4c2",
+    "line": "#26314f",
+    "accent": "#f2c14e",
+    "accent_ink": "#0a0f1f",
+    "accent2": "#f2c14e",
+    "ok": "#3fd391",
+    "bad": "#ff6b78"
+  },
+  "dark": null,
+  "extras": {
+    "blue": "#6f9bff",
+    "button": "#1c2642"
+  },
+  "fonts": {
+    "display": "system-ui, \"Segoe UI\", Roboto, sans-serif",
+    "body": "system-ui, \"Segoe UI\", Roboto, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "12px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.87,
+      "muted_on_bg": 7.69,
+      "accent_on_bg": 11.37,
+      "accent_ink_on_accent": 11.37,
+      "ink_on_surface": 15.27
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--panel on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "curated: --gold is the declared highlight; the scan had picked the dark button fill (#1c2642)",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "accent2": "--gold on the live page",
+      "ok": "--win on the live page",
+      "bad": "--lose on the live page"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "fonts.mono"
+  ],
+  "curated": {
+    "accent": "--gold is the declared highlight; the scan had picked the dark button fill (#1c2642)"
+  },
+  "warnings": []
+}

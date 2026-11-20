@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "millennium-violet",
+  "name": "Millennium Violet",
+  "summary": "Light ground #fbfaf7, violet accent #6d3fd1, Segoe UI.",
+  "note": "Off-white with blue-grey ink and one violet accent.",
+  "scheme": "light",
+  "hue": "violet",
+  "projects": [
+    {
+      "repo": "millennium-digest",
+      "url": "https://github.com/juw12/millennium-digest",
+      "live": "https://juw12.github.io/millennium-digest/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#fbfaf7",
+    "surface": "#ffffff",
+    "ink": "#1c2230",
+    "muted": "#5b6475",
+    "line": "#e3e6ec",
+    "accent": "#6d3fd1",
+    "accent_ink": "#ffffff"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Segoe UI\", system-ui, -apple-system, Arial, sans-serif",
+    "body": "\"Segoe UI\", system-ui, -apple-system, Arial, sans-serif",
+    "mono": "monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "8px",
+  "heading_weight": "700",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.23,
+      "muted_on_bg": 5.71,
+      "accent_on_bg": 6.13,
+      "accent_ink_on_accent": 6.4,
+      "ink_on_surface": 15.9
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "largest painted panel",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg"
+    }
+  },
+  "derived": [
+    "accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

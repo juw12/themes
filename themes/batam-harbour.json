@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "id": "batam-harbour",
+  "name": "Batam Harbour",
+  "summary": "Light ground #f4f5f7, blue accent #0b3b5c, Instrument Serif over Inter.",
+  "note": "Cool grey with a deep harbour blue and a serif headline over Inter.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "batam-uncle-says",
+      "url": "https://github.com/juw12/batam-uncle-says",
+      "live": "https://juw12.github.io/batam-uncle-says/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f4f5f7",
+    "surface": "#ffffff",
+    "ink": "#0f172a",
+    "muted": "#475569",
+    "line": "#e4e7ec",
+    "accent": "#0b3b5c",
+    "accent_ink": "#ffffff",
+    "ok": "#047857",
+    "warn": "#9a4508",
+    "bad": "#b91c1c"
+  },
+  "dark": null,
+  "extras": {},
+  "fonts": {
+    "display": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
+    "body": "Inter, system-ui, -apple-system, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [
+      "Instrument Serif",
+      "Inter"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap"
+  },
+  "radius": "16px",
+  "heading_weight": "400",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.37,
+      "muted_on_bg": 6.95,
+      "accent_on_bg": 10.73,
+      "accent_ink_on_accent": 11.7,
+      "ink_on_surface": 17.85
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--ink-2 on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "--ok on the live page",
+      "warn": "--warn on the live page",
+      "bad": "--bad on the live page"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "fonts.mono"
+  ],
+  "curated": {},
+  "warnings": []
+}

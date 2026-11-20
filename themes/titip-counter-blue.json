@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "id": "titip-counter-blue",
+  "name": "Titip Counter Blue",
+  "summary": "Light ground #f4f1ea, blue accent #2f5b8c, Instrument Serif over Geist, with a dark set.",
+  "note": "Cairn's paper with a postal blue for actions; vermilion is kept only for signals.",
+  "scheme": "light",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "titip",
+      "url": "https://github.com/juw12/titip",
+      "live": "https://juw12.github.io/p/titip/"
+    }
+  ],
+  "source": "repo CSS",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f4f1ea",
+    "surface": "#fffdf8",
+    "ink": "#1b1a17",
+    "muted": "#6c665d",
+    "line": "#e1dbcf",
+    "accent": "#2f5b8c",
+    "accent_ink": "#ffffff",
+    "ok": "#2e7566"
+  },
+  "dark": {
+    "bg": "#1c1b18",
+    "surface": "#201f1c",
+    "ink": "#efebe3",
+    "muted": "#968f83",
+    "line": "#2e2c28",
+    "accent": "#86aee0",
+    "accent_ink": "#1c1b18",
+    "ok": "#6fc2ad"
+  },
+  "extras": {
+    "signal": "#d9481f",
+    "stamp": "#b3261e"
+  },
+  "fonts": {
+    "display": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
+    "body": "\"Geist\", \"Segoe UI\", system-ui, -apple-system, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "\"Geist Mono\", ui-monospace, \"SF Mono\", Consolas, monospace",
+    "web": [
+      "Instrument Serif",
+      "Geist",
+      "Geist Mono"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"
+  },
+  "radius": "6px",
+  "heading_weight": "",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.43,
+      "muted_on_bg": 5.04,
+      "accent_on_bg": 6.21,
+      "accent_ink_on_accent": 7.01,
+      "ink_on_surface": 17.12
+    },
+    "dark": {
+      "ink_on_bg": 14.49,
+      "muted_on_bg": 5.37,
+      "accent_on_bg": 7.5,
+      "accent_ink_on_accent": 7.5,
+      "ink_on_surface": 13.86
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "curated: --ground is the page colour in titip/web/styles.css; --paper is the sheet on top of it",
+      "surface": "curated: --paper and --card in titip/web/styles.css",
+      "ink": "--ink in the repo CSS",
+      "muted": "--muted in the repo CSS",
+      "line": "--line in the repo CSS",
+      "accent": "--accent in the repo CSS",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "--good in the repo CSS"
+    },
+    "dark": {
+      "bg": "dark scheme of the repo CSS",
+      "surface": "dark scheme of the repo CSS",
+      "ink": "dark scheme of the repo CSS",
+      "muted": "dark scheme of the repo CSS",
+      "line": "dark scheme of the repo CSS",
+      "accent": "dark scheme of the repo CSS",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "dark scheme of the repo CSS"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "dark.accent_ink"
+  ],
+  "curated": {
+    "bg": "--ground is the page colour in titip/web/styles.css; --paper is the sheet on top of it",
+    "fonts.body": "--ui in the CSS is Geist; the scan had picked the mono variable",
+    "surface": "--paper and --card in titip/web/styles.css"
+  },
+  "warnings": []
+}

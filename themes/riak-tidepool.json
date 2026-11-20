@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "id": "riak-tidepool",
+  "name": "Riak Tidepool",
+  "summary": "Light ground #f5f0e7, teal accent #1f5f4a, Fraunces over Source Sans 3, with a dark set.",
+  "note": "Sand paper, tidepool green and soft Fraunces headlines.",
+  "scheme": "light",
+  "hue": "teal",
+  "projects": [
+    {
+      "repo": "riak",
+      "url": "https://github.com/juw12/riak",
+      "live": "https://juw12.github.io/riak/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f5f0e7",
+    "surface": "#ffffff",
+    "ink": "#1d2a27",
+    "muted": "#56625e",
+    "line": "#e5ddcf",
+    "accent": "#1f5f4a",
+    "accent_ink": "#ffffff",
+    "accent2": "#87590c",
+    "warn": "#8a3b22"
+  },
+  "dark": {
+    "bg": "#141a18",
+    "surface": "#1b2320",
+    "ink": "#ece6d8",
+    "muted": "#a9b3ad",
+    "line": "#2f3a36",
+    "accent": "#6fbf9c",
+    "accent_ink": "#141a18",
+    "accent2": "#e2b450",
+    "warn": "#e59a7c"
+  },
+  "extras": {},
+  "fonts": {
+    "display": "Fraunces, Georgia, \"Times New Roman\", serif",
+    "body": "\"Source Sans 3\", \"Segoe UI\", system-ui, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [
+      "Fraunces",
+      "Source Sans 3"
+    ],
+    "web_url": "https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+  },
+  "radius": "18px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 13.1,
+      "muted_on_bg": 5.6,
+      "accent_on_bg": 6.62,
+      "accent_ink_on_accent": 7.52,
+      "ink_on_surface": 14.86
+    },
+    "dark": {
+      "ink_on_bg": 14.17,
+      "muted_on_bg": 8.18,
+      "accent_on_bg": 8.07,
+      "accent_ink_on_accent": 8.07,
+      "ink_on_surface": 12.9
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--card on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--muted on the live page",
+      "line": "--rule on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "accent2": "--gold on the live page",
+      "warn": "--warn on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "accent2": "dark scheme of the live page",
+      "warn": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "accent_ink",
+    "fonts.mono",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

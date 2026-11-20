@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "morrow-broadsheet",
+  "name": "Morrow Broadsheet",
+  "summary": "Light ground #f7f6f2, red accent #b4232c, system-ui, with a dark set.",
+  "note": "Newsprint off-white and press red. System sans for the interface; the app reads long text in Charter.",
+  "scheme": "light",
+  "hue": "red",
+  "projects": [
+    {
+      "repo": "morrow",
+      "url": "https://github.com/juw12/morrow",
+      "live": "https://juw12.github.io/morrow/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f7f6f2",
+    "surface": "#ffffff",
+    "ink": "#14161a",
+    "muted": "#474c55",
+    "line": "#e7e4dd",
+    "accent": "#b4232c",
+    "accent_ink": "#ffffff",
+    "ok": "#0b7a46",
+    "bad": "#c32a1f"
+  },
+  "dark": {
+    "bg": "#0e0f11",
+    "surface": "#16181b",
+    "ink": "#ecebe7",
+    "muted": "#b9b7b1",
+    "line": "#24272b",
+    "accent": "#ff6b6b",
+    "accent_ink": "#0e0f11",
+    "ok": "#3ccf8e",
+    "bad": "#ff6b5e"
+  },
+  "extras": {},
+  "fonts": {
+    "display": "system-ui, -apple-system, \"Segoe UI Variable Text\", \"Segoe UI\", Inter, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "body": "system-ui, -apple-system, \"Segoe UI Variable Text\", \"Segoe UI\", Inter, Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, \"Cascadia Mono\", \"SF Mono\", Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "16px",
+  "heading_weight": "400",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 16.75,
+      "muted_on_bg": 7.98,
+      "accent_on_bg": 6.04,
+      "accent_ink_on_accent": 6.53,
+      "ink_on_surface": 18.11
+    },
+    "dark": {
+      "ink_on_bg": 16.08,
+      "muted_on_bg": 9.56,
+      "accent_on_bg": 6.91,
+      "accent_ink_on_accent": 6.91,
+      "ink_on_surface": 14.91
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--ink on the live page",
+      "muted": "--ink2 on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "ok": "--up on the live page",
+      "bad": "--down on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "ok": "dark scheme of the live page",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

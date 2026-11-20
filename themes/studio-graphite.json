@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "id": "studio-graphite",
+  "name": "Studio Graphite",
+  "summary": "Dark ground #121314, blue accent #2563eb, Segoe UI Semibold over Segoe UI.",
+  "note": "Graphite panels with one blue action colour; colour is kept for meaning.",
+  "scheme": "dark",
+  "hue": "blue",
+  "projects": [
+    {
+      "repo": "skills",
+      "url": "https://github.com/juw12/skills",
+      "live": ""
+    }
+  ],
+  "source": "repo CSS",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#121314",
+    "surface": "#1a1b1d",
+    "ink": "#ecedee",
+    "muted": "#9a9ea5",
+    "line": "#2e3033",
+    "accent": "#2563eb",
+    "accent_ink": "#ffffff",
+    "ok": "#3fb871",
+    "warn": "#e0a43a",
+    "bad": "#ef5a5a"
+  },
+  "dark": null,
+  "extras": {
+    "panel-2": "#222326",
+    "accent-text": "#7fb0ff"
+  },
+  "fonts": {
+    "display": "\"Segoe UI Semibold\", \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+    "body": "\"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "10px",
+  "heading_weight": "",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 15.87,
+      "muted_on_bg": 6.92,
+      "accent_on_bg": 3.6,
+      "accent_ink_on_accent": 5.17,
+      "ink_on_surface": 14.7
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "declared in skills/ambitious-founder/studio/styles.css",
+      "surface": "declared in skills/ambitious-founder/studio/styles.css",
+      "ink": "declared in skills/ambitious-founder/studio/styles.css",
+      "muted": "declared in skills/ambitious-founder/studio/styles.css",
+      "line": "declared in skills/ambitious-founder/studio/styles.css",
+      "accent": "declared in skills/ambitious-founder/studio/styles.css",
+      "accent_ink": "text colour painted on the accent fill",
+      "ok": "declared in skills/ambitious-founder/studio/styles.css",
+      "warn": "declared in skills/ambitious-founder/studio/styles.css",
+      "bad": "declared in skills/ambitious-founder/studio/styles.css"
+    }
+  },
+  "derived": [
+    "fonts.mono"
+  ],
+  "curated": {},
+  "warnings": [
+    "dark ground: accent on bg is 3.6:1; fine for fills and large text, not for small text"
+  ]
+}

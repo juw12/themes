@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "id": "reda-still-teal",
+  "name": "Reda Still Teal",
+  "summary": "Light ground #f6f1ea, teal accent #1f5f55, Charter over system-ui, with a dark set.",
+  "note": "Calm paper, deep teal and large 18px corners; Charter for headlines.",
+  "scheme": "light",
+  "hue": "teal",
+  "projects": [
+    {
+      "repo": "reda",
+      "url": "https://github.com/juw12/reda",
+      "live": "https://juw12.github.io/reda/"
+    }
+  ],
+  "source": "live page",
+  "checked": "2026-11-20",
+  "colors": {
+    "bg": "#f6f1ea",
+    "surface": "#fffdf9",
+    "ink": "#231e1a",
+    "muted": "#5f554c",
+    "line": "#e2d8cb",
+    "accent": "#1f5f55",
+    "accent_ink": "#ffffff",
+    "bad": "#a8281f"
+  },
+  "dark": {
+    "bg": "#171513",
+    "surface": "#211e1b",
+    "ink": "#efe8df",
+    "muted": "#b3a89a",
+    "line": "#3a342f",
+    "accent": "#7cc4b5",
+    "accent_ink": "#171513",
+    "bad": "#ff8a7a"
+  },
+  "extras": {
+    "caution-line": "#e9cf96",
+    "skin": "#e9c3a9",
+    "band-severe": "#e59a8c"
+  },
+  "fonts": {
+    "display": "Charter, \"Bitstream Charter\", \"Sitka Text\", Cambria, Georgia, serif",
+    "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans\", \"Helvetica Neue\", sans-serif",
+    "mono": "ui-monospace, Consolas, monospace",
+    "web": [],
+    "web_url": ""
+  },
+  "radius": "18px",
+  "heading_weight": "600",
+  "contrast": {
+    "light": {
+      "ink_on_bg": 14.69,
+      "muted_on_bg": 6.47,
+      "accent_on_bg": 6.61,
+      "accent_ink_on_accent": 7.43,
+      "ink_on_surface": 16.25
+    },
+    "dark": {
+      "ink_on_bg": 14.98,
+      "muted_on_bg": 7.79,
+      "accent_on_bg": 9.04,
+      "accent_ink_on_accent": 9.04,
+      "ink_on_surface": 13.65
+    }
+  },
+  "origin": {
+    "light": {
+      "bg": "rendered page background",
+      "surface": "--surface on the live page",
+      "ink": "--text on the live page",
+      "muted": "--muted on the live page",
+      "line": "--line on the live page",
+      "accent": "--accent on the live page",
+      "accent_ink": "text colour painted on the accent fill",
+      "bad": "--danger on the live page"
+    },
+    "dark": {
+      "bg": "dark scheme of the live page",
+      "surface": "dark scheme of the live page",
+      "ink": "dark scheme of the live page",
+      "muted": "dark scheme of the live page",
+      "line": "dark scheme of the live page",
+      "accent": "dark scheme of the live page",
+      "accent_ink": "derived: best contrast on the accent out of white, ink and bg",
+      "bad": "dark scheme of the live page"
+    }
+  },
+  "derived": [
+    "fonts.mono",
+    "dark.accent_ink"
+  ],
+  "curated": {},
+  "warnings": []
+}

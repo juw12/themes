@@ -1,0 +1,23 @@
+/* Jeda Brass (jeda-brass)
+   Light ground #f6f2eb, orange accent #b8862b, Iowan Old Style over Inter.
+   From: jeda. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#jeda-brass
+   Web fonts: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap
+*/
+:root {
+  color-scheme: light;
+  --bg: #f6f2eb;
+  --surface: #ffffff;
+  --ink: #26221d;
+  --muted: #6b6157;
+  --line: #e6dfd3;
+  --accent: #b8862b;
+  --accent-ink: #000000;
+  --ok: #3f8f5a;
+  --warn: #c98a2b;
+  --bad: #c4513f;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Noto Serif", Georgia, serif;
+  --font-body: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans SC", sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 20px;
+}

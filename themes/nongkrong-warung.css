@@ -1,0 +1,31 @@
+/* Nongkrong Warung (nongkrong-warung)
+   Light ground #f7f5f0, red accent #a63d24, DM Serif Display over IBM Plex Sans, with a dark set.
+   From: nongkrong. Read from the live page, checked 2026-11-20.
+   https://juw12.github.io/themes/#nongkrong-warung
+   Web fonts: https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;500;600&display=swap
+*/
+:root {
+  color-scheme: light dark;
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --ink: #1f1e1c;
+  --muted: #5f5b55;
+  --line: #e4e0d7;
+  --accent: #a63d24;
+  --accent-ink: #ffffff;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151816;
+    --surface: #1d211e;
+    --ink: #ece8df;
+    --muted: #aaa59a;
+    --line: #323833;
+    --accent: #e0866a;
+    --accent-ink: #151816;
+  }
+}
