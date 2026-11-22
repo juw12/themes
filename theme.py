@@ -8,11 +8,20 @@
     python theme.py pull <id> --format json
     python theme.py pull <id> --design-md       a design.md brief built from the theme
 
+    python theme.py components list [--category backgrounds] [--search text]
+    python theme.py components add SplitText [--flavor TS-TW] [--theme <id>] [--run]
+
+The second shelf is a catalogue of the free React Bits components (https://reactbits.dev, by David Haz,
+MIT + Commons Clause). No component source is kept in this library: "add" prints the command that pulls
+the component straight from reactbits.dev into the app, and --run runs it in the current folder.
+
 It reads the themes/ folder next to this file first, then falls back to GitHub.
 """
 import argparse
 import json
 import os
+import shutil
+import subprocess
 import sys
 import urllib.request
 
@@ -174,6 +183,96 @@ def cmd_pull(args):
         sys.stdout.write(text)
 
 
+def catalogue():
+    text, _ = fetch("reactbits.json")
+    return json.loads(text)
+
+
+def squash(text):
+    return "".join(ch for ch in text.lower() if ch.isalnum())
+
+
+def find_component(wanted):
+    """Accept the component's name, its id or its title, in any case, with or without spaces and dashes."""
+    data = catalogue()
+    rows = data["components"] + data["unlisted"]
+    key = squash(wanted)
+    for row in rows:
+        if key in (squash(row["name"]), squash(row["id"]), squash(row["title"])):
+            return data, row
+    hits = [row for row in rows if key and key in squash(row["name"])]
+    if len(hits) == 1:
+        return data, hits[0]
+    if not hits:
+        raise SystemExit(f'no component matches "{wanted}". Try: python theme.py components list --search {wanted}')
+    names = ", ".join(row["name"] for row in hits[:12])
+    raise SystemExit(f'"{wanted}" matches several components: {names}')
+
+
+def cmd_components_list(args):
+    data = catalogue()
+    category = squash(args.category or "")
+    known = [squash(row["id"]) for row in data["categories"]]
+    if category and category not in known:
+        raise SystemExit("no such category. Categories: " + ", ".join(row["id"] for row in data["categories"]))
+    word = (args.search or "").lower()
+    rows = []
+    for row in data["components"]:
+        if category and squash(row["category"]) != category:
+            continue
+        haystack = " ".join([row["name"], row["title"], row["category"], row["description"]] + row["dependencies"]).lower()
+        if word and word not in haystack:
+            continue
+        rows.append(row)
+    if not rows:
+        print("no component matches")
+        return
+    width = max(len(row["name"]) for row in rows)
+    group_width = max(len(row["category"]) for row in rows)
+    for row in rows:
+        print(f"{row['name']:<{width}}  {row['category']:<{group_width}}  {row['description']}")
+    source = data["read_from"]
+    print(f"{len(rows)} of {data['count']} components, read from {source['site']} on {source['read']}")
+
+
+def cmd_components_add(args):
+    data, row = find_component(args.name)
+    flavor = (args.flavor or data["default_flavor"]).upper()
+    if flavor not in row["flavors"]:
+        raise SystemExit(f"{row['name']} has no {flavor} flavour. It has: " + ", ".join(row["flavors"]))
+    command = data["install"]["shadcn"].format(name=row["name"], flavor=flavor)
+    other = data["install"]["jsrepo"].format(name=row["name"], flavor=flavor)
+    notes = [f"{row['name']} ({flavor}): {row['description']}"]
+    if row.get("demo"):
+        notes.append("See it live: " + row["demo"])
+    else:
+        notes.append("No demo page: " + row.get("why", "it is not in their menu"))
+    if row["dependencies"]:
+        notes.append("It brings these packages: " + ", ".join(row["dependencies"]))
+    if args.theme:
+        theme = load_theme(args.theme)
+        colours = theme["colors"]
+        notes.append(
+            f"Colours of {theme['name']} to pass as props where the component takes colours: "
+            f"accent {colours['accent']}, bg {colours['bg']}, ink {colours['ink']}"
+        )
+    origin = data["read_from"]
+    notes.append(f"By {origin['author']}, {origin['licence']}. The source is not kept in this library;")
+    notes.append("the command below pulls it from reactbits.dev into this app. Or: " + other)
+    if not args.execute:
+        for line in notes:
+            print("# " + line)
+        print(command)
+        return
+    for line in notes:
+        print("# " + line, file=sys.stderr)
+    program = shutil.which("npx")
+    if not program:
+        raise SystemExit("npx was not found. Install Node.js, or run this yourself: " + command)
+    print("$ " + command, file=sys.stderr)
+    raise SystemExit(subprocess.call([program] + command.split()[1:]))
+
+
 def main():
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
@@ -191,6 +290,18 @@ def main():
     pull_parser.add_argument("--design-md", action="store_true", help="write a design.md brief instead")
     pull_parser.add_argument("--to", help="file to write (default: print)")
     pull_parser.set_defaults(run=cmd_pull)
+    components_parser = commands.add_parser("components", help="the React Bits catalogue: list, add")
+    component_commands = components_parser.add_subparsers(dest="action", required=True)
+    components_list = component_commands.add_parser("list", help="list the components")
+    components_list.add_argument("--category", help="text-animations, animations, components, micro, backgrounds")
+    components_list.add_argument("--search", help="a word in the name, description or dependencies")
+    components_list.set_defaults(run=cmd_components_list)
+    components_add = component_commands.add_parser("add", help="print (or run) the command that adds one")
+    components_add.add_argument("name")
+    components_add.add_argument("--flavor", "--flavour", help="JS-CSS, JS-TW, TS-CSS or TS-TW (default TS-TW)")
+    components_add.add_argument("--theme", help="a theme id: also print its colours to pass as props")
+    components_add.add_argument("--run", dest="execute", action="store_true", help="run the command in the current folder")
+    components_add.set_defaults(run=cmd_components_add)
     args = parser.parse_args()
     args.run(args)
 

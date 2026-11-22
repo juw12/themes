@@ -132,6 +132,15 @@
           "about": "A utility-first CSS framework for rapid UI development."
         },
         {
+          "repo": "DavidHDev/react-bits",
+          "url": "https://github.com/DavidHDev/react-bits",
+          "stars": 52473,
+          "licence": "MIT + Commons Clause",
+          "pushed": "2026-11-19",
+          "template": false,
+          "about": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents."
+        },
+        {
           "repo": "saadeghi/daisyui",
           "url": "https://github.com/saadeghi/daisyui",
           "stars": 42908,

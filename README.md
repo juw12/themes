@@ -41,14 +41,40 @@ were derived (and how), contrast ratios, and warnings where text contrast is und
 - No colour is made up. `tools/build.py` stops if a colour is not in the project's CSS or on its rendered page.
 - A hand fix needs a written reason in `src/curation.json`; the reason is shown on the theme's card.
 - Contrast is computed, never typed in.
-- `python tools/check.py` runs every gate (schema, provenance, contrast, text hygiene, page checks).
+- `python tools/check.py` runs every gate (schema, provenance, contrast, text hygiene, page checks, and that
+  the components shelf holds facts only).
 
 ## Start a new app from it
 
 This repo is a GitHub template: **Use this template** gives you the `starter/` app (one HTML page, one stylesheet
 that only uses the tokens) plus every theme. [TEMPLATES.md](TEMPLATES.md) lists
-40 well-known public repos to start an app's design from,
+41 well-known public repos to start an app's design from,
 with stars, licence and last push as of 2026-11-20.
+
+## React Bits components
+
+The second shelf: a catalogue of the 217 free [React Bits](https://reactbits.dev) components (Text Animations 33, Animations 38, Components 48, Micro 34, Backgrounds 64),
+read from their registry on 2026-11-22. 2 more (EvilEye, FlyingButton) are in their registry without a demo page; `components add` knows them too.
+Browse them: **https://juw12.github.io/themes/components.html**
+
+```
+python theme.py components list --category backgrounds
+python theme.py components list --search cursor
+python theme.py components add SplitText --flavor TS-TW          # prints the command and what it brings
+python theme.py components add Aurora --theme cairn-paper --run   # runs it here, names the theme's colours
+```
+
+`add` prints one of these, for the flavour asked (`JS-CSS`, `JS-TW`, `TS-CSS`, `TS-TW`):
+
+```
+npx shadcn@latest add https://reactbits.dev/r/SplitText-TS-TW.json
+npx jsrepo@latest add https://reactbits.dev/r/SplitText-TS-TW
+```
+
+React Bits is by David Haz, licensed [MIT + Commons Clause](https://github.com/DavidHDev/react-bits/blob/main/LICENSE.md): free to use in an app,
+not to be handed on. So this repo keeps a list of facts (`reactbits.json`: name, group, description, packages, demo
+page) and none of their code, sounds or demo media. A component is pulled from reactbits.dev at the moment you add
+it. React Bits Pro is a separate paid product and is not listed. `python tools/reactbits.py` reads the list again.
 
 ## All themes
 
@@ -115,7 +141,8 @@ with stars, licence and last push as of 2026-11-20.
 
 ```
 python tools/build.py     # src/merged.json + src/curation.json -> themes/, themes.json
-python tools/site.py      # index.html, README.md, TEMPLATES.md
+python tools/reactbits.py # reactbits.dev -> src/reactbits.json, reactbits.json (facts only, no source)
+python tools/site.py      # index.html, components.html, README.md, TEMPLATES.md
 python tools/check.py     # gates
 ```
 

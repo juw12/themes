@@ -1,4 +1,4 @@
-"""Write index.html (the specimen book), README.md and TEMPLATES.md from the built themes.
+"""Write index.html (the specimen book), components.html (the React Bits shelf), README.md and TEMPLATES.md.
 
     python tools/build.py && python tools/site.py
 """
@@ -20,6 +20,8 @@ HOUSE_THEME = "cairn-paper"
 SWATCH_ROLES = ["bg", "surface", "ink", "muted", "line", "accent"]
 HUES = ["red", "orange", "yellow", "green", "teal", "blue", "violet", "pink"]
 STATS_FILE = os.path.join(ROOT, "src", "scan_stats.json")
+SHELF_FILE = os.path.join(ROOT, "reactbits.json")
+SHELF_PAGE = "components.html"
 
 
 def esc(value):
@@ -210,6 +212,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .mast-row{display:flex;justify-content:space-between;gap:16px;align-items:baseline;flex-wrap:wrap}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0}
 .eyebrow a{text-decoration:none}.eyebrow a:hover{text-decoration:underline}
+.shelf-link a{color:var(--accent);font-weight:600;display:inline-block;padding:6px 0}
 h1{font:400 clamp(40px,8.4vw,104px)/.96 var(--font-display);letter-spacing:-.02em;margin:26px 0 18px;max-width:13ch;text-wrap:balance}
 h1 em{font-style:italic;color:var(--accent)}
 .standfirst{max-width:62ch;font-size:clamp(17px,1.5vw,19px);margin:0 0 26px;color:var(--ink)}
@@ -404,6 +407,9 @@ JS = r"""
       history.replaceState(null, '', url);
     }
     root.dataset.worn = theme.id;
+    document.querySelectorAll('a[data-carry]').forEach(function (link) {
+      link.href = link.getAttribute('href').split('?')[0] + (isHouse ? '' : '?wear=' + theme.id);
+    });
   }
   function setMode(card, mode) {
     var theme = byId[card.dataset.id];
@@ -487,7 +493,7 @@ JS = r"""
 """
 
 
-def page(themes, templates, stats):
+def page(themes, templates, stats, shelf):
     house = next(theme for theme in themes if theme["id"] == HOUSE_THEME)
     cards = "".join(card(theme, number) for number, theme in enumerate(themes, 1))
     payload = {
@@ -555,6 +561,7 @@ def page(themes, templates, stats):
   <div class="wrap">
     <div class="mast-row">
       <p class="eyebrow"><a href="{REPO_URL}">juw12 / themes</a></p>
+      <p class="eyebrow shelf-link"><a href="{SHELF_PAGE}" data-carry>Components: {shelf['count']} from React Bits</a></p>
       <p class="eyebrow">Checked {checked}</p>
     </div>
     <h1>{len(themes)} looks I already <em>shipped</em>, kept for the next app.</h1>
@@ -659,7 +666,403 @@ def page(themes, templates, stats):
 """
 
 
-def readme(themes, templates):
+SHELF_CSS = r"""
+.mast h1{max-width:16ch}
+.back{color:var(--accent);font-weight:600}
+.credit{max-width:70ch;color:var(--muted);font-size:14px;margin:0 0 26px}
+.bar-in label{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.picker{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.wearer{height:36px;max-width:100%;padding:0 10px;border:1px solid var(--line);border-radius:min(var(--radius),12px);background:var(--surface);color:var(--surface-ink,var(--ink));font:14px var(--font-body)}
+.shelf{padding-top:28px}
+.shelf h2{font:400 clamp(26px,3vw,36px)/1.1 var(--font-display);margin:0;letter-spacing:-.01em;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.shelf h2 span{font:12px var(--font-mono);color:var(--muted)}
+.shelf .grid{padding:18px 0 12px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:16px}
+.part .name{font-size:clamp(24px,2.1vw,28px);margin:8px 0 6px}
+.part .note{min-height:3em;margin-bottom:10px}
+.part .deps{margin:0 0 12px;font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.part .deps code{color:var(--ink)}
+.part .actions{margin:auto 0 0}
+.part a.link{text-decoration:none;display:inline-flex;align-items:center;min-height:40px}
+.part a.link:hover{text-decoration:underline}
+.part .pull{margin-top:10px;min-height:66px}
+.extra{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:10px;max-width:70ch}
+.extra li{border-top:1px solid var(--line);padding-top:10px}
+.extra .btn{margin-top:8px}
+"""
+
+SHELF_JS = r"""
+(function () {
+  var data = JSON.parse(document.getElementById('shelf-data').textContent);
+  var root = document.documentElement;
+  var byId = {};
+  data.themes.forEach(function (t) { byId[t.id] = t; });
+  var loaded = {};
+  var toastTimer;
+  var state = { category: 'all', text: '', lang: 'TS', style: 'TW' };
+
+  function flavor() { return state.lang + '-' + state.style; }
+  function command(name) { return data.install.replace('{name}', name).replace('{flavor}', flavor()); }
+  function toast(text) {
+    var box = document.getElementById('toast');
+    box.textContent = text;
+    box.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { box.hidden = true; }, 1800);
+  }
+  function copy(text, label) {
+    function done() { window.__lastCopied = text; toast(label + ' copied'); }
+    function fallback() {
+      var area = document.createElement('textarea');
+      area.value = text;
+      document.body.appendChild(area);
+      area.select();
+      try { document.execCommand('copy'); } catch (err) {}
+      area.remove();
+      done();
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else { fallback(); }
+  }
+  function wear(id, quiet) {
+    var theme = byId[id] || byId[data.house];
+    if (theme.web_url && !loaded[theme.web_url]) {
+      loaded[theme.web_url] = true;
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = theme.web_url;
+      document.head.appendChild(link);
+    }
+    Object.keys(theme.colors).forEach(function (role) {
+      root.style.setProperty('--' + role.replace('_', '-'), theme.colors[role]);
+    });
+    root.style.setProperty('--surface-ink', theme.colors.surface_ink || theme.colors.ink);
+    root.style.setProperty('--font-display', theme.display);
+    root.style.setProperty('--font-body', theme.body);
+    root.style.setProperty('--font-mono', theme.mono);
+    root.style.setProperty('--radius', theme.radius);
+    root.style.colorScheme = theme.scheme === 'dark' ? 'dark' : 'light';
+    root.dataset.worn = theme.id;
+    document.getElementById('wearer').value = theme.id;
+    var isHouse = theme.id === data.house;
+    document.querySelectorAll('a[data-carry]').forEach(function (link) {
+      link.href = link.getAttribute('href').split('?')[0] + (isHouse ? '' : '?wear=' + theme.id);
+    });
+    if (!quiet) {
+      var url = new URL(location.href);
+      if (isHouse) { url.searchParams.delete('wear'); } else { url.searchParams.set('wear', theme.id); }
+      history.replaceState(null, '', url);
+    }
+  }
+  function refreshCommands() {
+    document.querySelectorAll('[data-add]').forEach(function (button) {
+      var text = command(button.dataset.add);
+      button.dataset.copy = text;
+      var shown = button.querySelector('[data-cmd]');
+      if (shown) shown.textContent = text;
+    });
+  }
+
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.part'));
+  var sections = Array.prototype.slice.call(document.querySelectorAll('.shelf[data-category]'));
+  function applyFilter() {
+    var shown = 0;
+    cards.forEach(function (card) {
+      var show = (state.category === 'all' || card.dataset.category === state.category) &&
+        (!state.text || card.dataset.search.indexOf(state.text) !== -1);
+      card.hidden = !show;
+      if (show) shown += 1;
+    });
+    sections.forEach(function (section) {
+      section.hidden = !section.querySelector('.part:not([hidden])');
+    });
+    document.getElementById('count').textContent = shown + ' of ' + cards.length;
+    document.getElementById('empty').hidden = shown !== 0;
+  }
+
+  document.addEventListener('click', function (event) {
+    var target = event.target.closest('button');
+    if (!target) return;
+    if (target.dataset.copy) {
+      copy(target.dataset.copy, 'Install command');
+    } else if (target.classList.contains('pill')) {
+      var group = target.dataset.group;
+      var value = target.dataset.value;
+      if (group === 'category') { state.category = state.category === value ? 'all' : value; } else { state[group] = value; }
+      document.querySelectorAll('.pill[data-group="' + group + '"]').forEach(function (other) {
+        other.setAttribute('aria-pressed', other.dataset.value === state[group] ? 'true' : 'false');
+      });
+      if (group === 'category') { applyFilter(); } else { refreshCommands(); }
+    }
+  });
+  document.getElementById('search').addEventListener('input', function (event) {
+    state.text = event.target.value.trim().toLowerCase();
+    applyFilter();
+  });
+  document.getElementById('wearer').addEventListener('change', function (event) { wear(event.target.value); });
+
+  var asked = new URL(location.href).searchParams.get('wear');
+  if (asked && byId[asked]) { wear(asked, true); } else { root.dataset.worn = data.house; }
+  refreshCommands();
+  applyFilter();
+})();
+"""
+
+
+def shelf_command(shelf, name, flavor=None):
+    return shelf["install"]["shadcn"].format(name=name, flavor=flavor or shelf["default_flavor"])
+
+
+def shelf_card(shelf, row, category_name):
+    deps = (
+        "Brings " + ", ".join(f"<code>{esc(dep)}</code>" for dep in row["dependencies"])
+        if row["dependencies"]
+        else "No extra package"
+    )
+    command = shelf_command(shelf, row["name"])
+    search = " ".join([row["name"], row["title"], category_name, row["description"]] + row["dependencies"]).lower()
+    return (
+        f'<article class="card part" id="{esc(row["id"])}" data-category="{esc(row["category"])}" data-search="{esc(search)}">'
+        f'<div class="card-top"><span class="no">{esc(category_name)}</span></div>'
+        f'<h3 class="name">{esc(row["title"])}</h3>'
+        f'<p class="note">{esc(row["description"])}</p>'
+        f'<p class="deps">{deps}</p>'
+        '<div class="actions">'
+        f'<button type="button" class="btn primary" data-add="{esc(row["name"])}" data-copy="{esc(command)}">Copy install command</button>'
+        f'<a class="link" href="{esc(row["demo"])}" target="_blank" rel="noopener">See it live</a>'
+        "</div>"
+        f'<button type="button" class="pull" data-add="{esc(row["name"])}" data-copy="{esc(command)}" '
+        f'aria-label="Copy the install command for {esc(row["title"])}"><span class="prompt">$</span><span data-cmd>{esc(command)}</span></button>'
+        "</article>"
+    )
+
+
+def shelf_page(themes, shelf):
+    house = next(theme for theme in themes if theme["id"] == HOUSE_THEME)
+    source = shelf["read_from"]
+    names = {row["id"]: row["name"] for row in shelf["categories"]}
+    sections = []
+    for category in shelf["categories"]:
+        cards = "".join(
+            shelf_card(shelf, row, category["name"]) for row in shelf["components"] if row["category"] == category["id"]
+        )
+        sections.append(
+            f'<section class="wrap shelf" data-category="{category["id"]}" aria-labelledby="h-{category["id"]}">'
+            f'<h2 id="h-{category["id"]}">{esc(category["name"])} <span>{category["count"]}</span></h2>'
+            f'<div class="grid">{cards}</div></section>'
+        )
+    extra = "".join(
+        f'<li><b>{esc(row["name"])}</b>: {esc(row["description"])}<br>'
+        f'<button type="button" class="btn quiet" data-add="{esc(row["name"])}" data-copy="{esc(shelf_command(shelf, row["name"]))}">'
+        "Copy install command</button></li>"
+        for row in shelf["unlisted"]
+    )
+    extra_block = (
+        '<section class="wrap sect" aria-labelledby="extra-h"><h2 id="extra-h">In their registry, without a demo page</h2>'
+        f'<p class="lead">{len(shelf["unlisted"])} more can be installed by name. They are not in the React Bits menu, '
+        f'so there is nothing to see first.</p><ul class="extra">{extra}</ul></section>'
+        if shelf["unlisted"]
+        else ""
+    )
+    category_pills = "".join(
+        f'<button type="button" class="pill" data-group="category" data-value="{row["id"]}" aria-pressed="false">'
+        f'{esc(row["name"])} {row["count"]}</button>'
+        for row in shelf["categories"]
+    )
+    options = "".join(
+        f'<option value="{esc(theme["id"])}"{" selected" if theme["id"] == HOUSE_THEME else ""}>{esc(theme["name"])}</option>'
+        for theme in themes
+    )
+    payload = {
+        "house": HOUSE_THEME,
+        "install": shelf["install"]["shadcn"],
+        "themes": [
+            {
+                "id": theme["id"],
+                "name": theme["name"],
+                "scheme": theme["scheme"],
+                "colors": theme["colors"],
+                "display": theme["fonts"]["display"],
+                "body": theme["fonts"]["body"],
+                "mono": theme["fonts"]["mono"],
+                "radius": theme["radius"],
+                "web_url": theme["fonts"]["web_url"],
+            }
+            for theme in themes
+        ],
+    }
+    data_json = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
+    count = shelf["count"]
+    description = (
+        f"A catalogue of the {count} free React Bits components in {len(shelf['categories'])} groups: what each one does, "
+        "what it needs, where to see it and the one line that installs it. No component source is kept here."
+    )
+    page_url = SITE_URL + SHELF_PAGE
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Components: {count} React Bits parts, catalogued for the next app</title>
+<meta name="description" content="{esc(description)}">
+<meta property="og:title" content="Components: {count} React Bits parts next to the themes">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{page_url}">
+<link rel="canonical" href="{page_url}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{esc(house['fonts']['web_url'])}">
+<style>
+:root{{color-scheme:light;{style_vars(house['colors'], house['fonts'], house['radius'])}}}
+{CSS}
+{SHELF_CSS}
+</style>
+</head>
+<body>
+<a class="skip" href="#parts">Skip to the components</a>
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <p class="eyebrow"><a href="{REPO_URL}">juw12 / themes</a></p>
+      <p class="eyebrow shelf-link"><a class="back" href="./" data-carry>Back to the {len(themes)} themes</a></p>
+      <p class="eyebrow">Read {esc(source['read'])}</p>
+    </div>
+    <h1>{count} moving parts by React Bits, <em>catalogued</em>.</h1>
+    <p class="standfirst">The second shelf. A theme is the paint; these are parts that move: text effects, cursors,
+    cards, small controls and whole animated backgrounds. Each card says what the part does, what it needs,
+    where to see it running, and the one line that puts it into an app.</p>
+    <p class="credit"><a href="{esc(source['site'])}">React Bits</a> is made by {esc(source['author'])} and is free to use
+    in an app, also a paid one. Its licence (<a href="{esc(source['licence_url'])}">{esc(source['licence'])}</a>) does not
+    allow handing the components on, so none of their code, sounds or demos is kept in this library. The install line
+    pulls a part straight from reactbits.dev into your project.</p>
+    <dl class="tally">
+      <div><dt>Components</dt><dd>{count}</dd></div>
+      <div><dt>Groups</dt><dd>{len(shelf['categories'])}</dd></div>
+      <div><dt>Flavours each</dt><dd>{len(shelf['flavors'])}</dd></div>
+      <div><dt>Their code kept here</dt><dd>None</dd></div>
+    </dl>
+  </div>
+</header>
+<main>
+<section class="wrap how" aria-labelledby="how-h">
+  <div>
+    <h2 id="how-h">Add one to a project</h2>
+    <p>Pick the flavour your app is written in, press <b>Copy install command</b> on a card and run it in the
+    project folder. It needs Node.js and works in any React or Next.js app.</p>
+    <p><code>theme.py</code> does the same from a terminal, and can name a theme's colours to pass as props.</p>
+  </div>
+  <div class="cmds">
+    <button type="button" class="cmd" data-copy="python theme.py components list --category backgrounds"><span>python theme.py components list --category backgrounds</span><span class="hint">copy</span></button>
+    <button type="button" class="cmd" data-copy="python theme.py components add SplitText --flavor TS-TW"><span>python theme.py components add SplitText --flavor TS-TW</span><span class="hint">copy</span></button>
+    <button type="button" class="cmd" data-copy="python theme.py components add Aurora --theme {HOUSE_THEME} --run"><span>python theme.py components add Aurora --theme {HOUSE_THEME} --run</span><span class="hint">copy</span></button>
+    <button type="button" class="cmd" data-copy="curl -O {RAW_URL}/theme.py"><span>curl -O {RAW_URL}/theme.py</span><span class="hint">copy</span></button>
+  </div>
+</section>
+<section id="parts" aria-label="Components">
+<div class="bar">
+  <div class="wrap">
+    <div class="bar-in">
+      <input class="search" id="search" type="search" placeholder="Search a name, what it does or a package" aria-label="Search components">
+      <div class="seg" role="group" aria-label="Group">{category_pills}</div>
+      <span class="count" id="count" aria-live="polite">{count} of {count}</span>
+    </div>
+    <div class="bar-in">
+      <div class="picker" role="group" aria-label="Language">
+        <label>Language</label>
+        <div class="seg">
+          <button type="button" class="pill" data-group="lang" data-value="TS" aria-pressed="true">TypeScript</button>
+          <button type="button" class="pill" data-group="lang" data-value="JS" aria-pressed="false">JavaScript</button>
+        </div>
+      </div>
+      <div class="picker" role="group" aria-label="Styling">
+        <label>Styling</label>
+        <div class="seg">
+          <button type="button" class="pill" data-group="style" data-value="TW" aria-pressed="true">Tailwind</button>
+          <button type="button" class="pill" data-group="style" data-value="CSS" aria-pressed="false">Plain CSS</button>
+        </div>
+      </div>
+      <div class="picker">
+        <label for="wearer">This page wears</label>
+        <select class="wearer" id="wearer">{options}</select>
+      </div>
+    </div>
+  </div>
+</div>
+{''.join(sections)}
+<div class="wrap"><p class="empty" id="empty" hidden>No component matches. Clear the search or the group.</p></div>
+</section>
+{extra_block}
+</main>
+<footer>
+  <div class="wrap">Components by {esc(source['author'])}, <a href="{esc(source['licence_url'])}">{esc(source['licence'])}</a>.
+  This page lists facts read from <a href="{esc(source['site'])}">reactbits.dev</a> on {esc(source['read'])}; their code is not copied here.
+  React Bits Pro is a separate paid product and is not listed. Source and build scripts:
+  <a href="{REPO_URL}">github.com/juw12/themes</a>.</div>
+</footer>
+<div class="toast" id="toast" role="status" hidden></div>
+<script type="application/json" id="shelf-data">{data_json}</script>
+<script>{SHELF_JS}</script>
+</body>
+</html>
+"""
+
+
+def shelf_readme(shelf):
+    source = shelf["read_from"]
+    per = ", ".join(f"{row['name']} {row['count']}" for row in shelf["categories"])
+    extra = (
+        f" {len(shelf['unlisted'])} more ({', '.join(row['name'] for row in shelf['unlisted'])}) are in their registry "
+        "without a demo page; `components add` knows them too."
+        if shelf["unlisted"]
+        else ""
+    )
+    return f"""## React Bits components
+
+The second shelf: a catalogue of the {shelf['count']} free [React Bits]({source['site']}) components ({per}),
+read from their registry on {source['read']}.{extra}
+Browse them: **{SITE_URL}{SHELF_PAGE}**
+
+```
+python theme.py components list --category backgrounds
+python theme.py components list --search cursor
+python theme.py components add SplitText --flavor TS-TW          # prints the command and what it brings
+python theme.py components add Aurora --theme cairn-paper --run   # runs it here, names the theme's colours
+```
+
+`add` prints one of these, for the flavour asked (`JS-CSS`, `JS-TW`, `TS-CSS`, `TS-TW`):
+
+```
+npx shadcn@latest add {source['site']}/r/SplitText-TS-TW.json
+npx jsrepo@latest add {source['site']}/r/SplitText-TS-TW
+```
+
+React Bits is by {source['author']}, licensed [{source['licence']}]({source['licence_url']}): free to use in an app,
+not to be handed on. So this repo keeps a list of facts (`reactbits.json`: name, group, description, packages, demo
+page) and none of their code, sounds or demo media. A component is pulled from reactbits.dev at the moment you add
+it. React Bits Pro is a separate paid product and is not listed. `python tools/reactbits.py` reads the list again.
+"""
+
+
+def shelf_templates_md(shelf):
+    source = shelf["read_from"]
+    lines = [
+        "",
+        "## Parts that move: React Bits",
+        "",
+        f"{shelf['count']} free animated React components by {source['author']} ([{source['licence']}]({source['licence_url']})), "
+        f"catalogued in this repo without their code: [{SITE_URL}{SHELF_PAGE}]({SITE_URL}{SHELF_PAGE}). "
+        "`python theme.py components add <Name>` prints the line that installs one.",
+        "",
+        "| Group | Components | Browse |",
+        "|---|---:|---|",
+    ]
+    for row in shelf["categories"]:
+        lines.append(f"| {row['name']} | {row['count']} | [{source['site']}/c/{row['id']}]({source['site']}/c/{row['id']}) |")
+    return "\n".join(lines) + "\n"
+
+
+def readme(themes, templates, shelf):
     rows = "\n".join(
         f"| [{theme['name']}]({SITE_URL}#{theme['id']}) | `{theme['id']}` | {theme['scheme']}"
         f"{' + dark' if theme['dark'] else ''} | `{theme['colors']['bg']}` `{theme['colors']['ink']}` "
@@ -710,7 +1113,8 @@ were derived (and how), contrast ratios, and warnings where text contrast is und
 - No colour is made up. `tools/build.py` stops if a colour is not in the project's CSS or on its rendered page.
 - A hand fix needs a written reason in `src/curation.json`; the reason is shown on the theme's card.
 - Contrast is computed, never typed in.
-- `python tools/check.py` runs every gate (schema, provenance, contrast, text hygiene, page checks).
+- `python tools/check.py` runs every gate (schema, provenance, contrast, text hygiene, page checks, and that
+  the components shelf holds facts only).
 
 ## Start a new app from it
 
@@ -719,6 +1123,7 @@ that only uses the tokens) plus every theme. [TEMPLATES.md](TEMPLATES.md) lists
 {sum(len(group['repos']) for group in templates['groups'])} well-known public repos to start an app's design from,
 with stars, licence and last push as of {templates['checked']}.
 
+{shelf_readme(shelf)}
 ## All themes
 
 | Theme | id | Ground | bg / ink / accent | Display face | From |
@@ -729,7 +1134,8 @@ with stars, licence and last push as of {templates['checked']}.
 
 ```
 python tools/build.py     # src/merged.json + src/curation.json -> themes/, themes.json
-python tools/site.py      # index.html, README.md, TEMPLATES.md
+python tools/reactbits.py # reactbits.dev -> src/reactbits.json, reactbits.json (facts only, no source)
+python tools/site.py      # index.html, components.html, README.md, TEMPLATES.md
 python tools/check.py     # gates
 ```
 
@@ -742,7 +1148,7 @@ MIT for the tokens and the code. Fonts named in a theme belong to their makers; 
 """
 
 
-def templates_md(templates):
+def templates_md(templates, shelf):
     parts = [
         "# Templates to start an app's design from",
         "",
@@ -759,7 +1165,7 @@ def templates_md(templates):
             parts.append(
                 f"| [{row['repo']}]({row['url']}){mark} | {row['stars']:,} | {row['licence']} | {row['pushed']} | {about} |"
             )
-    return "\n".join(parts) + "\n"
+    return "\n".join(parts) + "\n" + shelf_templates_md(shelf)
 
 
 def main():
@@ -767,10 +1173,12 @@ def main():
               for entry in B.load_json(os.path.join(ROOT, "themes.json"))["themes"]]
     templates = B.load_json(os.path.join(ROOT, "src", "templates.json"))
     stats = B.load_json(STATS_FILE)
-    B.write(os.path.join(ROOT, "index.html"), page(themes, templates, stats))
-    B.write(os.path.join(ROOT, "README.md"), readme(themes, templates))
-    B.write(os.path.join(ROOT, "TEMPLATES.md"), templates_md(templates))
-    print(f"wrote index.html ({len(themes)} cards), README.md, TEMPLATES.md")
+    shelf = B.load_json(SHELF_FILE)
+    B.write(os.path.join(ROOT, "index.html"), page(themes, templates, stats, shelf))
+    B.write(os.path.join(ROOT, SHELF_PAGE), shelf_page(themes, shelf))
+    B.write(os.path.join(ROOT, "README.md"), readme(themes, templates, shelf))
+    B.write(os.path.join(ROOT, "TEMPLATES.md"), templates_md(templates, shelf))
+    print(f"wrote index.html ({len(themes)} cards), {SHELF_PAGE} ({shelf['count']} cards), README.md, TEMPLATES.md")
 
 
 if __name__ == "__main__":
