@@ -30,6 +30,7 @@ Buttons, forms and layout parts that take your tokens.
 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | 175,088 | MIT | 2026-11-19 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 128,591 | MIT | 2026-11-19 | Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own. |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 98,690 | MIT | 2026-11-18 | A utility-first CSS framework for rapid UI development. |
+| [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) | 52,473 | MIT + Commons Clause | 2026-11-19 | The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents. |
 | [saadeghi/daisyui](https://github.com/saadeghi/daisyui) | 42,908 | MIT | 2026-11-16 | The most popular, free and open-source Tailwind CSS component library |
 | [mantinedev/mantine](https://github.com/mantinedev/mantine) | 31,958 | MIT | 2026-11-18 | A fully featured React components library |
 | [radix-ui/primitives](https://github.com/radix-ui/primitives) | 19,527 | MIT | 2026-10-14 | Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos. |
@@ -71,3 +72,15 @@ Reading lists, icon sets and public design systems.
 | [gztchan/awesome-design](https://github.com/gztchan/awesome-design) | 17,802 | see repo | 2024-07-04 | Curated design resources from all over the world. |
 | [uswds/uswds](https://github.com/uswds/uswds) | 7,248 | see repo | 2026-11-04 | The U.S. Web Design System helps the federal government build fast, accessible, mobile-friendly websites. |
 | [alphagov/govuk-frontend](https://github.com/alphagov/govuk-frontend) | 1,483 | MIT | 2026-11-19 | GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services. |
+
+## Parts that move: React Bits
+
+217 free animated React components by David Haz ([MIT + Commons Clause](https://github.com/DavidHDev/react-bits/blob/main/LICENSE.md)), catalogued in this repo without their code: [https://juw12.github.io/themes/components.html](https://juw12.github.io/themes/components.html). `python theme.py components add <Name>` prints the line that installs one.
+
+| Group | Components | Browse |
+|---|---:|---|
+| Text Animations | 33 | [https://reactbits.dev/c/text-animations](https://reactbits.dev/c/text-animations) |
+| Animations | 38 | [https://reactbits.dev/c/animations](https://reactbits.dev/c/animations) |
+| Components | 48 | [https://reactbits.dev/c/components](https://reactbits.dev/c/components) |
+| Micro | 34 | [https://reactbits.dev/c/micro](https://reactbits.dev/c/micro) |
+| Backgrounds | 64 | [https://reactbits.dev/c/backgrounds](https://reactbits.dev/c/backgrounds) |

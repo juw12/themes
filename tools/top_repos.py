@@ -43,6 +43,7 @@ CANDIDATES = {
         "expo/expo",
     ],
     "Component systems (copy the parts)": [
+        "DavidHDev/react-bits",
         "shadcn-ui/ui",
         "radix-ui/primitives",
         "saadeghi/daisyui",
