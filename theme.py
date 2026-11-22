@@ -266,11 +266,15 @@ def cmd_components_add(args):
         return
     for line in notes:
         print("# " + line, file=sys.stderr)
-    program = shutil.which("npx")
-    if not program:
-        raise SystemExit("npx was not found. Install Node.js, or run this yourself: " + command)
-    print("$ " + command, file=sys.stderr)
-    raise SystemExit(subprocess.call([program] + command.split()[1:]))
+    words = command.split()[1:]
+    for name, lead in (("npx", []), ("bunx", []), ("pnpm", ["dlx"])):  # whichever of these this computer has
+        program = shutil.which(name)
+        if program:
+            break
+    else:
+        raise SystemExit("npx, bunx and pnpm were not found. Install Node.js or Bun, or run this yourself: " + command)
+    print("$ " + " ".join([name] + lead + words), file=sys.stderr)
+    raise SystemExit(subprocess.call([program] + lead + words))
 
 
 def main():
