@@ -151,6 +151,8 @@ details h4{font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin:1
 .rules{margin:22px 0 0;padding-left:20px;max-width:70ch}
 .rules li{margin:4px 0}
 footer{border-top:1px solid var(--line);padding:22px 0 40px;font-size:13px;color:var(--muted)}
+/* found by Tilik on a phone: links 15 to 18 px high (a theme's projects, the template repos, the footer) */
+@media (pointer:coarse){.facts dd a,.repos tbody th a,footer a{display:inline-block;padding:6px 0;min-width:24px}}
 .toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:13px;z-index:20;max-width:calc(100vw - 32px)}
 
 
